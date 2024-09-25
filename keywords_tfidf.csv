@@ -1,0 +1,728 @@
+category,intent,keyword,intent_tfidf,category_tfidf,total_tfidf
+ACCOUNT,create_account,account,164.59,283.93,448.52
+ACCOUNT,create_account,one,129.29,159.37,288.66
+ACCOUNT,create_account,create,115.32,139.52,254.84
+ACCOUNT,create_account,user,98.89,155.75,254.63
+ACCOUNT,create_account,register,96.93,109.74,206.67
+ACCOUNT,create_account,online,96.87,151.83,248.71
+ACCOUNT,create_account,user account,89.71,141.67,231.39
+ACCOUNT,create_account,email,88.82,102.79,191.62
+ACCOUNT,create_account,create one,87.79,98.23,186.02
+ACCOUNT,create_account,online account,86.08,136.78,222.87
+ACCOUNT,create_account,want,83.38,161.95,245.33
+ACCOUNT,create_account,open,81.35,90.83,172.18
+ACCOUNT,create_account,got,78.17,85.29,163.45
+ACCOUNT,create_account,open one,67.24,72.05,139.29
+ACCOUNT,create_account,accounts,66.38,92.39,158.77
+ACCOUNT,create_account,tell,62.22,68.14,130.36
+ACCOUNT,create_account,profile,60.57,143.41,203.97
+ACCOUNT,create_account,account open,59.12,61.64,120.76
+ACCOUNT,create_account,account open one,59.12,61.64,120.76
+ACCOUNT,create_account,account create one,58.15,60.39,118.54
+ACCOUNT,create_account,account create,58.15,60.39,118.54
+ACCOUNT,create_account,single,57.63,62.19,119.82
+ACCOUNT,create_account,single email,57.45,61.94,119.39
+ACCOUNT,create_account,address,57.4,62.02,119.41
+ACCOUNT,create_account,email address,57.25,61.8,119.05
+ACCOUNT,create_account,several,55.5,59.42,114.92
+ACCOUNT,create_account,dont,54.1,95.47,149.58
+ACCOUNT,create_account,need,53.94,79.03,132.97
+ACCOUNT,create_account,ive,49.82,51.92,101.74
+ACCOUNT,create_account,ive got,49.62,51.67,101.28
+ACCOUNT,create_account,help,49.29,99.06,148.35
+ACCOUNT,create_account,havent,47.8,49.77,97.58
+ACCOUNT,create_account,could,35.24,63.67,98.91
+ACCOUNT,create_account,please,33.04,59.84,92.88
+ACCOUNT,delete_account,account,77.8,283.93,361.72
+ACCOUNT,delete_account,want,56.34,161.95,218.29
+ACCOUNT,delete_account,profile,51.48,143.41,194.88
+ACCOUNT,delete_account,remove,50.17,62.12,112.3
+ACCOUNT,delete_account,close,47.74,58.82,106.56
+ACCOUNT,delete_account,delete,45.87,55.67,101.54
+ACCOUNT,delete_account,cancel,45.79,55.64,101.43
+ACCOUNT,delete_account,mind,45.15,56.0,101.15
+ACCOUNT,delete_account,changed,44.91,55.43,100.34
+ACCOUNT,delete_account,changed mind,44.69,54.94,99.63
+ACCOUNT,delete_account,dont,44.27,95.47,139.75
+ACCOUNT,delete_account,dont want,43.85,55.74,99.59
+ACCOUNT,delete_account,online,43.58,151.83,195.41
+ACCOUNT,delete_account,online account,43.36,136.78,180.14
+ACCOUNT,delete_account,user,43.29,155.75,199.04
+ACCOUNT,delete_account,user account,42.88,141.67,184.55
+ACCOUNT,delete_account,ask,29.24,67.26,96.5
+ACCOUNT,delete_account,agent,29.21,67.24,96.44
+ACCOUNT,delete_account,ask agent,28.98,66.67,95.65
+ACCOUNT,delete_account,help,24.52,99.06,123.58
+ACCOUNT,delete_account,could,17.3,63.67,80.98
+ACCOUNT,delete_account,please,16.65,59.84,76.49
+ACCOUNT,delete_account,need,14.44,79.03,93.47
+ACCOUNT,delete_account,need help,14.2,49.77,63.97
+ACCOUNT,edit_account,profile,16.12,143.41,159.52
+ACCOUNT,edit_account,agent,6.73,67.24,73.96
+ACCOUNT,edit_account,want,6.65,161.95,168.6
+ACCOUNT,edit_account,ask,6.58,67.26,73.84
+ACCOUNT,edit_account,ask agent,6.5,66.67,73.16
+ACCOUNT,edit_account,help,5.28,99.06,104.34
+ACCOUNT,edit_account,could,2.86,63.67,66.53
+ACCOUNT,edit_account,need,2.8,79.03,81.83
+ACCOUNT,edit_account,please,2.75,59.84,62.58
+ACCOUNT,edit_account,need help,2.62,49.77,52.39
+ACCOUNT,recover_password,password,81.03,121.32,202.35
+ACCOUNT,recover_password,account,71.18,283.93,355.11
+ACCOUNT,recover_password,hacked,67.0,89.73,156.73
+ACCOUNT,recover_password,recover,61.49,77.75,139.24
+ACCOUNT,recover_password,account password,57.28,70.85,128.13
+ACCOUNT,recover_password,accounts,32.43,92.39,124.82
+ACCOUNT,recover_password,help,32.18,99.06,131.24
+ACCOUNT,recover_password,want,26.2,161.95,188.16
+ACCOUNT,recover_password,user,25.26,155.75,181.0
+ACCOUNT,recover_password,online,21.79,151.83,173.62
+ACCOUNT,recover_password,profile,20.3,143.41,163.7
+ACCOUNT,recover_password,user account,17.04,141.67,158.72
+ACCOUNT,registration_problems,account,8.89,283.93,292.82
+ACCOUNT,registration_problems,profile,7.1,143.41,150.5
+ACCOUNT,registration_problems,create,4.29,139.52,143.81
+ACCOUNT,registration_problems,register,2.03,109.74,111.77
+ACCOUNT,switch_account,account,26.6,283.93,310.52
+ACCOUNT,switch_account,want,22.91,161.95,184.86
+ACCOUNT,switch_account,profile,17.76,143.41,161.17
+ACCOUNT,switch_account,user,15.74,155.75,171.48
+ACCOUNT,switch_account,online,15.73,151.83,167.57
+ACCOUNT,switch_account,user account,15.73,141.67,157.4
+ACCOUNT,switch_account,online account,15.66,136.78,152.44
+ACCOUNT,switch_account,help,9.02,99.06,108.08
+ACCOUNT,switch_account,agent,8.92,67.24,76.16
+ACCOUNT,switch_account,ask agent,8.79,66.67,75.46
+ACCOUNT,switch_account,ask,8.79,67.26,76.05
+CANCELLATION_FEE,check_cancellation_fee,cancellation,39.96,39.96,79.92
+CANCELLATION_FEE,check_cancellation_fee,check,27.61,27.61,55.23
+CANCELLATION_FEE,check_cancellation_fee,check cancellation,27.51,27.51,55.03
+CANCELLATION_FEE,check_cancellation_fee,view,24.24,24.24,48.49
+CANCELLATION_FEE,check_cancellation_fee,penalties,23.91,23.91,47.82
+CANCELLATION_FEE,check_cancellation_fee,cancellation penalties,23.84,23.84,47.69
+CANCELLATION_FEE,check_cancellation_fee,view cancellation,23.78,23.78,47.55
+CANCELLATION_FEE,check_cancellation_fee,fee,23.7,23.7,47.4
+CANCELLATION_FEE,check_cancellation_fee,cancellation fee,23.62,23.62,47.24
+CANCELLATION_FEE,check_cancellation_fee,penalty,23.49,23.49,46.98
+CANCELLATION_FEE,check_cancellation_fee,cancellation penalty,23.33,23.33,46.67
+CANCELLATION_FEE,check_cancellation_fee,see,22.92,22.92,45.85
+CANCELLATION_FEE,check_cancellation_fee,see cancellation,22.4,22.4,44.8
+CANCELLATION_FEE,check_cancellation_fee,fees,21.88,21.88,43.76
+CANCELLATION_FEE,check_cancellation_fee,cancellation fees,21.44,21.44,42.89
+CANCELLATION_FEE,check_cancellation_fee,want,21.34,21.34,42.68
+CANCELLATION_FEE,check_cancellation_fee,agent,14.96,14.96,29.92
+CANCELLATION_FEE,check_cancellation_fee,ask agent,14.91,14.91,29.82
+CANCELLATION_FEE,check_cancellation_fee,ask,14.91,14.91,29.82
+CANCELLATION_FEE,check_cancellation_fee,check cancellation fee,12.22,12.22,24.44
+CANCELLATION_FEE,check_cancellation_fee,check cancellation penalty,11.67,11.67,23.35
+CANCELLATION_FEE,check_cancellation_fee,want check,11.38,11.38,22.77
+CANCELLATION_FEE,check_cancellation_fee,want check cancellation,11.26,11.26,22.51
+CANCELLATION_FEE,check_cancellation_fee,help,10.99,10.99,21.98
+CANCELLATION_FEE,check_cancellation_fee,view cancellation penalties,10.28,10.28,20.57
+CANCELLATION_FEE,check_cancellation_fee,check cancellation penalties,10.2,10.2,20.41
+CANCELLATION_FEE,check_cancellation_fee,information,10.18,10.18,20.36
+CANCELLATION_FEE,check_cancellation_fee,view cancellation penalty,9.5,9.5,19.0
+CANCELLATION_FEE,check_cancellation_fee,information cancellation,9.44,9.44,18.87
+CANCELLATION_FEE,check_cancellation_fee,see cancellation fees,9.11,9.11,18.22
+CANCELLATION_FEE,check_cancellation_fee,want view,9.07,9.07,18.14
+CANCELLATION_FEE,check_cancellation_fee,check cancellation fees,9.0,9.0,17.99
+CANCELLATION_FEE,check_cancellation_fee,want see,8.93,8.93,17.87
+CANCELLATION_FEE,check_cancellation_fee,want view cancellation,8.82,8.82,17.63
+CANCELLATION_FEE,check_cancellation_fee,want see cancellation,8.78,8.78,17.56
+CANCELLATION_FEE,check_cancellation_fee,view cancellation fee,8.74,8.74,17.48
+CANCELLATION_FEE,check_cancellation_fee,see cancellation penalties,8.51,8.51,17.03
+CANCELLATION_FEE,check_cancellation_fee,see cancellation penalty,8.43,8.43,16.86
+CANCELLATION_FEE,check_cancellation_fee,see cancellation fee,7.86,7.86,15.72
+CANCELLATION_FEE,check_cancellation_fee,view cancellation fees,7.78,7.78,15.57
+CANCELLATION_FEE,check_cancellation_fee,please,7.08,7.08,14.16
+CANCELLATION_FEE,check_cancellation_fee,could,6.49,6.49,12.99
+CANCELLATION_FEE,check_cancellation_fee,show,6.48,6.48,12.95
+CANCELLATION_FEE,check_cancellation_fee,ask agent view,5.08,5.08,10.16
+CANCELLATION_FEE,check_cancellation_fee,agent view,5.08,5.08,10.16
+CANCELLATION_FEE,check_cancellation_fee,wanna,5.01,5.01,10.02
+CANCELLATION_FEE,check_cancellation_fee,agent see,4.88,4.88,9.77
+CANCELLATION_FEE,check_cancellation_fee,ask agent see,4.88,4.88,9.77
+CANCELLATION_FEE,check_cancellation_fee,agent check,4.78,4.78,9.57
+CANCELLATION_FEE,check_cancellation_fee,ask agent check,4.78,4.78,9.57
+CONTACT,contact_customer_service,customer,138.79,163.36,302.15
+CONTACT,contact_customer_service,service,138.63,164.27,302.9
+CONTACT,contact_customer_service,customer service,104.59,114.36,218.94
+CONTACT,contact_customer_service,client,102.14,112.47,214.61
+CONTACT,contact_customer_service,client service,101.63,111.68,213.31
+CONTACT,contact_customer_service,support,100.08,109.28,209.36
+CONTACT,contact_customer_service,customer support,99.62,108.55,208.17
+CONTACT,contact_customer_service,contact,96.07,140.14,236.21
+CONTACT,contact_customer_service,information,95.74,104.7,200.44
+CONTACT,contact_customer_service,want,85.28,102.48,187.76
+CONTACT,contact_customer_service,email,83.69,89.17,172.86
+CONTACT,contact_customer_service,contact customer,75.17,79.04,154.21
+CONTACT,contact_customer_service,need,65.31,78.11,143.42
+CONTACT,contact_customer_service,mail,62.39,65.23,127.62
+CONTACT,contact_customer_service,number,61.62,64.46,126.07
+CONTACT,contact_customer_service,address,59.75,62.19,121.94
+CONTACT,contact_customer_service,tell,59.73,63.2,122.93
+CONTACT,contact_customer_service,want information,56.49,58.81,115.29
+CONTACT,contact_customer_service,need information,56.18,58.55,114.74
+CONTACT,contact_customer_service,question,55.11,57.41,112.52
+CONTACT,contact_customer_service,show,49.99,51.42,101.4
+CONTACT,contact_customer_service,talk,49.23,105.32,154.55
+CONTACT,contact_customer_service,speak,48.99,102.36,151.35
+CONTACT,contact_customer_service,contact customer service,48.21,49.29,97.5
+CONTACT,contact_customer_service,call,47.53,48.42,95.95
+CONTACT,contact_customer_service,contact client,46.51,47.64,94.15
+CONTACT,contact_customer_service,contact client service,46.34,47.44,93.78
+CONTACT,contact_customer_service,contact customer support,45.7,46.74,92.43
+CONTACT,contact_customer_service,email customer,45.61,46.3,91.91
+CONTACT,contact_customer_service,send,43.97,44.58,88.56
+CONTACT,contact_customer_service,please,36.29,45.46,81.75
+CONTACT,contact_customer_service,help,34.14,60.96,95.1
+CONTACT,contact_customer_service,agent,31.94,76.68,108.62
+CONTACT,contact_human_agent,human,84.97,107.74,192.7
+CONTACT,contact_human_agent,helping,74.03,91.24,165.27
+CONTACT,contact_human_agent,understand,68.15,83.31,151.47
+CONTACT,contact_human_agent,talk,67.95,105.32,173.27
+CONTACT,contact_human_agent,contact,66.81,140.14,206.95
+CONTACT,contact_human_agent,speak,65.23,102.36,167.58
+CONTACT,contact_human_agent,person,56.79,65.05,121.84
+CONTACT,contact_human_agent,someone,55.63,63.78,119.42
+CONTACT,contact_human_agent,agent,53.0,76.68,129.68
+CONTACT,contact_human_agent,human agent,52.94,59.44,112.38
+CONTACT,contact_human_agent,talk human,46.5,48.44,94.93
+CONTACT,contact_human_agent,arent,46.02,50.45,96.47
+CONTACT,contact_human_agent,cant,45.84,50.42,96.26
+CONTACT,contact_human_agent,arent helping,45.84,50.12,95.96
+CONTACT,contact_human_agent,cant understand,45.62,50.0,95.61
+CONTACT,contact_human_agent,dont,45.35,49.53,94.88
+CONTACT,contact_human_agent,dont understand,45.08,49.01,94.09
+CONTACT,contact_human_agent,youre,44.51,48.61,93.12
+CONTACT,contact_human_agent,youre helping,44.16,47.97,92.13
+CONTACT,contact_human_agent,contact human,43.74,46.08,89.82
+CONTACT,contact_human_agent,speak human,43.3,44.95,88.25
+CONTACT,contact_human_agent,help,32.83,60.96,93.8
+CONTACT,contact_human_agent,want,24.84,102.48,127.31
+CONTACT,contact_human_agent,need,18.79,78.11,96.89
+DELIVERY,delivery_options,delivery,38.78,46.97,85.75
+DELIVERY,delivery_options,options,38.62,47.03,85.64
+DELIVERY,delivery_options,delivery options,32.23,35.65,67.88
+DELIVERY,delivery_options,ticket,31.62,36.94,68.56
+DELIVERY,delivery_options,ticket delivery,31.59,34.46,66.05
+DELIVERY,delivery_options,check,28.08,29.31,57.39
+DELIVERY,delivery_options,options delivery,23.05,23.87,46.93
+DELIVERY,delivery_options,ticket delivery options,22.31,23.31,45.62
+DELIVERY,delivery_options,see,22.26,24.05,46.31
+DELIVERY,delivery_options,options ticket,22.03,22.83,44.86
+DELIVERY,delivery_options,options ticket delivery,21.82,22.56,44.39
+DELIVERY,delivery_options,view,21.69,22.47,44.16
+DELIVERY,delivery_options,want,20.05,23.29,43.34
+DELIVERY,delivery_options,check options,19.63,19.79,39.42
+DELIVERY,delivery_options,see options,13.84,13.92,27.75
+DELIVERY,delivery_options,agent,12.91,16.42,29.32
+DELIVERY,delivery_options,ask,12.86,16.33,29.19
+DELIVERY,delivery_options,ask agent,12.8,16.23,29.03
+DELIVERY,delivery_options,view options,12.75,12.79,25.54
+DELIVERY,delivery_options,check options delivery,12.23,12.08,24.31
+DELIVERY,delivery_options,check options ticket,12.1,11.96,24.06
+DELIVERY,delivery_options,information,10.81,17.08,27.89
+DELIVERY,delivery_options,check delivery,10.63,10.55,21.18
+DELIVERY,delivery_options,check delivery options,10.56,10.46,21.02
+DELIVERY,delivery_options,check ticket,9.97,9.85,19.82
+DELIVERY,delivery_options,check ticket delivery,9.97,9.85,19.82
+DELIVERY,delivery_options,want check,9.97,9.96,19.93
+DELIVERY,delivery_options,help,9.52,9.78,19.31
+DELIVERY,delivery_options,see ticket delivery,9.05,8.98,18.03
+DELIVERY,delivery_options,see ticket,9.05,8.98,18.03
+DELIVERY,delivery_options,want view,9.01,9.01,18.02
+DELIVERY,delivery_options,want see,8.83,10.21,19.04
+DELIVERY,delivery_options,view delivery options,8.66,8.58,17.24
+DELIVERY,delivery_options,view delivery,8.66,8.58,17.24
+DELIVERY,delivery_options,see options delivery,8.61,8.5,17.11
+DELIVERY,delivery_options,view ticket,8.57,8.48,17.05
+DELIVERY,delivery_options,view ticket delivery,8.57,8.48,17.05
+DELIVERY,delivery_options,see options ticket,8.09,8.02,16.11
+DELIVERY,delivery_options,see delivery,8.0,9.44,17.44
+DELIVERY,delivery_options,please,7.05,9.41,16.45
+DELIVERY,delivery_options,could,7.01,8.27,15.28
+DELIVERY,delivery_options,show,6.43,9.67,16.11
+DELIVERY,delivery_period,delivery,11.12,46.97,58.09
+DELIVERY,delivery_period,period,10.85,14.56,25.41
+DELIVERY,delivery_period,delivery period,10.82,14.47,25.29
+DELIVERY,delivery_period,tickets,10.44,12.99,23.43
+DELIVERY,delivery_period,arrive,10.37,12.92,23.29
+DELIVERY,delivery_period,ticket,9.94,36.94,46.88
+DELIVERY,delivery_period,expect,8.4,9.43,17.82
+DELIVERY,delivery_period,tell,8.37,10.67,19.04
+DELIVERY,delivery_period,information,7.83,17.08,24.91
+DELIVERY,delivery_period,information delivery,7.55,12.03,19.58
+DELIVERY,delivery_period,information delivery period,7.55,8.86,16.42
+DELIVERY,delivery_period,want,5.72,23.29,29.01
+DELIVERY,delivery_period,agent,5.12,16.42,21.54
+DELIVERY,delivery_period,ask,5.05,16.33,21.38
+DELIVERY,delivery_period,ask agent,5.0,16.23,21.23
+DELIVERY,delivery_period,show,4.2,9.67,13.88
+DELIVERY,delivery_period,please,3.3,9.41,12.7
+FEEDBACK,complaint,complaint,71.22,99.39,170.61
+FEEDBACK,complaint,service,62.4,98.11,160.52
+FEEDBACK,complaint,consumer,55.94,65.77,121.71
+FEEDBACK,complaint,consumer complaint,55.83,65.44,121.27
+FEEDBACK,complaint,lodge,47.23,62.69,109.92
+FEEDBACK,complaint,file,45.45,59.31,104.76
+FEEDBACK,complaint,make,43.45,59.5,102.94
+FEEDBACK,complaint,im,42.43,67.68,110.1
+FEEDBACK,complaint,complaint service,42.08,45.54,87.62
+FEEDBACK,complaint,want,32.39,57.91,90.3
+FEEDBACK,complaint,file complaint,32.2,34.08,66.28
+FEEDBACK,complaint,lodge complaint,31.71,33.62,65.33
+FEEDBACK,complaint,make complaint,29.06,30.69,59.75
+FEEDBACK,complaint,discontent,28.78,30.77,59.55
+FEEDBACK,complaint,like,28.67,32.41,61.09
+FEEDBACK,complaint,discontent service,28.48,30.36,58.84
+FEEDBACK,complaint,happy,28.39,60.33,88.73
+FEEDBACK,complaint,lodge consumer,28.33,29.49,57.82
+FEEDBACK,complaint,lodge consumer complaint,28.33,29.49,57.82
+FEEDBACK,complaint,im discontent,28.32,30.16,58.48
+FEEDBACK,complaint,happy service,28.28,59.99,88.27
+FEEDBACK,complaint,im discontent service,28.1,29.87,57.97
+FEEDBACK,complaint,im happy,27.93,56.1,84.03
+FEEDBACK,complaint,im happy service,27.82,55.7,83.52
+FEEDBACK,complaint,like service,27.73,29.38,57.11
+FEEDBACK,complaint,dont,27.37,28.9,56.27
+FEEDBACK,complaint,dont like,27.31,28.83,56.14
+FEEDBACK,complaint,dont like service,27.25,28.74,55.99
+FEEDBACK,complaint,submit,26.57,43.25,69.82
+FEEDBACK,complaint,make consumer,25.57,26.59,52.16
+FEEDBACK,complaint,make consumer complaint,25.41,26.41,51.82
+FEEDBACK,complaint,file consumer,25.36,26.28,51.64
+FEEDBACK,complaint,consumer complaint service,25.19,25.72,50.91
+FEEDBACK,complaint,file consumer complaint,24.97,25.78,50.76
+FEEDBACK,complaint,help,24.08,40.38,64.46
+FEEDBACK,complaint,ask,20.34,31.96,52.3
+FEEDBACK,complaint,ask agent,20.18,31.74,51.92
+FEEDBACK,complaint,agent,20.18,31.86,52.04
+FEEDBACK,complaint,service lodge,19.52,28.46,47.98
+FEEDBACK,complaint,service make,19.46,29.38,48.84
+FEEDBACK,complaint,service submit,19.28,27.79,47.07
+FEEDBACK,complaint,service file,18.72,26.41,45.13
+FEEDBACK,complaint,please,14.83,21.88,36.71
+FEEDBACK,complaint,want lodge,14.1,22.53,36.63
+FEEDBACK,review,service,47.36,98.11,145.48
+FEEDBACK,review,opinion,39.21,47.35,86.56
+FEEDBACK,review,comment,38.58,46.76,85.34
+FEEDBACK,review,review,37.17,44.46,81.63
+FEEDBACK,review,happy,34.39,60.33,94.72
+FEEDBACK,review,happy service,34.2,59.99,94.19
+FEEDBACK,review,leave,33.21,35.9,69.11
+FEEDBACK,review,want,31.65,57.91,89.56
+FEEDBACK,review,write,31.38,33.65,65.03
+FEEDBACK,review,im,31.08,67.68,98.76
+FEEDBACK,review,im happy,31.04,56.1,87.14
+FEEDBACK,review,im happy service,30.77,55.7,86.47
+FEEDBACK,review,make,22.19,59.5,81.68
+FEEDBACK,review,lodge,21.35,62.69,84.05
+FEEDBACK,review,submit,21.17,43.25,64.42
+FEEDBACK,review,help,19.98,40.38,60.36
+FEEDBACK,review,file,18.93,59.31,78.24
+FEEDBACK,review,agent,15.13,31.86,46.99
+FEEDBACK,review,ask,15.07,31.96,47.03
+FEEDBACK,review,ask agent,14.99,31.74,46.73
+FEEDBACK,review,service make,12.96,29.38,42.34
+FEEDBACK,review,want make,12.03,21.52,33.55
+FEEDBACK,review,service lodge,11.82,28.46,40.28
+FEEDBACK,review,service submit,11.25,27.79,39.04
+FEEDBACK,review,want lodge,10.82,22.53,33.35
+FEEDBACK,review,service file,10.27,26.41,36.68
+INVOICES,check_invoices,check,63.08,74.68,137.76
+INVOICES,check_invoices,view,58.86,68.66,127.53
+INVOICES,check_invoices,see,55.85,106.12,161.98
+INVOICES,check_invoices,invoices,55.39,106.41,161.8
+INVOICES,check_invoices,invoice,54.08,120.38,174.46
+INVOICES,check_invoices,bill,53.53,119.98,173.51
+INVOICES,check_invoices,bills,53.38,104.05,157.43
+INVOICES,check_invoices,lost,44.45,50.25,94.7
+INVOICES,check_invoices,cant,41.16,46.02,87.18
+INVOICES,check_invoices,find,41.02,45.79,86.8
+INVOICES,check_invoices,cant find,40.96,45.7,86.66
+INVOICES,check_invoices,didnt,38.53,42.81,81.35
+INVOICES,check_invoices,receive,38.43,42.64,81.07
+INVOICES,check_invoices,didnt receive,38.26,42.4,80.66
+INVOICES,check_invoices,want,33.02,99.42,132.45
+INVOICES,check_invoices,help,29.03,41.7,70.73
+INVOICES,check_invoices,ask,26.95,65.57,92.52
+INVOICES,check_invoices,agent,26.9,62.84,89.75
+INVOICES,check_invoices,ask agent,26.78,61.45,88.23
+INVOICES,check_invoices,show,20.46,28.29,48.76
+INVOICES,check_invoices,please,17.94,39.16,57.09
+INVOICES,check_invoices,could,17.51,37.35,54.86
+INVOICES,check_invoices,need,15.61,27.16,42.77
+INVOICES,check_invoices,information,15.29,65.79,81.08
+INVOICES,check_invoices,want see,15.08,29.68,44.76
+INVOICES,check_invoices,see invoices,14.52,30.53,45.05
+INVOICES,check_invoices,need help,14.2,21.09,35.29
+INVOICES,check_invoices,see bills,13.53,28.82,42.35
+INVOICES,get_invoice,tell,82.61,95.13,177.74
+INVOICES,get_invoice,invoice,79.61,120.38,199.99
+INVOICES,get_invoice,bill,79.41,119.98,199.39
+INVOICES,get_invoice,want,73.19,99.42,172.62
+INVOICES,get_invoice,invoices,62.37,106.41,168.77
+INVOICES,get_invoice,bills,61.82,104.05,165.87
+INVOICES,get_invoice,get,58.2,62.95,121.15
+INVOICES,get_invoice,request,58.15,62.96,121.11
+INVOICES,get_invoice,obtain,56.35,60.44,116.79
+INVOICES,get_invoice,see,55.18,106.12,161.3
+INVOICES,get_invoice,download,54.25,58.09,112.35
+INVOICES,get_invoice,information,52.0,65.79,117.79
+INVOICES,get_invoice,ask,43.25,65.57,108.82
+INVOICES,get_invoice,know,42.67,45.7,88.37
+INVOICES,get_invoice,agent,40.32,62.84,103.17
+INVOICES,get_invoice,ask agent,38.94,61.45,100.4
+INVOICES,get_invoice,want know,34.09,35.81,69.9
+INVOICES,get_invoice,wanna,33.48,42.58,76.06
+INVOICES,get_invoice,get invoice,24.51,24.89,49.4
+INVOICES,get_invoice,obtain invoice,24.42,24.84,49.26
+INVOICES,get_invoice,please,24.12,39.16,63.28
+INVOICES,get_invoice,request invoice,23.83,24.27,48.09
+INVOICES,get_invoice,obtain bill,23.61,23.94,47.56
+INVOICES,get_invoice,request bill,23.47,23.78,47.25
+INVOICES,get_invoice,see bill,23.42,36.1,59.52
+INVOICES,get_invoice,download bill,22.9,23.23,46.13
+INVOICES,get_invoice,download invoice,22.64,22.95,45.59
+INVOICES,get_invoice,bill tell,22.5,23.15,45.65
+INVOICES,get_invoice,invoice tell,22.28,22.92,45.2
+INVOICES,get_invoice,could,22.05,37.35,59.39
+INVOICES,get_invoice,see invoice,21.92,32.59,54.51
+INVOICES,get_invoice,seeing,21.32,26.23,47.55
+INVOICES,get_invoice,want request,21.12,21.71,42.84
+INVOICES,get_invoice,see invoices,16.66,30.53,47.19
+INVOICES,get_invoice,see bills,15.98,28.82,44.79
+INVOICES,get_invoice,want see,15.78,29.68,45.46
+NEWSLETTER,newsletter_subscription,newsletter,26.01,26.01,52.03
+NEWSLETTER,newsletter_subscription,receive,20.1,20.1,40.19
+NEWSLETTER,newsletter_subscription,subscribe,19.95,19.95,39.9
+NEWSLETTER,newsletter_subscription,tell,18.58,18.58,37.16
+NEWSLETTER,newsletter_subscription,receive newsletter,16.78,16.78,33.56
+NEWSLETTER,newsletter_subscription,subscribe newsletter,16.61,16.61,33.22
+NEWSLETTER,newsletter_subscription,want,14.39,14.39,28.78
+NEWSLETTER,newsletter_subscription,theres,10.97,10.97,21.94
+NEWSLETTER,newsletter_subscription,theres newsletter,10.88,10.88,21.76
+NEWSLETTER,newsletter_subscription,know,10.77,10.77,21.55
+NEWSLETTER,newsletter_subscription,want know,9.44,9.44,18.89
+NEWSLETTER,newsletter_subscription,ask,9.01,9.01,18.02
+NEWSLETTER,newsletter_subscription,agent,8.83,8.83,17.67
+NEWSLETTER,newsletter_subscription,ask agent,8.79,8.79,17.58
+NEWSLETTER,newsletter_subscription,newsletter receive,8.39,8.39,16.77
+NEWSLETTER,newsletter_subscription,newsletter subscribe,8.35,8.35,16.7
+NEWSLETTER,newsletter_subscription,newsletter tell,8.14,8.14,16.29
+NEWSLETTER,newsletter_subscription,uptodate,7.62,7.62,15.24
+NEWSLETTER,newsletter_subscription,stay,7.59,7.59,15.17
+NEWSLETTER,newsletter_subscription,newsletter stay,7.41,7.41,14.82
+NEWSLETTER,newsletter_subscription,keep,7.05,7.05,14.11
+NEWSLETTER,newsletter_subscription,newsletter keep,6.97,6.97,13.93
+NEWSLETTER,newsletter_subscription,informed,6.65,6.65,13.31
+NEWSLETTER,newsletter_subscription,tell newsletter,6.19,6.19,12.39
+NEWSLETTER,newsletter_subscription,tell theres newsletter,6.05,6.05,12.1
+NEWSLETTER,newsletter_subscription,tell theres,6.05,6.05,12.1
+NEWSLETTER,newsletter_subscription,information,5.69,5.69,11.38
+NEWSLETTER,newsletter_subscription,tell receive,5.54,5.54,11.07
+NEWSLETTER,newsletter_subscription,want subscribe newsletter,5.51,5.51,11.02
+NEWSLETTER,newsletter_subscription,want subscribe,5.51,5.51,11.02
+NEWSLETTER,newsletter_subscription,tell receive newsletter,5.32,5.32,10.64
+NEWSLETTER,newsletter_subscription,theres newsletter receive,5.32,5.32,10.64
+NEWSLETTER,newsletter_subscription,tell subscribe,5.24,5.24,10.48
+NEWSLETTER,newsletter_subscription,tell subscribe newsletter,5.24,5.24,10.48
+NEWSLETTER,newsletter_subscription,subscribe newsletter tell,5.22,5.22,10.45
+NEWSLETTER,newsletter_subscription,ask agent theres,5.16,5.16,10.31
+NEWSLETTER,newsletter_subscription,agent theres,5.16,5.16,10.31
+NEWSLETTER,newsletter_subscription,stay uptodate,5.04,5.04,10.09
+NEWSLETTER,newsletter_subscription,agent theres newsletter,4.95,4.95,9.89
+NEWSLETTER,newsletter_subscription,could,4.81,4.81,9.62
+NEWSLETTER,newsletter_subscription,newsletter stay uptodate,4.8,4.8,9.61
+NEWSLETTER,newsletter_subscription,please,4.72,4.72,9.45
+NEWSLETTER,newsletter_subscription,wanna,4.61,4.61,9.21
+NEWSLETTER,newsletter_subscription,know newsletter,4.55,4.55,9.11
+NEWSLETTER,newsletter_subscription,want receive newsletter,4.37,4.37,8.75
+NEWSLETTER,newsletter_subscription,want receive,4.37,4.37,8.75
+NEWSLETTER,newsletter_subscription,know theres newsletter,4.24,4.24,8.47
+NEWSLETTER,newsletter_subscription,know theres,4.24,4.24,8.47
+NEWSLETTER,newsletter_subscription,receive newsletter tell,4.23,4.23,8.46
+NEWSLETTER,newsletter_subscription,keep uptodate,4.2,4.2,8.4
+ORDER,cancel_order,order,6.87,123.76,130.63
+ORDER,cancel_order,purchase,5.69,104.42,110.11
+ORDER,cancel_order,want,4.69,87.53,92.22
+ORDER,cancel_order,help,2.14,37.39,39.52
+ORDER,cancel_order,ask,2.0,58.11,60.11
+ORDER,cancel_order,agent,2.0,58.43,60.43
+ORDER,cancel_order,ask agent,2.0,57.01,59.01
+ORDER,cancel_order,wanna,1.07,35.96,37.03
+ORDER,cancel_order,please,0.87,35.45,36.32
+ORDER,cancel_order,need,0.65,22.0,22.65
+ORDER,cancel_order,could,0.64,35.08,35.72
+ORDER,change_order,purchase,68.58,104.42,173.0
+ORDER,change_order,order,66.44,123.76,190.2
+ORDER,change_order,change,65.94,80.61,146.56
+ORDER,change_order,modify,65.67,79.45,145.12
+ORDER,change_order,modify purchase,45.74,50.01,95.75
+ORDER,change_order,change purchase,44.72,49.29,94.01
+ORDER,change_order,change order,44.17,48.81,92.98
+ORDER,change_order,modify order,42.25,46.43,88.68
+ORDER,change_order,ordered,39.94,43.65,83.59
+ORDER,change_order,something,39.33,42.92,82.24
+ORDER,change_order,item,38.25,41.43,79.68
+ORDER,change_order,purchased,37.81,41.02,78.83
+ORDER,change_order,product,37.54,40.89,78.43
+ORDER,change_order,bought,37.32,40.49,77.81
+ORDER,change_order,want,34.81,87.53,122.34
+ORDER,change_order,tell,32.17,99.66,131.83
+ORDER,change_order,help,22.05,37.39,59.44
+ORDER,change_order,item modify,21.32,21.18,42.5
+ORDER,change_order,ask,15.96,58.11,74.07
+ORDER,change_order,please,15.65,35.45,51.11
+ORDER,change_order,need,15.1,22.0,37.1
+ORDER,change_order,agent,15.06,58.43,73.49
+ORDER,change_order,wanna,14.75,35.96,50.71
+ORDER,change_order,ask agent,14.46,57.01,71.47
+ORDER,change_order,know,14.24,66.1,80.34
+ORDER,change_order,could,13.42,35.08,48.5
+ORDER,place_order,order,12.27,123.76,136.03
+ORDER,place_order,purchase,7.55,104.42,111.98
+ORDER,place_order,want,5.18,87.53,92.71
+ORDER,place_order,ask agent,4.2,57.01,61.21
+ORDER,place_order,ask,4.2,58.11,62.3
+ORDER,place_order,agent,4.2,58.43,62.62
+ORDER,place_order,help,3.26,37.39,40.64
+ORDER,place_order,could,1.35,35.08,36.42
+ORDER,place_order,need,1.28,22.0,23.27
+ORDER,place_order,please,0.71,35.45,36.16
+ORDER,track_order,check,86.7,99.92,186.62
+ORDER,track_order,track,85.24,97.65,182.89
+ORDER,track_order,tell,74.02,99.66,173.68
+ORDER,track_order,order,60.42,123.76,184.18
+ORDER,track_order,want,58.22,87.53,145.75
+ORDER,track_order,know,54.03,66.1,120.13
+ORDER,track_order,package,43.47,45.7,89.17
+ORDER,track_order,agent,43.08,58.43,101.5
+ORDER,track_order,ask,42.39,58.11,100.49
+ORDER,track_order,ask agent,42.23,57.01,99.24
+ORDER,track_order,status,40.19,44.32,84.51
+ORDER,track_order,delivery,39.78,41.97,81.75
+ORDER,track_order,shipments,39.64,41.4,81.04
+ORDER,track_order,orders,39.55,41.35,80.9
+ORDER,track_order,shipment,38.94,40.85,79.79
+ORDER,track_order,packages,38.19,39.86,78.04
+ORDER,track_order,purchase,32.12,104.42,136.55
+ORDER,track_order,tell check,30.48,31.11,61.59
+ORDER,track_order,want know,30.32,39.05,69.37
+ORDER,track_order,tell track,28.69,29.18,57.87
+ORDER,track_order,track order,26.46,27.64,54.1
+ORDER,track_order,status order,24.77,26.11,50.87
+ORDER,track_order,want track,24.29,25.26,49.55
+ORDER,track_order,want check,24.22,25.1,49.32
+ORDER,track_order,wanna,24.12,35.96,60.08
+ORDER,track_order,check package,23.87,23.93,47.8
+ORDER,track_order,status purchase,23.04,24.62,47.66
+ORDER,track_order,could,22.94,35.08,58.02
+ORDER,track_order,please,21.81,35.45,57.26
+ORDER,track_order,check shipments,21.68,21.73,43.41
+ORDER,track_order,track package,21.65,21.66,43.32
+ORDER,track_order,check orders,21.5,21.43,42.93
+ORDER,track_order,track shipments,21.05,21.03,42.08
+ORDER,track_order,agent track,20.77,21.45,42.21
+ORDER,track_order,check order,20.61,21.48,42.1
+ORDER,track_order,help,16.0,37.39,53.39
+PAYMENT,check_payment_methods,payment,28.49,265.71,294.2
+PAYMENT,check_payment_methods,want,13.7,97.95,111.65
+PAYMENT,check_payment_methods,agent,10.34,116.1,126.44
+PAYMENT,check_payment_methods,ask agent,10.24,115.64,125.89
+PAYMENT,check_payment_methods,ask,10.24,115.92,126.16
+PAYMENT,check_payment_methods,card,8.51,158.5,167.01
+PAYMENT,check_payment_methods,make payment,8.01,139.27,147.28
+PAYMENT,check_payment_methods,make,8.01,139.52,147.53
+PAYMENT,check_payment_methods,pay,7.55,166.64,174.19
+PAYMENT,check_payment_methods,help,6.59,114.04,120.63
+PAYMENT,check_payment_methods,could,5.13,70.12,75.25
+PAYMENT,check_payment_methods,please,4.7,73.22,77.92
+PAYMENT,payment_issue,payment,251.38,265.71,517.08
+PAYMENT,payment_issue,problem,192.26,194.82,387.08
+PAYMENT,payment_issue,issue,190.04,192.59,382.64
+PAYMENT,payment_issue,inform,167.96,169.98,337.93
+PAYMENT,payment_issue,notify,167.8,169.84,337.64
+PAYMENT,payment_issue,report,166.99,168.95,335.94
+PAYMENT,payment_issue,paying,166.67,168.45,335.12
+PAYMENT,payment_issue,error,163.68,165.72,329.4
+PAYMENT,payment_issue,pay,162.52,166.64,329.16
+PAYMENT,payment_issue,card,153.77,158.5,312.27
+PAYMENT,payment_issue,make,135.34,139.52,274.86
+PAYMENT,payment_issue,make payment,135.09,139.27,274.37
+PAYMENT,payment_issue,trying,130.2,131.13,261.34
+PAYMENT,payment_issue,making,129.4,130.55,259.95
+PAYMENT,payment_issue,got,129.28,130.28,259.56
+PAYMENT,payment_issue,making payment,128.71,129.82,258.53
+PAYMENT,payment_issue,charged,128.04,129.01,257.04
+PAYMENT,payment_issue,anyway,127.96,128.92,256.88
+PAYMENT,payment_issue,charged anyway,127.77,128.73,256.5
+PAYMENT,payment_issue,got error,127.4,128.34,255.74
+PAYMENT,payment_issue,order,120.0,120.87,240.87
+PAYMENT,payment_issue,help,110.79,114.04,224.83
+PAYMENT,payment_issue,agent,110.31,116.1,226.41
+PAYMENT,payment_issue,ask,110.19,115.92,226.11
+PAYMENT,payment_issue,ask agent,109.92,115.64,225.56
+PAYMENT,payment_issue,message,103.68,104.3,207.98
+PAYMENT,payment_issue,error message,103.55,104.16,207.71
+PAYMENT,payment_issue,trying pay,99.94,100.37,200.31
+PAYMENT,payment_issue,payment card,96.61,98.21,194.81
+PAYMENT,payment_issue,problem paying,90.75,91.15,181.9
+PAYMENT,payment_issue,want,90.4,97.95,188.35
+PAYMENT,payment_issue,issue paying,89.87,90.25,180.13
+PAYMENT,payment_issue,issues,83.03,83.61,166.65
+PAYMENT,payment_issue,problems,82.67,83.24,165.91
+PAYMENT,payment_issue,problem trying,81.18,81.43,162.61
+PAYMENT,payment_issue,tried,80.93,81.18,162.11
+PAYMENT,payment_issue,attempted,80.24,80.45,160.69
+PAYMENT,payment_issue,issue trying,78.99,79.25,158.24
+PAYMENT,payment_issue,card charged,78.89,79.12,158.01
+PAYMENT,payment_issue,card charged anyway,78.8,79.03,157.84
+PAYMENT,payment_issue,got error message,78.09,78.29,156.37
+PAYMENT,payment_issue,pay card,76.46,78.1,154.56
+PAYMENT,payment_issue,make payment card,76.02,77.53,153.55
+PAYMENT,payment_issue,solve,71.56,72.01,143.57
+PAYMENT,payment_issue,online,70.86,71.08,141.94
+PAYMENT,payment_issue,online order,70.62,70.83,141.45
+PAYMENT,payment_issue,please,70.53,73.22,143.75
+PAYMENT,payment_issue,could,67.08,70.12,137.2
+PAYMENT,payment_issue,issue making,64.78,64.99,129.78
+PAYMENT,payment_issue,problem making,64.78,64.97,129.75
+REFUNDS,check_refund_policy,policy,41.77,64.38,106.14
+REFUNDS,check_refund_policy,money,33.83,43.45,77.29
+REFUNDS,check_refund_policy,back,33.79,43.27,77.06
+REFUNDS,check_refund_policy,money back,33.74,43.01,76.76
+REFUNDS,check_refund_policy,refund,27.75,120.91,148.66
+REFUNDS,check_refund_policy,refund policy,27.15,32.65,59.79
+REFUNDS,check_refund_policy,check,25.63,41.71,67.34
+REFUNDS,check_refund_policy,see,24.99,37.42,62.41
+REFUNDS,check_refund_policy,reimbursement,24.32,120.26,144.58
+REFUNDS,check_refund_policy,reimbursement policy,24.2,29.23,53.42
+REFUNDS,check_refund_policy,back policy,23.87,26.96,50.83
+REFUNDS,check_refund_policy,money back policy,23.76,26.73,50.49
+REFUNDS,check_refund_policy,view,23.59,37.88,61.47
+REFUNDS,check_refund_policy,want,23.17,75.68,98.85
+REFUNDS,check_refund_policy,agent,16.32,45.16,61.48
+REFUNDS,check_refund_policy,ask,16.22,45.0,61.22
+REFUNDS,check_refund_policy,ask agent,16.17,44.69,60.86
+REFUNDS,check_refund_policy,help,12.6,44.8,57.4
+REFUNDS,check_refund_policy,please,8.31,29.79,38.1
+REFUNDS,check_refund_policy,could,8.1,26.36,34.47
+REFUNDS,get_refund,reimbursement,88.36,120.26,208.62
+REFUNDS,get_refund,refund,87.28,120.91,208.19
+REFUNDS,get_refund,obtain,69.59,76.68,146.27
+REFUNDS,get_refund,request,68.66,75.21,143.87
+REFUNDS,get_refund,cancelled,67.75,73.9,141.65
+REFUNDS,get_refund,postponed,66.95,72.96,139.91
+REFUNDS,get_refund,get,66.23,73.28,139.51
+REFUNDS,get_refund,want,46.74,75.68,122.42
+REFUNDS,get_refund,event,45.71,47.67,93.38
+REFUNDS,get_refund,concert,44.65,46.57,91.22
+REFUNDS,get_refund,game,43.99,45.91,89.91
+REFUNDS,get_refund,show,42.98,49.6,92.58
+REFUNDS,get_refund,obtain reimbursement,42.39,44.0,86.38
+REFUNDS,get_refund,request reimbursement,41.97,43.39,85.36
+REFUNDS,get_refund,obtain refund,41.01,42.39,83.4
+REFUNDS,get_refund,request refund,39.8,41.1,80.9
+REFUNDS,get_refund,get reimbursement,39.61,41.13,80.75
+REFUNDS,get_refund,get refund,38.47,39.81,78.28
+REFUNDS,get_refund,one,34.35,36.61,70.96
+REFUNDS,get_refund,concert postponed,30.11,30.45,60.56
+REFUNDS,get_refund,event cancelled,29.59,29.89,59.48
+REFUNDS,get_refund,help,29.57,44.8,74.37
+REFUNDS,get_refund,game cancelled,28.09,28.42,56.51
+REFUNDS,get_refund,cancelled request,27.32,27.42,54.74
+REFUNDS,get_refund,show cancelled,26.88,27.28,54.16
+REFUNDS,get_refund,event postponed,26.3,26.55,52.85
+REFUNDS,get_refund,postponed obtain,25.85,25.9,51.74
+REFUNDS,get_refund,cancelled obtain,25.68,25.69,51.38
+REFUNDS,get_refund,show postponed,25.67,26.08,51.74
+REFUNDS,get_refund,need,25.33,32.24,57.56
+REFUNDS,get_refund,game postponed,25.28,25.54,50.83
+REFUNDS,get_refund,agent,25.15,45.16,70.3
+REFUNDS,get_refund,ask,25.08,45.0,70.08
+REFUNDS,get_refund,ask agent,24.79,44.69,69.48
+REFUNDS,get_refund,please,19.13,29.79,48.91
+REFUNDS,get_refund,could,16.89,26.36,43.25
+REFUNDS,track_refund,status,30.76,52.97,83.73
+REFUNDS,track_refund,refund,27.65,120.91,148.56
+REFUNDS,track_refund,reimbursement,27.24,120.26,147.5
+REFUNDS,track_refund,status refund,24.2,33.17,57.37
+REFUNDS,track_refund,status reimbursement,23.28,30.69,53.97
+REFUNDS,track_refund,want,21.58,75.68,97.25
+REFUNDS,track_refund,check,17.86,41.71,59.57
+REFUNDS,track_refund,view,15.83,37.88,53.72
+REFUNDS,track_refund,see,13.72,37.42,51.14
+REFUNDS,track_refund,help,10.23,44.8,55.02
+REFUNDS,track_refund,agent,10.17,45.16,55.33
+REFUNDS,track_refund,ask agent,10.17,44.69,54.87
+REFUNDS,track_refund,ask,10.17,45.0,55.17
+REFUNDS,track_refund,please,6.25,29.79,36.04
+REFUNDS,track_refund,show,4.43,49.6,54.03
+REFUNDS,track_refund,could,4.42,26.36,30.78
+REFUNDS,track_refund,need,4.28,32.24,36.51
+SHIPPING,change_shipping_address,shipping address,14.44,24.7,39.14
+SHIPPING,change_shipping_address,address,14.38,24.53,38.91
+SHIPPING,change_shipping_address,shipping,14.28,24.52,38.8
+SHIPPING,change_shipping_address,update,8.49,9.02,17.51
+SHIPPING,change_shipping_address,update shipping,8.43,8.86,17.29
+SHIPPING,change_shipping_address,update shipping address,8.43,8.86,17.29
+SHIPPING,change_shipping_address,modify,7.79,8.19,15.98
+SHIPPING,change_shipping_address,modify shipping,7.67,8.03,15.7
+SHIPPING,change_shipping_address,modify shipping address,7.67,8.03,15.7
+SHIPPING,change_shipping_address,edit shipping,7.51,7.88,15.39
+SHIPPING,change_shipping_address,edit shipping address,7.51,7.88,15.39
+SHIPPING,change_shipping_address,edit,7.51,7.88,15.39
+SHIPPING,change_shipping_address,want,6.43,9.48,15.9
+SHIPPING,change_shipping_address,change,6.34,6.53,12.87
+SHIPPING,change_shipping_address,change shipping address,6.2,6.34,12.54
+SHIPPING,change_shipping_address,change shipping,6.2,6.34,12.54
+SHIPPING,change_shipping_address,ask,5.16,7.01,12.18
+SHIPPING,change_shipping_address,agent,5.16,7.01,12.18
+SHIPPING,change_shipping_address,ask agent,5.16,7.01,12.18
+SHIPPING,change_shipping_address,changes,4.99,5.2,10.19
+SHIPPING,change_shipping_address,make,4.89,5.06,9.95
+SHIPPING,change_shipping_address,changes shipping,4.86,5.01,9.87
+SHIPPING,change_shipping_address,make changes,4.82,4.96,9.78
+SHIPPING,change_shipping_address,make changes shipping,4.68,4.77,9.45
+SHIPPING,change_shipping_address,changes shipping address,4.52,4.58,9.09
+SHIPPING,change_shipping_address,help,4.41,7.51,11.92
+SHIPPING,change_shipping_address,want modify,2.82,2.83,5.64
+SHIPPING,change_shipping_address,want modify shipping,2.82,2.83,5.64
+SHIPPING,change_shipping_address,want edit shipping,2.7,2.74,5.44
+SHIPPING,change_shipping_address,want edit,2.7,2.74,5.44
+SHIPPING,change_shipping_address,could,2.43,4.27,6.7
+SHIPPING,change_shipping_address,please,2.34,3.66,6.0
+SHIPPING,change_shipping_address,need,1.91,3.33,5.24
+SHIPPING,change_shipping_address,need help,1.91,3.15,5.06
+SHIPPING,change_shipping_address,shipping address help,1.63,3.93,5.56
+SHIPPING,change_shipping_address,address help,1.63,3.93,5.56
+SHIPPING,set_up_shipping_address,shipping address set,16.49,17.46,33.95
+SHIPPING,set_up_shipping_address,address set,16.47,17.54,34.01
+SHIPPING,set_up_shipping_address,set,16.2,21.42,37.62
+SHIPPING,set_up_shipping_address,shipping address,15.87,24.7,40.57
+SHIPPING,set_up_shipping_address,shipping,15.82,24.52,40.35
+SHIPPING,set_up_shipping_address,address,15.68,24.53,40.21
+SHIPPING,set_up_shipping_address,one,10.56,11.14,21.7
+SHIPPING,set_up_shipping_address,set one,10.55,11.01,21.57
+SHIPPING,set_up_shipping_address,address set one,10.04,9.9,19.94
+SHIPPING,set_up_shipping_address,dont,9.28,9.6,18.88
+SHIPPING,set_up_shipping_address,dont shipping,9.22,9.46,18.68
+SHIPPING,set_up_shipping_address,dont shipping address,9.22,9.46,18.68
+SHIPPING,set_up_shipping_address,set shipping,8.62,9.41,18.03
+SHIPPING,set_up_shipping_address,set shipping address,8.5,9.23,17.73
+SHIPPING,set_up_shipping_address,want set,4.51,4.71,9.22
+SHIPPING,set_up_shipping_address,want,4.51,9.48,13.99
+SHIPPING,set_up_shipping_address,help,4.07,7.51,11.58
+SHIPPING,set_up_shipping_address,want set shipping,3.06,3.1,6.15
+SHIPPING,set_up_shipping_address,help set,3.01,3.14,6.15
+SHIPPING,set_up_shipping_address,address help,2.69,3.93,6.63
+SHIPPING,set_up_shipping_address,shipping address help,2.69,3.93,6.63
+SHIPPING,set_up_shipping_address,agent,2.4,7.01,9.41
+SHIPPING,set_up_shipping_address,ask agent,2.4,7.01,9.41
+SHIPPING,set_up_shipping_address,ask,2.4,7.01,9.41
+SHIPPING,set_up_shipping_address,could,2.16,4.27,6.43
+SHIPPING,set_up_shipping_address,need,1.79,3.33,5.12
+SHIPPING,set_up_shipping_address,please,1.65,3.66,5.3
+SHIPPING,set_up_shipping_address,need help,1.57,3.15,4.72
