@@ -9,3 +9,6 @@ main3.py
 main2.py
 main.py
 kneighborsClassifier.ipynb
+new_stopwords.txt
+keywords_tfidf.csv
+keywords.csv

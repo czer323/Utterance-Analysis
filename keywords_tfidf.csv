@@ -1,728 +1,974 @@
-category,intent,keyword,intent_tfidf,category_tfidf,total_tfidf
-ACCOUNT,create_account,account,164.59,283.93,448.52
-ACCOUNT,create_account,one,129.29,159.37,288.66
-ACCOUNT,create_account,create,115.32,139.52,254.84
-ACCOUNT,create_account,user,98.89,155.75,254.63
-ACCOUNT,create_account,register,96.93,109.74,206.67
-ACCOUNT,create_account,online,96.87,151.83,248.71
-ACCOUNT,create_account,user account,89.71,141.67,231.39
-ACCOUNT,create_account,email,88.82,102.79,191.62
-ACCOUNT,create_account,create one,87.79,98.23,186.02
-ACCOUNT,create_account,online account,86.08,136.78,222.87
-ACCOUNT,create_account,want,83.38,161.95,245.33
-ACCOUNT,create_account,open,81.35,90.83,172.18
-ACCOUNT,create_account,got,78.17,85.29,163.45
-ACCOUNT,create_account,open one,67.24,72.05,139.29
-ACCOUNT,create_account,accounts,66.38,92.39,158.77
-ACCOUNT,create_account,tell,62.22,68.14,130.36
-ACCOUNT,create_account,profile,60.57,143.41,203.97
-ACCOUNT,create_account,account open,59.12,61.64,120.76
-ACCOUNT,create_account,account open one,59.12,61.64,120.76
-ACCOUNT,create_account,account create one,58.15,60.39,118.54
-ACCOUNT,create_account,account create,58.15,60.39,118.54
-ACCOUNT,create_account,single,57.63,62.19,119.82
-ACCOUNT,create_account,single email,57.45,61.94,119.39
-ACCOUNT,create_account,address,57.4,62.02,119.41
-ACCOUNT,create_account,email address,57.25,61.8,119.05
-ACCOUNT,create_account,several,55.5,59.42,114.92
-ACCOUNT,create_account,dont,54.1,95.47,149.58
-ACCOUNT,create_account,need,53.94,79.03,132.97
-ACCOUNT,create_account,ive,49.82,51.92,101.74
-ACCOUNT,create_account,ive got,49.62,51.67,101.28
-ACCOUNT,create_account,help,49.29,99.06,148.35
-ACCOUNT,create_account,havent,47.8,49.77,97.58
-ACCOUNT,create_account,could,35.24,63.67,98.91
-ACCOUNT,create_account,please,33.04,59.84,92.88
-ACCOUNT,delete_account,account,77.8,283.93,361.72
-ACCOUNT,delete_account,want,56.34,161.95,218.29
-ACCOUNT,delete_account,profile,51.48,143.41,194.88
-ACCOUNT,delete_account,remove,50.17,62.12,112.3
-ACCOUNT,delete_account,close,47.74,58.82,106.56
-ACCOUNT,delete_account,delete,45.87,55.67,101.54
-ACCOUNT,delete_account,cancel,45.79,55.64,101.43
-ACCOUNT,delete_account,mind,45.15,56.0,101.15
-ACCOUNT,delete_account,changed,44.91,55.43,100.34
-ACCOUNT,delete_account,changed mind,44.69,54.94,99.63
-ACCOUNT,delete_account,dont,44.27,95.47,139.75
-ACCOUNT,delete_account,dont want,43.85,55.74,99.59
-ACCOUNT,delete_account,online,43.58,151.83,195.41
-ACCOUNT,delete_account,online account,43.36,136.78,180.14
-ACCOUNT,delete_account,user,43.29,155.75,199.04
-ACCOUNT,delete_account,user account,42.88,141.67,184.55
-ACCOUNT,delete_account,ask,29.24,67.26,96.5
-ACCOUNT,delete_account,agent,29.21,67.24,96.44
-ACCOUNT,delete_account,ask agent,28.98,66.67,95.65
-ACCOUNT,delete_account,help,24.52,99.06,123.58
-ACCOUNT,delete_account,could,17.3,63.67,80.98
-ACCOUNT,delete_account,please,16.65,59.84,76.49
-ACCOUNT,delete_account,need,14.44,79.03,93.47
-ACCOUNT,delete_account,need help,14.2,49.77,63.97
-ACCOUNT,edit_account,profile,16.12,143.41,159.52
-ACCOUNT,edit_account,agent,6.73,67.24,73.96
-ACCOUNT,edit_account,want,6.65,161.95,168.6
-ACCOUNT,edit_account,ask,6.58,67.26,73.84
-ACCOUNT,edit_account,ask agent,6.5,66.67,73.16
-ACCOUNT,edit_account,help,5.28,99.06,104.34
-ACCOUNT,edit_account,could,2.86,63.67,66.53
-ACCOUNT,edit_account,need,2.8,79.03,81.83
-ACCOUNT,edit_account,please,2.75,59.84,62.58
-ACCOUNT,edit_account,need help,2.62,49.77,52.39
-ACCOUNT,recover_password,password,81.03,121.32,202.35
-ACCOUNT,recover_password,account,71.18,283.93,355.11
-ACCOUNT,recover_password,hacked,67.0,89.73,156.73
-ACCOUNT,recover_password,recover,61.49,77.75,139.24
-ACCOUNT,recover_password,account password,57.28,70.85,128.13
-ACCOUNT,recover_password,accounts,32.43,92.39,124.82
-ACCOUNT,recover_password,help,32.18,99.06,131.24
-ACCOUNT,recover_password,want,26.2,161.95,188.16
-ACCOUNT,recover_password,user,25.26,155.75,181.0
-ACCOUNT,recover_password,online,21.79,151.83,173.62
-ACCOUNT,recover_password,profile,20.3,143.41,163.7
-ACCOUNT,recover_password,user account,17.04,141.67,158.72
-ACCOUNT,registration_problems,account,8.89,283.93,292.82
-ACCOUNT,registration_problems,profile,7.1,143.41,150.5
-ACCOUNT,registration_problems,create,4.29,139.52,143.81
-ACCOUNT,registration_problems,register,2.03,109.74,111.77
-ACCOUNT,switch_account,account,26.6,283.93,310.52
-ACCOUNT,switch_account,want,22.91,161.95,184.86
-ACCOUNT,switch_account,profile,17.76,143.41,161.17
-ACCOUNT,switch_account,user,15.74,155.75,171.48
-ACCOUNT,switch_account,online,15.73,151.83,167.57
-ACCOUNT,switch_account,user account,15.73,141.67,157.4
-ACCOUNT,switch_account,online account,15.66,136.78,152.44
-ACCOUNT,switch_account,help,9.02,99.06,108.08
-ACCOUNT,switch_account,agent,8.92,67.24,76.16
-ACCOUNT,switch_account,ask agent,8.79,66.67,75.46
-ACCOUNT,switch_account,ask,8.79,67.26,76.05
-CANCELLATION_FEE,check_cancellation_fee,cancellation,39.96,39.96,79.92
-CANCELLATION_FEE,check_cancellation_fee,check,27.61,27.61,55.23
-CANCELLATION_FEE,check_cancellation_fee,check cancellation,27.51,27.51,55.03
-CANCELLATION_FEE,check_cancellation_fee,view,24.24,24.24,48.49
-CANCELLATION_FEE,check_cancellation_fee,penalties,23.91,23.91,47.82
-CANCELLATION_FEE,check_cancellation_fee,cancellation penalties,23.84,23.84,47.69
-CANCELLATION_FEE,check_cancellation_fee,view cancellation,23.78,23.78,47.55
-CANCELLATION_FEE,check_cancellation_fee,fee,23.7,23.7,47.4
-CANCELLATION_FEE,check_cancellation_fee,cancellation fee,23.62,23.62,47.24
-CANCELLATION_FEE,check_cancellation_fee,penalty,23.49,23.49,46.98
-CANCELLATION_FEE,check_cancellation_fee,cancellation penalty,23.33,23.33,46.67
-CANCELLATION_FEE,check_cancellation_fee,see,22.92,22.92,45.85
-CANCELLATION_FEE,check_cancellation_fee,see cancellation,22.4,22.4,44.8
-CANCELLATION_FEE,check_cancellation_fee,fees,21.88,21.88,43.76
-CANCELLATION_FEE,check_cancellation_fee,cancellation fees,21.44,21.44,42.89
-CANCELLATION_FEE,check_cancellation_fee,want,21.34,21.34,42.68
-CANCELLATION_FEE,check_cancellation_fee,agent,14.96,14.96,29.92
-CANCELLATION_FEE,check_cancellation_fee,ask agent,14.91,14.91,29.82
-CANCELLATION_FEE,check_cancellation_fee,ask,14.91,14.91,29.82
-CANCELLATION_FEE,check_cancellation_fee,check cancellation fee,12.22,12.22,24.44
-CANCELLATION_FEE,check_cancellation_fee,check cancellation penalty,11.67,11.67,23.35
-CANCELLATION_FEE,check_cancellation_fee,want check,11.38,11.38,22.77
-CANCELLATION_FEE,check_cancellation_fee,want check cancellation,11.26,11.26,22.51
-CANCELLATION_FEE,check_cancellation_fee,help,10.99,10.99,21.98
-CANCELLATION_FEE,check_cancellation_fee,view cancellation penalties,10.28,10.28,20.57
-CANCELLATION_FEE,check_cancellation_fee,check cancellation penalties,10.2,10.2,20.41
-CANCELLATION_FEE,check_cancellation_fee,information,10.18,10.18,20.36
-CANCELLATION_FEE,check_cancellation_fee,view cancellation penalty,9.5,9.5,19.0
-CANCELLATION_FEE,check_cancellation_fee,information cancellation,9.44,9.44,18.87
-CANCELLATION_FEE,check_cancellation_fee,see cancellation fees,9.11,9.11,18.22
-CANCELLATION_FEE,check_cancellation_fee,want view,9.07,9.07,18.14
-CANCELLATION_FEE,check_cancellation_fee,check cancellation fees,9.0,9.0,17.99
-CANCELLATION_FEE,check_cancellation_fee,want see,8.93,8.93,17.87
-CANCELLATION_FEE,check_cancellation_fee,want view cancellation,8.82,8.82,17.63
-CANCELLATION_FEE,check_cancellation_fee,want see cancellation,8.78,8.78,17.56
-CANCELLATION_FEE,check_cancellation_fee,view cancellation fee,8.74,8.74,17.48
-CANCELLATION_FEE,check_cancellation_fee,see cancellation penalties,8.51,8.51,17.03
-CANCELLATION_FEE,check_cancellation_fee,see cancellation penalty,8.43,8.43,16.86
-CANCELLATION_FEE,check_cancellation_fee,see cancellation fee,7.86,7.86,15.72
-CANCELLATION_FEE,check_cancellation_fee,view cancellation fees,7.78,7.78,15.57
-CANCELLATION_FEE,check_cancellation_fee,please,7.08,7.08,14.16
-CANCELLATION_FEE,check_cancellation_fee,could,6.49,6.49,12.99
-CANCELLATION_FEE,check_cancellation_fee,show,6.48,6.48,12.95
-CANCELLATION_FEE,check_cancellation_fee,ask agent view,5.08,5.08,10.16
-CANCELLATION_FEE,check_cancellation_fee,agent view,5.08,5.08,10.16
-CANCELLATION_FEE,check_cancellation_fee,wanna,5.01,5.01,10.02
-CANCELLATION_FEE,check_cancellation_fee,agent see,4.88,4.88,9.77
-CANCELLATION_FEE,check_cancellation_fee,ask agent see,4.88,4.88,9.77
-CANCELLATION_FEE,check_cancellation_fee,agent check,4.78,4.78,9.57
-CANCELLATION_FEE,check_cancellation_fee,ask agent check,4.78,4.78,9.57
-CONTACT,contact_customer_service,customer,138.79,163.36,302.15
-CONTACT,contact_customer_service,service,138.63,164.27,302.9
-CONTACT,contact_customer_service,customer service,104.59,114.36,218.94
-CONTACT,contact_customer_service,client,102.14,112.47,214.61
-CONTACT,contact_customer_service,client service,101.63,111.68,213.31
-CONTACT,contact_customer_service,support,100.08,109.28,209.36
-CONTACT,contact_customer_service,customer support,99.62,108.55,208.17
-CONTACT,contact_customer_service,contact,96.07,140.14,236.21
-CONTACT,contact_customer_service,information,95.74,104.7,200.44
-CONTACT,contact_customer_service,want,85.28,102.48,187.76
-CONTACT,contact_customer_service,email,83.69,89.17,172.86
-CONTACT,contact_customer_service,contact customer,75.17,79.04,154.21
-CONTACT,contact_customer_service,need,65.31,78.11,143.42
-CONTACT,contact_customer_service,mail,62.39,65.23,127.62
-CONTACT,contact_customer_service,number,61.62,64.46,126.07
-CONTACT,contact_customer_service,address,59.75,62.19,121.94
-CONTACT,contact_customer_service,tell,59.73,63.2,122.93
-CONTACT,contact_customer_service,want information,56.49,58.81,115.29
-CONTACT,contact_customer_service,need information,56.18,58.55,114.74
-CONTACT,contact_customer_service,question,55.11,57.41,112.52
-CONTACT,contact_customer_service,show,49.99,51.42,101.4
-CONTACT,contact_customer_service,talk,49.23,105.32,154.55
-CONTACT,contact_customer_service,speak,48.99,102.36,151.35
-CONTACT,contact_customer_service,contact customer service,48.21,49.29,97.5
-CONTACT,contact_customer_service,call,47.53,48.42,95.95
-CONTACT,contact_customer_service,contact client,46.51,47.64,94.15
-CONTACT,contact_customer_service,contact client service,46.34,47.44,93.78
-CONTACT,contact_customer_service,contact customer support,45.7,46.74,92.43
-CONTACT,contact_customer_service,email customer,45.61,46.3,91.91
-CONTACT,contact_customer_service,send,43.97,44.58,88.56
-CONTACT,contact_customer_service,please,36.29,45.46,81.75
-CONTACT,contact_customer_service,help,34.14,60.96,95.1
-CONTACT,contact_customer_service,agent,31.94,76.68,108.62
-CONTACT,contact_human_agent,human,84.97,107.74,192.7
-CONTACT,contact_human_agent,helping,74.03,91.24,165.27
-CONTACT,contact_human_agent,understand,68.15,83.31,151.47
-CONTACT,contact_human_agent,talk,67.95,105.32,173.27
-CONTACT,contact_human_agent,contact,66.81,140.14,206.95
-CONTACT,contact_human_agent,speak,65.23,102.36,167.58
-CONTACT,contact_human_agent,person,56.79,65.05,121.84
-CONTACT,contact_human_agent,someone,55.63,63.78,119.42
-CONTACT,contact_human_agent,agent,53.0,76.68,129.68
-CONTACT,contact_human_agent,human agent,52.94,59.44,112.38
-CONTACT,contact_human_agent,talk human,46.5,48.44,94.93
-CONTACT,contact_human_agent,arent,46.02,50.45,96.47
-CONTACT,contact_human_agent,cant,45.84,50.42,96.26
-CONTACT,contact_human_agent,arent helping,45.84,50.12,95.96
-CONTACT,contact_human_agent,cant understand,45.62,50.0,95.61
-CONTACT,contact_human_agent,dont,45.35,49.53,94.88
-CONTACT,contact_human_agent,dont understand,45.08,49.01,94.09
-CONTACT,contact_human_agent,youre,44.51,48.61,93.12
-CONTACT,contact_human_agent,youre helping,44.16,47.97,92.13
-CONTACT,contact_human_agent,contact human,43.74,46.08,89.82
-CONTACT,contact_human_agent,speak human,43.3,44.95,88.25
-CONTACT,contact_human_agent,help,32.83,60.96,93.8
-CONTACT,contact_human_agent,want,24.84,102.48,127.31
-CONTACT,contact_human_agent,need,18.79,78.11,96.89
-DELIVERY,delivery_options,delivery,38.78,46.97,85.75
-DELIVERY,delivery_options,options,38.62,47.03,85.64
-DELIVERY,delivery_options,delivery options,32.23,35.65,67.88
-DELIVERY,delivery_options,ticket,31.62,36.94,68.56
-DELIVERY,delivery_options,ticket delivery,31.59,34.46,66.05
-DELIVERY,delivery_options,check,28.08,29.31,57.39
-DELIVERY,delivery_options,options delivery,23.05,23.87,46.93
-DELIVERY,delivery_options,ticket delivery options,22.31,23.31,45.62
-DELIVERY,delivery_options,see,22.26,24.05,46.31
-DELIVERY,delivery_options,options ticket,22.03,22.83,44.86
-DELIVERY,delivery_options,options ticket delivery,21.82,22.56,44.39
-DELIVERY,delivery_options,view,21.69,22.47,44.16
-DELIVERY,delivery_options,want,20.05,23.29,43.34
-DELIVERY,delivery_options,check options,19.63,19.79,39.42
-DELIVERY,delivery_options,see options,13.84,13.92,27.75
-DELIVERY,delivery_options,agent,12.91,16.42,29.32
-DELIVERY,delivery_options,ask,12.86,16.33,29.19
-DELIVERY,delivery_options,ask agent,12.8,16.23,29.03
-DELIVERY,delivery_options,view options,12.75,12.79,25.54
-DELIVERY,delivery_options,check options delivery,12.23,12.08,24.31
-DELIVERY,delivery_options,check options ticket,12.1,11.96,24.06
-DELIVERY,delivery_options,information,10.81,17.08,27.89
-DELIVERY,delivery_options,check delivery,10.63,10.55,21.18
-DELIVERY,delivery_options,check delivery options,10.56,10.46,21.02
-DELIVERY,delivery_options,check ticket,9.97,9.85,19.82
-DELIVERY,delivery_options,check ticket delivery,9.97,9.85,19.82
-DELIVERY,delivery_options,want check,9.97,9.96,19.93
-DELIVERY,delivery_options,help,9.52,9.78,19.31
-DELIVERY,delivery_options,see ticket delivery,9.05,8.98,18.03
-DELIVERY,delivery_options,see ticket,9.05,8.98,18.03
-DELIVERY,delivery_options,want view,9.01,9.01,18.02
-DELIVERY,delivery_options,want see,8.83,10.21,19.04
-DELIVERY,delivery_options,view delivery options,8.66,8.58,17.24
-DELIVERY,delivery_options,view delivery,8.66,8.58,17.24
-DELIVERY,delivery_options,see options delivery,8.61,8.5,17.11
-DELIVERY,delivery_options,view ticket,8.57,8.48,17.05
-DELIVERY,delivery_options,view ticket delivery,8.57,8.48,17.05
-DELIVERY,delivery_options,see options ticket,8.09,8.02,16.11
-DELIVERY,delivery_options,see delivery,8.0,9.44,17.44
-DELIVERY,delivery_options,please,7.05,9.41,16.45
-DELIVERY,delivery_options,could,7.01,8.27,15.28
-DELIVERY,delivery_options,show,6.43,9.67,16.11
-DELIVERY,delivery_period,delivery,11.12,46.97,58.09
-DELIVERY,delivery_period,period,10.85,14.56,25.41
-DELIVERY,delivery_period,delivery period,10.82,14.47,25.29
-DELIVERY,delivery_period,tickets,10.44,12.99,23.43
-DELIVERY,delivery_period,arrive,10.37,12.92,23.29
-DELIVERY,delivery_period,ticket,9.94,36.94,46.88
-DELIVERY,delivery_period,expect,8.4,9.43,17.82
-DELIVERY,delivery_period,tell,8.37,10.67,19.04
-DELIVERY,delivery_period,information,7.83,17.08,24.91
-DELIVERY,delivery_period,information delivery,7.55,12.03,19.58
-DELIVERY,delivery_period,information delivery period,7.55,8.86,16.42
-DELIVERY,delivery_period,want,5.72,23.29,29.01
-DELIVERY,delivery_period,agent,5.12,16.42,21.54
-DELIVERY,delivery_period,ask,5.05,16.33,21.38
-DELIVERY,delivery_period,ask agent,5.0,16.23,21.23
-DELIVERY,delivery_period,show,4.2,9.67,13.88
-DELIVERY,delivery_period,please,3.3,9.41,12.7
-FEEDBACK,complaint,complaint,71.22,99.39,170.61
-FEEDBACK,complaint,service,62.4,98.11,160.52
-FEEDBACK,complaint,consumer,55.94,65.77,121.71
-FEEDBACK,complaint,consumer complaint,55.83,65.44,121.27
-FEEDBACK,complaint,lodge,47.23,62.69,109.92
-FEEDBACK,complaint,file,45.45,59.31,104.76
-FEEDBACK,complaint,make,43.45,59.5,102.94
-FEEDBACK,complaint,im,42.43,67.68,110.1
-FEEDBACK,complaint,complaint service,42.08,45.54,87.62
-FEEDBACK,complaint,want,32.39,57.91,90.3
-FEEDBACK,complaint,file complaint,32.2,34.08,66.28
-FEEDBACK,complaint,lodge complaint,31.71,33.62,65.33
-FEEDBACK,complaint,make complaint,29.06,30.69,59.75
-FEEDBACK,complaint,discontent,28.78,30.77,59.55
-FEEDBACK,complaint,like,28.67,32.41,61.09
-FEEDBACK,complaint,discontent service,28.48,30.36,58.84
-FEEDBACK,complaint,happy,28.39,60.33,88.73
-FEEDBACK,complaint,lodge consumer,28.33,29.49,57.82
-FEEDBACK,complaint,lodge consumer complaint,28.33,29.49,57.82
-FEEDBACK,complaint,im discontent,28.32,30.16,58.48
-FEEDBACK,complaint,happy service,28.28,59.99,88.27
-FEEDBACK,complaint,im discontent service,28.1,29.87,57.97
-FEEDBACK,complaint,im happy,27.93,56.1,84.03
-FEEDBACK,complaint,im happy service,27.82,55.7,83.52
-FEEDBACK,complaint,like service,27.73,29.38,57.11
-FEEDBACK,complaint,dont,27.37,28.9,56.27
-FEEDBACK,complaint,dont like,27.31,28.83,56.14
-FEEDBACK,complaint,dont like service,27.25,28.74,55.99
-FEEDBACK,complaint,submit,26.57,43.25,69.82
-FEEDBACK,complaint,make consumer,25.57,26.59,52.16
-FEEDBACK,complaint,make consumer complaint,25.41,26.41,51.82
-FEEDBACK,complaint,file consumer,25.36,26.28,51.64
-FEEDBACK,complaint,consumer complaint service,25.19,25.72,50.91
-FEEDBACK,complaint,file consumer complaint,24.97,25.78,50.76
-FEEDBACK,complaint,help,24.08,40.38,64.46
-FEEDBACK,complaint,ask,20.34,31.96,52.3
-FEEDBACK,complaint,ask agent,20.18,31.74,51.92
-FEEDBACK,complaint,agent,20.18,31.86,52.04
-FEEDBACK,complaint,service lodge,19.52,28.46,47.98
-FEEDBACK,complaint,service make,19.46,29.38,48.84
-FEEDBACK,complaint,service submit,19.28,27.79,47.07
-FEEDBACK,complaint,service file,18.72,26.41,45.13
-FEEDBACK,complaint,please,14.83,21.88,36.71
-FEEDBACK,complaint,want lodge,14.1,22.53,36.63
-FEEDBACK,review,service,47.36,98.11,145.48
-FEEDBACK,review,opinion,39.21,47.35,86.56
-FEEDBACK,review,comment,38.58,46.76,85.34
-FEEDBACK,review,review,37.17,44.46,81.63
-FEEDBACK,review,happy,34.39,60.33,94.72
-FEEDBACK,review,happy service,34.2,59.99,94.19
-FEEDBACK,review,leave,33.21,35.9,69.11
-FEEDBACK,review,want,31.65,57.91,89.56
-FEEDBACK,review,write,31.38,33.65,65.03
-FEEDBACK,review,im,31.08,67.68,98.76
-FEEDBACK,review,im happy,31.04,56.1,87.14
-FEEDBACK,review,im happy service,30.77,55.7,86.47
-FEEDBACK,review,make,22.19,59.5,81.68
-FEEDBACK,review,lodge,21.35,62.69,84.05
-FEEDBACK,review,submit,21.17,43.25,64.42
-FEEDBACK,review,help,19.98,40.38,60.36
-FEEDBACK,review,file,18.93,59.31,78.24
-FEEDBACK,review,agent,15.13,31.86,46.99
-FEEDBACK,review,ask,15.07,31.96,47.03
-FEEDBACK,review,ask agent,14.99,31.74,46.73
-FEEDBACK,review,service make,12.96,29.38,42.34
-FEEDBACK,review,want make,12.03,21.52,33.55
-FEEDBACK,review,service lodge,11.82,28.46,40.28
-FEEDBACK,review,service submit,11.25,27.79,39.04
-FEEDBACK,review,want lodge,10.82,22.53,33.35
-FEEDBACK,review,service file,10.27,26.41,36.68
-INVOICES,check_invoices,check,63.08,74.68,137.76
-INVOICES,check_invoices,view,58.86,68.66,127.53
-INVOICES,check_invoices,see,55.85,106.12,161.98
-INVOICES,check_invoices,invoices,55.39,106.41,161.8
-INVOICES,check_invoices,invoice,54.08,120.38,174.46
-INVOICES,check_invoices,bill,53.53,119.98,173.51
-INVOICES,check_invoices,bills,53.38,104.05,157.43
-INVOICES,check_invoices,lost,44.45,50.25,94.7
-INVOICES,check_invoices,cant,41.16,46.02,87.18
-INVOICES,check_invoices,find,41.02,45.79,86.8
-INVOICES,check_invoices,cant find,40.96,45.7,86.66
-INVOICES,check_invoices,didnt,38.53,42.81,81.35
-INVOICES,check_invoices,receive,38.43,42.64,81.07
-INVOICES,check_invoices,didnt receive,38.26,42.4,80.66
-INVOICES,check_invoices,want,33.02,99.42,132.45
-INVOICES,check_invoices,help,29.03,41.7,70.73
-INVOICES,check_invoices,ask,26.95,65.57,92.52
-INVOICES,check_invoices,agent,26.9,62.84,89.75
-INVOICES,check_invoices,ask agent,26.78,61.45,88.23
-INVOICES,check_invoices,show,20.46,28.29,48.76
-INVOICES,check_invoices,please,17.94,39.16,57.09
-INVOICES,check_invoices,could,17.51,37.35,54.86
-INVOICES,check_invoices,need,15.61,27.16,42.77
-INVOICES,check_invoices,information,15.29,65.79,81.08
-INVOICES,check_invoices,want see,15.08,29.68,44.76
-INVOICES,check_invoices,see invoices,14.52,30.53,45.05
-INVOICES,check_invoices,need help,14.2,21.09,35.29
-INVOICES,check_invoices,see bills,13.53,28.82,42.35
-INVOICES,get_invoice,tell,82.61,95.13,177.74
-INVOICES,get_invoice,invoice,79.61,120.38,199.99
-INVOICES,get_invoice,bill,79.41,119.98,199.39
-INVOICES,get_invoice,want,73.19,99.42,172.62
-INVOICES,get_invoice,invoices,62.37,106.41,168.77
-INVOICES,get_invoice,bills,61.82,104.05,165.87
-INVOICES,get_invoice,get,58.2,62.95,121.15
-INVOICES,get_invoice,request,58.15,62.96,121.11
-INVOICES,get_invoice,obtain,56.35,60.44,116.79
-INVOICES,get_invoice,see,55.18,106.12,161.3
-INVOICES,get_invoice,download,54.25,58.09,112.35
-INVOICES,get_invoice,information,52.0,65.79,117.79
-INVOICES,get_invoice,ask,43.25,65.57,108.82
-INVOICES,get_invoice,know,42.67,45.7,88.37
-INVOICES,get_invoice,agent,40.32,62.84,103.17
-INVOICES,get_invoice,ask agent,38.94,61.45,100.4
-INVOICES,get_invoice,want know,34.09,35.81,69.9
-INVOICES,get_invoice,wanna,33.48,42.58,76.06
-INVOICES,get_invoice,get invoice,24.51,24.89,49.4
-INVOICES,get_invoice,obtain invoice,24.42,24.84,49.26
-INVOICES,get_invoice,please,24.12,39.16,63.28
-INVOICES,get_invoice,request invoice,23.83,24.27,48.09
-INVOICES,get_invoice,obtain bill,23.61,23.94,47.56
-INVOICES,get_invoice,request bill,23.47,23.78,47.25
-INVOICES,get_invoice,see bill,23.42,36.1,59.52
-INVOICES,get_invoice,download bill,22.9,23.23,46.13
-INVOICES,get_invoice,download invoice,22.64,22.95,45.59
-INVOICES,get_invoice,bill tell,22.5,23.15,45.65
-INVOICES,get_invoice,invoice tell,22.28,22.92,45.2
-INVOICES,get_invoice,could,22.05,37.35,59.39
-INVOICES,get_invoice,see invoice,21.92,32.59,54.51
-INVOICES,get_invoice,seeing,21.32,26.23,47.55
-INVOICES,get_invoice,want request,21.12,21.71,42.84
-INVOICES,get_invoice,see invoices,16.66,30.53,47.19
-INVOICES,get_invoice,see bills,15.98,28.82,44.79
-INVOICES,get_invoice,want see,15.78,29.68,45.46
-NEWSLETTER,newsletter_subscription,newsletter,26.01,26.01,52.03
-NEWSLETTER,newsletter_subscription,receive,20.1,20.1,40.19
-NEWSLETTER,newsletter_subscription,subscribe,19.95,19.95,39.9
-NEWSLETTER,newsletter_subscription,tell,18.58,18.58,37.16
-NEWSLETTER,newsletter_subscription,receive newsletter,16.78,16.78,33.56
-NEWSLETTER,newsletter_subscription,subscribe newsletter,16.61,16.61,33.22
-NEWSLETTER,newsletter_subscription,want,14.39,14.39,28.78
-NEWSLETTER,newsletter_subscription,theres,10.97,10.97,21.94
-NEWSLETTER,newsletter_subscription,theres newsletter,10.88,10.88,21.76
-NEWSLETTER,newsletter_subscription,know,10.77,10.77,21.55
-NEWSLETTER,newsletter_subscription,want know,9.44,9.44,18.89
-NEWSLETTER,newsletter_subscription,ask,9.01,9.01,18.02
-NEWSLETTER,newsletter_subscription,agent,8.83,8.83,17.67
-NEWSLETTER,newsletter_subscription,ask agent,8.79,8.79,17.58
-NEWSLETTER,newsletter_subscription,newsletter receive,8.39,8.39,16.77
-NEWSLETTER,newsletter_subscription,newsletter subscribe,8.35,8.35,16.7
-NEWSLETTER,newsletter_subscription,newsletter tell,8.14,8.14,16.29
-NEWSLETTER,newsletter_subscription,uptodate,7.62,7.62,15.24
-NEWSLETTER,newsletter_subscription,stay,7.59,7.59,15.17
-NEWSLETTER,newsletter_subscription,newsletter stay,7.41,7.41,14.82
-NEWSLETTER,newsletter_subscription,keep,7.05,7.05,14.11
-NEWSLETTER,newsletter_subscription,newsletter keep,6.97,6.97,13.93
-NEWSLETTER,newsletter_subscription,informed,6.65,6.65,13.31
-NEWSLETTER,newsletter_subscription,tell newsletter,6.19,6.19,12.39
-NEWSLETTER,newsletter_subscription,tell theres newsletter,6.05,6.05,12.1
-NEWSLETTER,newsletter_subscription,tell theres,6.05,6.05,12.1
-NEWSLETTER,newsletter_subscription,information,5.69,5.69,11.38
-NEWSLETTER,newsletter_subscription,tell receive,5.54,5.54,11.07
-NEWSLETTER,newsletter_subscription,want subscribe newsletter,5.51,5.51,11.02
-NEWSLETTER,newsletter_subscription,want subscribe,5.51,5.51,11.02
-NEWSLETTER,newsletter_subscription,tell receive newsletter,5.32,5.32,10.64
-NEWSLETTER,newsletter_subscription,theres newsletter receive,5.32,5.32,10.64
-NEWSLETTER,newsletter_subscription,tell subscribe,5.24,5.24,10.48
-NEWSLETTER,newsletter_subscription,tell subscribe newsletter,5.24,5.24,10.48
-NEWSLETTER,newsletter_subscription,subscribe newsletter tell,5.22,5.22,10.45
-NEWSLETTER,newsletter_subscription,ask agent theres,5.16,5.16,10.31
-NEWSLETTER,newsletter_subscription,agent theres,5.16,5.16,10.31
-NEWSLETTER,newsletter_subscription,stay uptodate,5.04,5.04,10.09
-NEWSLETTER,newsletter_subscription,agent theres newsletter,4.95,4.95,9.89
-NEWSLETTER,newsletter_subscription,could,4.81,4.81,9.62
-NEWSLETTER,newsletter_subscription,newsletter stay uptodate,4.8,4.8,9.61
-NEWSLETTER,newsletter_subscription,please,4.72,4.72,9.45
-NEWSLETTER,newsletter_subscription,wanna,4.61,4.61,9.21
-NEWSLETTER,newsletter_subscription,know newsletter,4.55,4.55,9.11
-NEWSLETTER,newsletter_subscription,want receive newsletter,4.37,4.37,8.75
-NEWSLETTER,newsletter_subscription,want receive,4.37,4.37,8.75
-NEWSLETTER,newsletter_subscription,know theres newsletter,4.24,4.24,8.47
-NEWSLETTER,newsletter_subscription,know theres,4.24,4.24,8.47
-NEWSLETTER,newsletter_subscription,receive newsletter tell,4.23,4.23,8.46
-NEWSLETTER,newsletter_subscription,keep uptodate,4.2,4.2,8.4
-ORDER,cancel_order,order,6.87,123.76,130.63
-ORDER,cancel_order,purchase,5.69,104.42,110.11
-ORDER,cancel_order,want,4.69,87.53,92.22
-ORDER,cancel_order,help,2.14,37.39,39.52
-ORDER,cancel_order,ask,2.0,58.11,60.11
-ORDER,cancel_order,agent,2.0,58.43,60.43
-ORDER,cancel_order,ask agent,2.0,57.01,59.01
-ORDER,cancel_order,wanna,1.07,35.96,37.03
-ORDER,cancel_order,please,0.87,35.45,36.32
-ORDER,cancel_order,need,0.65,22.0,22.65
-ORDER,cancel_order,could,0.64,35.08,35.72
-ORDER,change_order,purchase,68.58,104.42,173.0
-ORDER,change_order,order,66.44,123.76,190.2
-ORDER,change_order,change,65.94,80.61,146.56
-ORDER,change_order,modify,65.67,79.45,145.12
-ORDER,change_order,modify purchase,45.74,50.01,95.75
-ORDER,change_order,change purchase,44.72,49.29,94.01
-ORDER,change_order,change order,44.17,48.81,92.98
-ORDER,change_order,modify order,42.25,46.43,88.68
-ORDER,change_order,ordered,39.94,43.65,83.59
-ORDER,change_order,something,39.33,42.92,82.24
-ORDER,change_order,item,38.25,41.43,79.68
-ORDER,change_order,purchased,37.81,41.02,78.83
-ORDER,change_order,product,37.54,40.89,78.43
-ORDER,change_order,bought,37.32,40.49,77.81
-ORDER,change_order,want,34.81,87.53,122.34
-ORDER,change_order,tell,32.17,99.66,131.83
-ORDER,change_order,help,22.05,37.39,59.44
-ORDER,change_order,item modify,21.32,21.18,42.5
-ORDER,change_order,ask,15.96,58.11,74.07
-ORDER,change_order,please,15.65,35.45,51.11
-ORDER,change_order,need,15.1,22.0,37.1
-ORDER,change_order,agent,15.06,58.43,73.49
-ORDER,change_order,wanna,14.75,35.96,50.71
-ORDER,change_order,ask agent,14.46,57.01,71.47
-ORDER,change_order,know,14.24,66.1,80.34
-ORDER,change_order,could,13.42,35.08,48.5
-ORDER,place_order,order,12.27,123.76,136.03
-ORDER,place_order,purchase,7.55,104.42,111.98
-ORDER,place_order,want,5.18,87.53,92.71
-ORDER,place_order,ask agent,4.2,57.01,61.21
-ORDER,place_order,ask,4.2,58.11,62.3
-ORDER,place_order,agent,4.2,58.43,62.62
-ORDER,place_order,help,3.26,37.39,40.64
-ORDER,place_order,could,1.35,35.08,36.42
-ORDER,place_order,need,1.28,22.0,23.27
-ORDER,place_order,please,0.71,35.45,36.16
-ORDER,track_order,check,86.7,99.92,186.62
-ORDER,track_order,track,85.24,97.65,182.89
-ORDER,track_order,tell,74.02,99.66,173.68
-ORDER,track_order,order,60.42,123.76,184.18
-ORDER,track_order,want,58.22,87.53,145.75
-ORDER,track_order,know,54.03,66.1,120.13
-ORDER,track_order,package,43.47,45.7,89.17
-ORDER,track_order,agent,43.08,58.43,101.5
-ORDER,track_order,ask,42.39,58.11,100.49
-ORDER,track_order,ask agent,42.23,57.01,99.24
-ORDER,track_order,status,40.19,44.32,84.51
-ORDER,track_order,delivery,39.78,41.97,81.75
-ORDER,track_order,shipments,39.64,41.4,81.04
-ORDER,track_order,orders,39.55,41.35,80.9
-ORDER,track_order,shipment,38.94,40.85,79.79
-ORDER,track_order,packages,38.19,39.86,78.04
-ORDER,track_order,purchase,32.12,104.42,136.55
-ORDER,track_order,tell check,30.48,31.11,61.59
-ORDER,track_order,want know,30.32,39.05,69.37
-ORDER,track_order,tell track,28.69,29.18,57.87
-ORDER,track_order,track order,26.46,27.64,54.1
-ORDER,track_order,status order,24.77,26.11,50.87
-ORDER,track_order,want track,24.29,25.26,49.55
-ORDER,track_order,want check,24.22,25.1,49.32
-ORDER,track_order,wanna,24.12,35.96,60.08
-ORDER,track_order,check package,23.87,23.93,47.8
-ORDER,track_order,status purchase,23.04,24.62,47.66
-ORDER,track_order,could,22.94,35.08,58.02
-ORDER,track_order,please,21.81,35.45,57.26
-ORDER,track_order,check shipments,21.68,21.73,43.41
-ORDER,track_order,track package,21.65,21.66,43.32
-ORDER,track_order,check orders,21.5,21.43,42.93
-ORDER,track_order,track shipments,21.05,21.03,42.08
-ORDER,track_order,agent track,20.77,21.45,42.21
-ORDER,track_order,check order,20.61,21.48,42.1
-ORDER,track_order,help,16.0,37.39,53.39
-PAYMENT,check_payment_methods,payment,28.49,265.71,294.2
-PAYMENT,check_payment_methods,want,13.7,97.95,111.65
-PAYMENT,check_payment_methods,agent,10.34,116.1,126.44
-PAYMENT,check_payment_methods,ask agent,10.24,115.64,125.89
-PAYMENT,check_payment_methods,ask,10.24,115.92,126.16
-PAYMENT,check_payment_methods,card,8.51,158.5,167.01
-PAYMENT,check_payment_methods,make payment,8.01,139.27,147.28
-PAYMENT,check_payment_methods,make,8.01,139.52,147.53
-PAYMENT,check_payment_methods,pay,7.55,166.64,174.19
-PAYMENT,check_payment_methods,help,6.59,114.04,120.63
-PAYMENT,check_payment_methods,could,5.13,70.12,75.25
-PAYMENT,check_payment_methods,please,4.7,73.22,77.92
-PAYMENT,payment_issue,payment,251.38,265.71,517.08
-PAYMENT,payment_issue,problem,192.26,194.82,387.08
-PAYMENT,payment_issue,issue,190.04,192.59,382.64
-PAYMENT,payment_issue,inform,167.96,169.98,337.93
-PAYMENT,payment_issue,notify,167.8,169.84,337.64
-PAYMENT,payment_issue,report,166.99,168.95,335.94
-PAYMENT,payment_issue,paying,166.67,168.45,335.12
-PAYMENT,payment_issue,error,163.68,165.72,329.4
-PAYMENT,payment_issue,pay,162.52,166.64,329.16
-PAYMENT,payment_issue,card,153.77,158.5,312.27
-PAYMENT,payment_issue,make,135.34,139.52,274.86
-PAYMENT,payment_issue,make payment,135.09,139.27,274.37
-PAYMENT,payment_issue,trying,130.2,131.13,261.34
-PAYMENT,payment_issue,making,129.4,130.55,259.95
-PAYMENT,payment_issue,got,129.28,130.28,259.56
-PAYMENT,payment_issue,making payment,128.71,129.82,258.53
-PAYMENT,payment_issue,charged,128.04,129.01,257.04
-PAYMENT,payment_issue,anyway,127.96,128.92,256.88
-PAYMENT,payment_issue,charged anyway,127.77,128.73,256.5
-PAYMENT,payment_issue,got error,127.4,128.34,255.74
-PAYMENT,payment_issue,order,120.0,120.87,240.87
-PAYMENT,payment_issue,help,110.79,114.04,224.83
-PAYMENT,payment_issue,agent,110.31,116.1,226.41
-PAYMENT,payment_issue,ask,110.19,115.92,226.11
-PAYMENT,payment_issue,ask agent,109.92,115.64,225.56
-PAYMENT,payment_issue,message,103.68,104.3,207.98
-PAYMENT,payment_issue,error message,103.55,104.16,207.71
-PAYMENT,payment_issue,trying pay,99.94,100.37,200.31
-PAYMENT,payment_issue,payment card,96.61,98.21,194.81
-PAYMENT,payment_issue,problem paying,90.75,91.15,181.9
-PAYMENT,payment_issue,want,90.4,97.95,188.35
-PAYMENT,payment_issue,issue paying,89.87,90.25,180.13
-PAYMENT,payment_issue,issues,83.03,83.61,166.65
-PAYMENT,payment_issue,problems,82.67,83.24,165.91
-PAYMENT,payment_issue,problem trying,81.18,81.43,162.61
-PAYMENT,payment_issue,tried,80.93,81.18,162.11
-PAYMENT,payment_issue,attempted,80.24,80.45,160.69
-PAYMENT,payment_issue,issue trying,78.99,79.25,158.24
-PAYMENT,payment_issue,card charged,78.89,79.12,158.01
-PAYMENT,payment_issue,card charged anyway,78.8,79.03,157.84
-PAYMENT,payment_issue,got error message,78.09,78.29,156.37
-PAYMENT,payment_issue,pay card,76.46,78.1,154.56
-PAYMENT,payment_issue,make payment card,76.02,77.53,153.55
-PAYMENT,payment_issue,solve,71.56,72.01,143.57
-PAYMENT,payment_issue,online,70.86,71.08,141.94
-PAYMENT,payment_issue,online order,70.62,70.83,141.45
-PAYMENT,payment_issue,please,70.53,73.22,143.75
-PAYMENT,payment_issue,could,67.08,70.12,137.2
-PAYMENT,payment_issue,issue making,64.78,64.99,129.78
-PAYMENT,payment_issue,problem making,64.78,64.97,129.75
-REFUNDS,check_refund_policy,policy,41.77,64.38,106.14
-REFUNDS,check_refund_policy,money,33.83,43.45,77.29
-REFUNDS,check_refund_policy,back,33.79,43.27,77.06
-REFUNDS,check_refund_policy,money back,33.74,43.01,76.76
-REFUNDS,check_refund_policy,refund,27.75,120.91,148.66
-REFUNDS,check_refund_policy,refund policy,27.15,32.65,59.79
-REFUNDS,check_refund_policy,check,25.63,41.71,67.34
-REFUNDS,check_refund_policy,see,24.99,37.42,62.41
-REFUNDS,check_refund_policy,reimbursement,24.32,120.26,144.58
-REFUNDS,check_refund_policy,reimbursement policy,24.2,29.23,53.42
-REFUNDS,check_refund_policy,back policy,23.87,26.96,50.83
-REFUNDS,check_refund_policy,money back policy,23.76,26.73,50.49
-REFUNDS,check_refund_policy,view,23.59,37.88,61.47
-REFUNDS,check_refund_policy,want,23.17,75.68,98.85
-REFUNDS,check_refund_policy,agent,16.32,45.16,61.48
-REFUNDS,check_refund_policy,ask,16.22,45.0,61.22
-REFUNDS,check_refund_policy,ask agent,16.17,44.69,60.86
-REFUNDS,check_refund_policy,help,12.6,44.8,57.4
-REFUNDS,check_refund_policy,please,8.31,29.79,38.1
-REFUNDS,check_refund_policy,could,8.1,26.36,34.47
-REFUNDS,get_refund,reimbursement,88.36,120.26,208.62
-REFUNDS,get_refund,refund,87.28,120.91,208.19
-REFUNDS,get_refund,obtain,69.59,76.68,146.27
-REFUNDS,get_refund,request,68.66,75.21,143.87
-REFUNDS,get_refund,cancelled,67.75,73.9,141.65
-REFUNDS,get_refund,postponed,66.95,72.96,139.91
-REFUNDS,get_refund,get,66.23,73.28,139.51
-REFUNDS,get_refund,want,46.74,75.68,122.42
-REFUNDS,get_refund,event,45.71,47.67,93.38
-REFUNDS,get_refund,concert,44.65,46.57,91.22
-REFUNDS,get_refund,game,43.99,45.91,89.91
-REFUNDS,get_refund,show,42.98,49.6,92.58
-REFUNDS,get_refund,obtain reimbursement,42.39,44.0,86.38
-REFUNDS,get_refund,request reimbursement,41.97,43.39,85.36
-REFUNDS,get_refund,obtain refund,41.01,42.39,83.4
-REFUNDS,get_refund,request refund,39.8,41.1,80.9
-REFUNDS,get_refund,get reimbursement,39.61,41.13,80.75
-REFUNDS,get_refund,get refund,38.47,39.81,78.28
-REFUNDS,get_refund,one,34.35,36.61,70.96
-REFUNDS,get_refund,concert postponed,30.11,30.45,60.56
-REFUNDS,get_refund,event cancelled,29.59,29.89,59.48
-REFUNDS,get_refund,help,29.57,44.8,74.37
-REFUNDS,get_refund,game cancelled,28.09,28.42,56.51
-REFUNDS,get_refund,cancelled request,27.32,27.42,54.74
-REFUNDS,get_refund,show cancelled,26.88,27.28,54.16
-REFUNDS,get_refund,event postponed,26.3,26.55,52.85
-REFUNDS,get_refund,postponed obtain,25.85,25.9,51.74
-REFUNDS,get_refund,cancelled obtain,25.68,25.69,51.38
-REFUNDS,get_refund,show postponed,25.67,26.08,51.74
-REFUNDS,get_refund,need,25.33,32.24,57.56
-REFUNDS,get_refund,game postponed,25.28,25.54,50.83
-REFUNDS,get_refund,agent,25.15,45.16,70.3
-REFUNDS,get_refund,ask,25.08,45.0,70.08
-REFUNDS,get_refund,ask agent,24.79,44.69,69.48
-REFUNDS,get_refund,please,19.13,29.79,48.91
-REFUNDS,get_refund,could,16.89,26.36,43.25
-REFUNDS,track_refund,status,30.76,52.97,83.73
-REFUNDS,track_refund,refund,27.65,120.91,148.56
-REFUNDS,track_refund,reimbursement,27.24,120.26,147.5
-REFUNDS,track_refund,status refund,24.2,33.17,57.37
-REFUNDS,track_refund,status reimbursement,23.28,30.69,53.97
-REFUNDS,track_refund,want,21.58,75.68,97.25
-REFUNDS,track_refund,check,17.86,41.71,59.57
-REFUNDS,track_refund,view,15.83,37.88,53.72
-REFUNDS,track_refund,see,13.72,37.42,51.14
-REFUNDS,track_refund,help,10.23,44.8,55.02
-REFUNDS,track_refund,agent,10.17,45.16,55.33
-REFUNDS,track_refund,ask agent,10.17,44.69,54.87
-REFUNDS,track_refund,ask,10.17,45.0,55.17
-REFUNDS,track_refund,please,6.25,29.79,36.04
-REFUNDS,track_refund,show,4.43,49.6,54.03
-REFUNDS,track_refund,could,4.42,26.36,30.78
-REFUNDS,track_refund,need,4.28,32.24,36.51
-SHIPPING,change_shipping_address,shipping address,14.44,24.7,39.14
-SHIPPING,change_shipping_address,address,14.38,24.53,38.91
-SHIPPING,change_shipping_address,shipping,14.28,24.52,38.8
-SHIPPING,change_shipping_address,update,8.49,9.02,17.51
-SHIPPING,change_shipping_address,update shipping,8.43,8.86,17.29
-SHIPPING,change_shipping_address,update shipping address,8.43,8.86,17.29
-SHIPPING,change_shipping_address,modify,7.79,8.19,15.98
-SHIPPING,change_shipping_address,modify shipping,7.67,8.03,15.7
-SHIPPING,change_shipping_address,modify shipping address,7.67,8.03,15.7
-SHIPPING,change_shipping_address,edit shipping,7.51,7.88,15.39
-SHIPPING,change_shipping_address,edit shipping address,7.51,7.88,15.39
-SHIPPING,change_shipping_address,edit,7.51,7.88,15.39
-SHIPPING,change_shipping_address,want,6.43,9.48,15.9
-SHIPPING,change_shipping_address,change,6.34,6.53,12.87
-SHIPPING,change_shipping_address,change shipping address,6.2,6.34,12.54
-SHIPPING,change_shipping_address,change shipping,6.2,6.34,12.54
-SHIPPING,change_shipping_address,ask,5.16,7.01,12.18
-SHIPPING,change_shipping_address,agent,5.16,7.01,12.18
-SHIPPING,change_shipping_address,ask agent,5.16,7.01,12.18
-SHIPPING,change_shipping_address,changes,4.99,5.2,10.19
-SHIPPING,change_shipping_address,make,4.89,5.06,9.95
-SHIPPING,change_shipping_address,changes shipping,4.86,5.01,9.87
-SHIPPING,change_shipping_address,make changes,4.82,4.96,9.78
-SHIPPING,change_shipping_address,make changes shipping,4.68,4.77,9.45
-SHIPPING,change_shipping_address,changes shipping address,4.52,4.58,9.09
-SHIPPING,change_shipping_address,help,4.41,7.51,11.92
-SHIPPING,change_shipping_address,want modify,2.82,2.83,5.64
-SHIPPING,change_shipping_address,want modify shipping,2.82,2.83,5.64
-SHIPPING,change_shipping_address,want edit shipping,2.7,2.74,5.44
-SHIPPING,change_shipping_address,want edit,2.7,2.74,5.44
-SHIPPING,change_shipping_address,could,2.43,4.27,6.7
-SHIPPING,change_shipping_address,please,2.34,3.66,6.0
-SHIPPING,change_shipping_address,need,1.91,3.33,5.24
-SHIPPING,change_shipping_address,need help,1.91,3.15,5.06
-SHIPPING,change_shipping_address,shipping address help,1.63,3.93,5.56
-SHIPPING,change_shipping_address,address help,1.63,3.93,5.56
-SHIPPING,set_up_shipping_address,shipping address set,16.49,17.46,33.95
-SHIPPING,set_up_shipping_address,address set,16.47,17.54,34.01
-SHIPPING,set_up_shipping_address,set,16.2,21.42,37.62
-SHIPPING,set_up_shipping_address,shipping address,15.87,24.7,40.57
-SHIPPING,set_up_shipping_address,shipping,15.82,24.52,40.35
-SHIPPING,set_up_shipping_address,address,15.68,24.53,40.21
-SHIPPING,set_up_shipping_address,one,10.56,11.14,21.7
-SHIPPING,set_up_shipping_address,set one,10.55,11.01,21.57
-SHIPPING,set_up_shipping_address,address set one,10.04,9.9,19.94
-SHIPPING,set_up_shipping_address,dont,9.28,9.6,18.88
-SHIPPING,set_up_shipping_address,dont shipping,9.22,9.46,18.68
-SHIPPING,set_up_shipping_address,dont shipping address,9.22,9.46,18.68
-SHIPPING,set_up_shipping_address,set shipping,8.62,9.41,18.03
-SHIPPING,set_up_shipping_address,set shipping address,8.5,9.23,17.73
-SHIPPING,set_up_shipping_address,want set,4.51,4.71,9.22
-SHIPPING,set_up_shipping_address,want,4.51,9.48,13.99
-SHIPPING,set_up_shipping_address,help,4.07,7.51,11.58
-SHIPPING,set_up_shipping_address,want set shipping,3.06,3.1,6.15
-SHIPPING,set_up_shipping_address,help set,3.01,3.14,6.15
-SHIPPING,set_up_shipping_address,address help,2.69,3.93,6.63
-SHIPPING,set_up_shipping_address,shipping address help,2.69,3.93,6.63
-SHIPPING,set_up_shipping_address,agent,2.4,7.01,9.41
-SHIPPING,set_up_shipping_address,ask agent,2.4,7.01,9.41
-SHIPPING,set_up_shipping_address,ask,2.4,7.01,9.41
-SHIPPING,set_up_shipping_address,could,2.16,4.27,6.43
-SHIPPING,set_up_shipping_address,need,1.79,3.33,5.12
-SHIPPING,set_up_shipping_address,please,1.65,3.66,5.3
-SHIPPING,set_up_shipping_address,need help,1.57,3.15,4.72
+category,intent,keyword,tfidf score
+REFUNDS,get_refund,agent,0.03767237915591222
+REFUNDS,get_refund,agme,0.0066791072829400595
+REFUNDS,get_refund,agnt,0.0026027345517346747
+REFUNDS,get_refund,arefund,0.0031555878357563657
+REFUNDS,get_refund,ask,0.038689729108170236
+REFUNDS,get_refund,bet,0.003479000406058981
+REFUNDS,get_refund,caancelled,0.0035102039202322462
+REFUNDS,get_refund,cancel,0.12627289870978825
+REFUNDS,get_refund,cancleled,0.003821598930846534
+REFUNDS,get_refund,cincert,0.002654962741908604
+REFUNDS,get_refund,concerft,0.003628642855150683
+REFUNDS,get_refund,concert,0.08695569363533111
+REFUNDS,get_refund,concret,0.003553820297323862
+REFUNDS,get_refund,could,0.03246536915636155
+REFUNDS,get_refund,em,0.003277332879468166
+REFUNDS,get_refund,erfund,0.00360177169163686
+REFUNDS,get_refund,erimbursement,0.006559437693033243
+REFUNDS,get_refund,event,0.07641580987988562
+REFUNDS,get_refund,fuck,0.018666502068494205
+REFUNDS,get_refund,fucking,0.013334350369715448
+REFUNDS,get_refund,game,0.0951180042067731
+REFUNDS,get_refund,get,0.1425009815555865
+REFUNDS,get_refund,help,0.059834382697796375
+REFUNDS,get_refund,id,0.012616367946408608
+REFUNDS,get_refund,like,0.017429918472824116
+REFUNDS,get_refund,nad,0.002530798642015686
+REFUNDS,get_refund,nedea,0.003430882613652676
+REFUNDS,get_refund,need,0.043205654680385834
+REFUNDS,get_refund,obain,0.005304617966169616
+REFUNDS,get_refund,obtain,0.10663296880700873
+REFUNDS,get_refund,one,0.060339247720873096
+REFUNDS,get_refund,onme,0.0032120396755853328
+REFUNDS,get_refund,ot,0.002530798642015686
+REFUNDS,get_refund,please,0.03644441600442082
+REFUNDS,get_refund,postopned,0.002654962741908604
+REFUNDS,get_refund,postpone,0.1354566190379931
+REFUNDS,get_refund,rebund,0.002456049340894413
+REFUNDS,get_refund,receive,0.03736945146269969
+REFUNDS,get_refund,receivew,0.004054448332788182
+REFUNDS,get_refund,reecive,0.002638150983896225
+REFUNDS,get_refund,refnd,0.0034271237313247284
+REFUNDS,get_refund,refund,0.17317262687167975
+REFUNDS,get_refund,reimbursement,0.15929785347373757
+REFUNDS,get_refund,reimbusement,0.0029029266396913608
+REFUNDS,get_refund,request,0.1350613399431645
+REFUNDS,get_refund,show,0.08469255632125737
+REFUNDS,get_refund,swhould,0.0036153563445340347
+REFUNDS,get_refund,tne,0.0032653610554540203
+REFUNDS,get_refund,wanna,0.023045807446526324
+REFUNDS,get_refund,want,0.09937728319404575
+ACCOUNT,create_account,aaddress,0.001733471192983203
+ACCOUNT,create_account,account,0.18906224704241636
+ACCOUNT,create_account,acount,0.0020442771920700076
+ACCOUNT,create_account,address,0.07162248341557666
+ACCOUNT,create_account,agent,0.013176832735539778
+ACCOUNT,create_account,asingle,0.001940790624657257
+ACCOUNT,create_account,ask,0.013176832735539778
+ACCOUNT,create_account,asme,0.0017846370815726535
+ACCOUNT,create_account,auser,0.0017509779457651497
+ACCOUNT,create_account,could,0.043740066757439806
+ACCOUNT,create_account,craete,0.001901098519626688
+ACCOUNT,create_account,create,0.13857458294813102
+ACCOUNT,create_account,dont,0.049817382358294075
+ACCOUNT,create_account,donty,0.0022168328569590586
+ACCOUNT,create_account,doo,0.0018710365918254207
+ACCOUNT,create_account,email,0.10765897903694367
+ACCOUNT,create_account,fuck,0.02505571306378936
+ACCOUNT,create_account,fucking,0.004472415226787961
+ACCOUNT,create_account,get,0.08424947997583292
+ACCOUNT,create_account,habe,0.002164300745059841
+ACCOUNT,create_account,haev,0.0019248769044405538
+ACCOUNT,create_account,haveno,0.0022747544603132185
+ACCOUNT,create_account,havent,0.04376906904833519
+ACCOUNT,create_account,help,0.06545722201368549
+ACCOUNT,create_account,hve,0.0020969273187778034
+ACCOUNT,create_account,id,0.010274835516263448
+ACCOUNT,create_account,ie,0.0020569233431676544
+ACCOUNT,create_account,ive,0.06038126790096239
+ACCOUNT,create_account,know,0.04748027400416758
+ACCOUNT,create_account,knpw,0.0019352221242734606
+ACCOUNT,create_account,knwo,0.0018003504953028953
+ACCOUNT,create_account,like,0.012351419409847766
+ACCOUNT,create_account,need,0.055958308893979604
+ACCOUNT,create_account,nkow,0.0035004197115797242
+ACCOUNT,create_account,oculd,0.0018252173334005733
+ACCOUNT,create_account,oen,0.002049319554326958
+ACCOUNT,create_account,one,0.15068535399851316
+ACCOUNT,create_account,online,0.10913332187560405
+ACCOUNT,create_account,open,0.09476081079441519
+ACCOUNT,create_account,please,0.04043275373974462
+ACCOUNT,create_account,profile,0.07299212375495448
+ACCOUNT,create_account,register,0.10598397659882629
+ACCOUNT,create_account,several,0.062077669859436184
+ACCOUNT,create_account,single,0.06695438557262297
+ACCOUNT,create_account,tell,0.07668986287641993
+ACCOUNT,create_account,two,0.06059917920530404
+ACCOUNT,create_account,user,0.11959408250799086
+ACCOUNT,create_account,wanna,0.025100169242322615
+ACCOUNT,create_account,want,0.10533368139335686
+ACCOUNT,create_account,would,0.0031957647448617346
+CONTACT,contact_customer_service,address,0.06423046526279876
+CONTACT,contact_customer_service,agent,0.03623711375650628
+CONTACT,contact_customer_service,ask,0.03623711375650628
+CONTACT,contact_customer_service,available,0.00381503481503951
+CONTACT,contact_customer_service,call,0.05928972582654882
+CONTACT,contact_customer_service,client,0.12213817482898857
+CONTACT,contact_customer_service,clientservice,0.0020733003578982264
+CONTACT,contact_customer_service,contact,0.10838766914025395
+CONTACT,contact_customer_service,could,0.032484568025160455
+CONTACT,contact_customer_service,customer,0.15882053085340675
+CONTACT,contact_customer_service,customerservice,0.0013510565218177641
+CONTACT,contact_customer_service,cutomer,0.002012985027974961
+CONTACT,contact_customer_service,dadress,0.0020056569275705765
+CONTACT,contact_customer_service,email,0.10086066249758432
+CONTACT,contact_customer_service,emaul,0.0020310730077074696
+CONTACT,contact_customer_service,esrvice,0.003927494013669825
+CONTACT,contact_customer_service,find,0.01102827239939993
+CONTACT,contact_customer_service,free,0.050419311784821286
+CONTACT,contact_customer_service,fuck,0.019766004913321134
+CONTACT,contact_customer_service,fucking,0.0013510565218177641
+CONTACT,contact_customer_service,fuckinmg,0.0019059884214831303
+CONTACT,contact_customer_service,give,0.008633371217205551
+CONTACT,contact_customer_service,help,0.03785164001887375
+CONTACT,contact_customer_service,hour,0.01694818575311465
+CONTACT,contact_customer_service,hsow,0.0023988602315176766
+CONTACT,contact_customer_service,hte,0.001730325729968735
+CONTACT,contact_customer_service,id,0.010442816019394003
+CONTACT,contact_customer_service,information,0.10937280566303546
+CONTACT,contact_customer_service,know,0.031197976775222666
+CONTACT,contact_customer_service,like,0.015105651989622576
+CONTACT,contact_customer_service,mail,0.06519778836212894
+CONTACT,contact_customer_service,need,0.07714389360566301
+CONTACT,contact_customer_service,number,0.0750952207167115
+CONTACT,contact_customer_service,numbr,0.001882405723613255
+CONTACT,contact_customer_service,ocntact,0.0024229898416815144
+CONTACT,contact_customer_service,phone,0.05367545707512299
+CONTACT,contact_customer_service,please,0.04344832631639006
+CONTACT,contact_customer_service,question,0.05791100026589306
+CONTACT,contact_customer_service,see,0.03415184815893169
+CONTACT,contact_customer_service,send,0.04847084437695652
+CONTACT,contact_customer_service,service,0.16241792323049606
+CONTACT,contact_customer_service,show,0.0625413939738521
+CONTACT,contact_customer_service,speak,0.07084696443587808
+CONTACT,contact_customer_service,support,0.11197417134960068
+CONTACT,contact_customer_service,talk,0.04089790240218675
+CONTACT,contact_customer_service,tell,0.074853133127314
+CONTACT,contact_customer_service,wanna,0.018751382110673957
+CONTACT,contact_customer_service,want,0.10625906009236281
+CONTACT,contact_customer_service,whats,0.027561108243179127
+CONTACT,contact_customer_service,would,0.00666509661392221
+INVOICES,get_invoice,abill,0.0032664233764177555
+INVOICES,get_invoice,agent,0.07475510845750767
+INVOICES,get_invoice,ask,0.07865580987336823
+INVOICES,get_invoice,bill,0.180238481730043
+INVOICES,get_invoice,bils,0.002478393557075922
+INVOICES,get_invoice,canget,0.0032995056882906795
+INVOICES,get_invoice,casn,0.0030378401321913247
+INVOICES,get_invoice,could,0.04171582885774053
+INVOICES,get_invoice,cqn,0.0031593485237386906
+INVOICES,get_invoice,donwloading,0.0033411804540351493
+INVOICES,get_invoice,download,0.10401823811095541
+INVOICES,get_invoice,downloading,0.013526055855642734
+INVOICES,get_invoice,em,0.0030164850254346186
+INVOICES,get_invoice,fuck,0.016586065061323128
+INVOICES,get_invoice,fucking,0.01445106244932257
+INVOICES,get_invoice,gaent,0.003098872702477717
+INVOICES,get_invoice,get,0.10704009179937167
+INVOICES,get_invoice,geting,0.002958142185905329
+INVOICES,get_invoice,give,0.013492433328132415
+INVOICES,get_invoice,help,0.01959067684534145
+INVOICES,get_invoice,holw,0.003320663242054974
+INVOICES,get_invoice,id,0.006434601091054884
+INVOICES,get_invoice,information,0.08574463338620232
+INVOICES,get_invoice,informatiopn,0.002478393557075922
+INVOICES,get_invoice,informatipn,0.0031593485237386906
+INVOICES,get_invoice,infrmation,0.0026502916407734447
+INVOICES,get_invoice,infvormation,0.0033411804540351493
+INVOICES,get_invoice,inmvoice,0.0034544804310580324
+INVOICES,get_invoice,invoice,0.16951112589925185
+INVOICES,get_invoice,invoicse,0.0029665841921737808
+INVOICES,get_invoice,invoie,0.0032238090824459405
+INVOICES,get_invoice,know,0.07759908329405946
+INVOICES,get_invoice,like,0.008233683397935395
+INVOICES,get_invoice,mind,0.0066295012618241
+INVOICES,get_invoice,need,0.015821161830621995
+INVOICES,get_invoice,nkow,0.0031735283312887943
+INVOICES,get_invoice,obtain,0.11806022496121756
+INVOICES,get_invoice,please,0.04212409694253497
+INVOICES,get_invoice,possible,0.01586803555066015
+INVOICES,get_invoice,request,0.10326799940492119
+INVOICES,get_invoice,requesting,0.013945364554615796
+INVOICES,get_invoice,requset,0.0034168519488222563
+INVOICES,get_invoice,rewquest,0.0036503586033747528
+INVOICES,get_invoice,see,0.10050120064426743
+INVOICES,get_invoice,seeing,0.005641995176705729
+INVOICES,get_invoice,show,0.015300680108383601
+INVOICES,get_invoice,something,0.015571860583492065
+INVOICES,get_invoice,tell,0.14857026805140056
+INVOICES,get_invoice,wanna,0.06417667640031058
+INVOICES,get_invoice,want,0.12765835295441827
+PAYMENT,payment_issue,agent,0.06472344973086945
+PAYMENT,payment_issue,anyway,0.06986658921490965
+PAYMENT,payment_issue,apayment,0.0018016077419734733
+PAYMENT,payment_issue,ask,0.06439996034207776
+PAYMENT,payment_issue,attempt,0.05864674604811256
+PAYMENT,payment_issue,cant,0.0020574225806341134
+PAYMENT,payment_issue,card,0.08666418047456707
+PAYMENT,payment_issue,charge,0.07004840429941658
+PAYMENT,payment_issue,chargted,0.0007933705220954505
+PAYMENT,payment_issue,cluld,0.001739956441098698
+PAYMENT,payment_issue,confirmation,0.0020611448307566818
+PAYMENT,payment_issue,could,0.041225876869778605
+PAYMENT,payment_issue,decline,0.001589004002666399
+PAYMENT,payment_issue,error,0.0907369368234286
+PAYMENT,payment_issue,fi,0.0008076443982660857
+PAYMENT,payment_issue,fo,0.000809269328387717
+PAYMENT,payment_issue,fuck,0.01811973780727164
+PAYMENT,payment_issue,fucking,0.004740988529506587
+PAYMENT,payment_issue,get,0.08190536241166667
+PAYMENT,payment_issue,go,0.0023115397751944117
+PAYMENT,payment_issue,help,0.06953824466926971
+PAYMENT,payment_issue,id,0.009501719021777811
+PAYMENT,payment_issue,inform,0.10736231992431362
+PAYMENT,payment_issue,issue,0.13442963785007475
+PAYMENT,payment_issue,like,0.01114557959546883
+PAYMENT,payment_issue,make,0.12438875810854978
+PAYMENT,payment_issue,message,0.0585372605241209
+PAYMENT,payment_issue,need,0.026936819137860633
+PAYMENT,payment_issue,notify,0.11411674117577608
+PAYMENT,payment_issue,online,0.03729848323335442
+PAYMENT,payment_issue,order,0.07433818681874854
+PAYMENT,payment_issue,ot,0.003407432688908294
+PAYMENT,payment_issue,pay,0.14112651176506522
+PAYMENT,payment_issue,payment,0.15631660156981317
+PAYMENT,payment_issue,please,0.040900688416482874
+PAYMENT,payment_issue,pop,0.02713258526987462
+PAYMENT,payment_issue,probelm,0.0018037684317990855
+PAYMENT,payment_issue,problem,0.13876742995841865
+PAYMENT,payment_issue,problm,0.0019110296857317488
+PAYMENT,payment_issue,report,0.10212367044818053
+PAYMENT,payment_issue,reporting,0.00562121147943692
+PAYMENT,payment_issue,rpoblem,0.0018158204638598664
+PAYMENT,payment_issue,solve,0.04194105967287148
+PAYMENT,payment_issue,transfer,0.001589004002666399
+PAYMENT,payment_issue,tried,0.014724926864011535
+PAYMENT,payment_issue,try,0.10228612692662291
+PAYMENT,payment_issue,wanna,0.014588840255735442
+PAYMENT,payment_issue,want,0.059361469856612115
+PAYMENT,payment_issue,wont,0.0023115397751944117
+PAYMENT,payment_issue,would,0.003667047327277353
+FEEDBACK,review,agent,0.05912096042687179
+FEEDBACK,review,ask,0.05659463375615138
+FEEDBACK,review,comment,0.12461067107102829
+FEEDBACK,review,could,0.032479049577252415
+FEEDBACK,review,file,0.05150726393296055
+FEEDBACK,review,fuck,0.018026789917088826
+FEEDBACK,review,fucking,0.009154241080189354
+FEEDBACK,review,happy,0.13378237143406801
+FEEDBACK,review,help,0.10016563637390995
+FEEDBACK,review,id,0.022968561142674242
+FEEDBACK,review,im,0.11662078611596466
+FEEDBACK,review,leave,0.1247578917575082
+FEEDBACK,review,like,0.029254208649241373
+FEEDBACK,review,lode,0.00516242372984724
+FEEDBACK,review,lodge,0.10292612206491948
+FEEDBACK,review,make,0.08579749497940665
+FEEDBACK,review,need,0.04811451218151946
+FEEDBACK,review,oldge,0.006103588085899447
+FEEDBACK,review,opinio,0.006175126878763287
+FEEDBACK,review,opinion,0.14316952063314206
+FEEDBACK,review,please,0.031022896447921812
+FEEDBACK,review,poinion,0.0055024974843421275
+FEEDBACK,review,review,0.15757770974248797
+FEEDBACK,review,rview,0.006305778938822755
+FEEDBACK,review,sak,0.006293343599527054
+FEEDBACK,review,serfvice,0.0060608965053306095
+FEEDBACK,review,service,0.19031720551130935
+FEEDBACK,review,sevice,0.006223627038604702
+FEEDBACK,review,shouldi,0.006108556652252224
+FEEDBACK,review,submit,0.06948485633813617
+FEEDBACK,review,tro,0.004849528127076584
+FEEDBACK,review,wanna,0.0055024974843421275
+FEEDBACK,review,want,0.11928074743699729
+FEEDBACK,review,would,0.010021454013333372
+FEEDBACK,review,write,0.11641551003596552
+DELIVERY,delivery_options,agent,0.10283019597524785
+DELIVERY,delivery_options,agentq,0.00757947069022392
+DELIVERY,delivery_options,ask,0.10450946483789203
+DELIVERY,delivery_options,check,0.13760413057826726
+DELIVERY,delivery_options,could,0.025221697939123027
+DELIVERY,delivery_options,delivery,0.23861558513890863
+DELIVERY,delivery_options,deluvery,0.011544958643242235
+DELIVERY,delivery_options,edlivery,0.00840773949595338
+DELIVERY,delivery_options,ehlp,0.010741087746593207
+DELIVERY,delivery_options,find,0.008820656962726636
+DELIVERY,delivery_options,fuck,0.02319863455981833
+DELIVERY,delivery_options,give,0.02802406464280795
+DELIVERY,delivery_options,help,0.08003596194402267
+DELIVERY,delivery_options,heop,0.00933322850141344
+DELIVERY,delivery_options,id,0.015260593490732192
+DELIVERY,delivery_options,information,0.08391889791029014
+DELIVERY,delivery_options,like,0.015260593490732192
+DELIVERY,delivery_options,need,0.04385276416818522
+DELIVERY,delivery_options,ohw,0.00840773949595338
+DELIVERY,delivery_options,optinos,0.011539372474671242
+DELIVERY,delivery_options,option,0.23740268853542681
+DELIVERY,delivery_options,please,0.049444022764687415
+DELIVERY,delivery_options,see,0.1603833551882057
+DELIVERY,delivery_options,sew,0.010694143485609436
+DELIVERY,delivery_options,show,0.01998374614597686
+DELIVERY,delivery_options,ticket,0.19791322221339014
+DELIVERY,delivery_options,tyo,0.01004855022800691
+DELIVERY,delivery_options,view,0.1492121222666043
+DELIVERY,delivery_options,wanna,0.035804251704890995
+DELIVERY,delivery_options,want,0.14973778157029227
+ACCOUNT,delete_account,account,0.19201323035536366
+ACCOUNT,delete_account,accvount,0.003704886358561531
+ACCOUNT,delete_account,agent,0.07829566421974402
+ACCOUNT,delete_account,ahould,0.00386445806144151
+ACCOUNT,delete_account,ant,0.003976312102655143
+ACCOUNT,delete_account,ask,0.07829566421974402
+ACCOUNT,delete_account,cacount,0.004598543840830749
+ACCOUNT,delete_account,cancel,0.1179064963780321
+ACCOUNT,delete_account,cancle,0.003982887413781481
+ACCOUNT,delete_account,change,0.11571288178084482
+ACCOUNT,delete_account,close,0.11939477358368916
+ACCOUNT,delete_account,closing,0.005974874058720202
+ACCOUNT,delete_account,could,0.046017235714908386
+ACCOUNT,delete_account,delete,0.11597701611070552
+ACCOUNT,delete_account,dont,0.12710594914046844
+ACCOUNT,delete_account,fuck,0.02337233561387965
+ACCOUNT,delete_account,fucking,0.007569110050986295
+ACCOUNT,delete_account,fukcing,0.003144070559204449
+ACCOUNT,delete_account,help,0.06351766845542428
+ACCOUNT,delete_account,hould,0.003766907463175923
+ACCOUNT,delete_account,id,0.005848528457998127
+ACCOUNT,delete_account,idont,0.0036276324359603104
+ACCOUNT,delete_account,ky,0.0038188650374771553
+ACCOUNT,delete_account,like,0.005848528457998127
+ACCOUNT,delete_account,midn,0.003982887413781481
+ACCOUNT,delete_account,min,0.004226552679230062
+ACCOUNT,delete_account,mind,0.11415881212378047
+ACCOUNT,delete_account,myaccount,0.0037054960516543912
+ACCOUNT,delete_account,myprodile,0.0038043247549409396
+ACCOUNT,delete_account,need,0.024696602411385393
+ACCOUNT,delete_account,odnt,0.004023190838021642
+ACCOUNT,delete_account,olne,0.003515320588761706
+ACCOUNT,delete_account,online,0.1083863557698529
+ACCOUNT,delete_account,ot,0.003421963735665208
+ACCOUNT,delete_account,please,0.03955284307460667
+ACCOUNT,delete_account,profile,0.13162742653130746
+ACCOUNT,delete_account,profle,0.003721601640009312
+ACCOUNT,delete_account,profole,0.004147443856299063
+ACCOUNT,delete_account,remove,0.12340122800913457
+ACCOUNT,delete_account,removing,0.0032852050279589045
+ACCOUNT,delete_account,ti,0.002720834255858344
+ACCOUNT,delete_account,user,0.11396262110115656
+ACCOUNT,delete_account,usre,0.003845902363211177
+ACCOUNT,delete_account,wana,0.0043359764790409615
+ACCOUNT,delete_account,wanna,0.024882089126687667
+ACCOUNT,delete_account,want,0.16356899889257076
+ACCOUNT,delete_account,watn,0.0041002248393443505
+ACCOUNT,delete_account,weant,0.0042425106602059
+CANCELLATION_FEE,check_cancellation_fee,aboutthe,0.009388985808180648
+CANCELLATION_FEE,check_cancellation_fee,agent,0.08922086094438358
+CANCELLATION_FEE,check_cancellation_fee,ancellation,0.008082075686719377
+CANCELLATION_FEE,check_cancellation_fee,ask,0.08922086094438358
+CANCELLATION_FEE,check_cancellation_fee,camcellation,0.009866916936809397
+CANCELLATION_FEE,check_cancellation_fee,cancelation,0.008313814199649312
+CANCELLATION_FEE,check_cancellation_fee,cancellation,0.2373577801864492
+CANCELLATION_FEE,check_cancellation_fee,canclelation,0.007389878384166491
+CANCELLATION_FEE,check_cancellation_fee,canyou,0.008219581031905135
+CANCELLATION_FEE,check_cancellation_fee,caqncellation,0.010412818503996923
+CANCELLATION_FEE,check_cancellation_fee,check,0.1589132292913279
+CANCELLATION_FEE,check_cancellation_fee,could,0.0436878282205114
+CANCELLATION_FEE,check_cancellation_fee,doi,0.009623194367599503
+CANCELLATION_FEE,check_cancellation_fee,fee,0.18994906817652862
+CANCELLATION_FEE,check_cancellation_fee,find,0.02353946656467636
+CANCELLATION_FEE,check_cancellation_fee,fuck,0.027446212247505958
+CANCELLATION_FEE,check_cancellation_fee,hceck,0.01134748115763176
+CANCELLATION_FEE,check_cancellation_fee,help,0.0756592620922576
+CANCELLATION_FEE,check_cancellation_fee,id,0.01558849753481167
+CANCELLATION_FEE,check_cancellation_fee,ineed,0.007389878384166491
+CANCELLATION_FEE,check_cancellation_fee,information,0.08944520021696473
+CANCELLATION_FEE,check_cancellation_fee,like,0.01558849753481167
+CANCELLATION_FEE,check_cancellation_fee,need,0.019324424760685837
+CANCELLATION_FEE,check_cancellation_fee,penalty,0.20088966093459595
+CANCELLATION_FEE,check_cancellation_fee,please,0.036690269475369124
+CANCELLATION_FEE,check_cancellation_fee,see,0.12940973525764476
+CANCELLATION_FEE,check_cancellation_fee,show,0.03178234789280251
+CANCELLATION_FEE,check_cancellation_fee,tell,0.011400325592948164
+CANCELLATION_FEE,check_cancellation_fee,vew,0.008082075686719377
+CANCELLATION_FEE,check_cancellation_fee,view,0.13518607783146638
+CANCELLATION_FEE,check_cancellation_fee,wanna,0.02655077082827706
+CANCELLATION_FEE,check_cancellation_fee,want,0.1666568321349451
+ORDER,track_order,agent,0.07449594039206421
+ORDER,track_order,arrive,0.01174186412454588
+ORDER,track_order,ask,0.07449594039206421
+ORDER,track_order,ca,0.0029247127608557177
+ORDER,track_order,casn,0.0034981377750194303
+ORDER,track_order,check,0.16593722321852192
+ORDER,track_order,checking,0.005478639090848887
+ORDER,track_order,cn,0.00621434235045088
+ORDER,track_order,could,0.029355678776206498
+ORDER,track_order,cqn,0.002663252896089402
+ORDER,track_order,deilveries,0.0038004264062831425
+ORDER,track_order,delievry,0.0039501490485976815
+ORDER,track_order,deliveried,0.002903388020353377
+ORDER,track_order,delivery,0.08697552312837047
+ORDER,track_order,delivey,0.002663252896089402
+ORDER,track_order,dp,0.0030369706228647385
+ORDER,track_order,fuck,0.014972280932328977
+ORDER,track_order,fucking,0.015143349954147556
+ORDER,track_order,give,0.0028647359307742964
+ORDER,track_order,help,0.022555199627091668
+ORDER,track_order,ho,0.0032198981248500744
+ORDER,track_order,id,0.010989471446162318
+ORDER,track_order,iks,0.0023793873278993034
+ORDER,track_order,information,0.006239659337654272
+ORDER,track_order,know,0.10163256886276544
+ORDER,track_order,like,0.013975642125376497
+ORDER,track_order,mind,0.005224055125201816
+ORDER,track_order,myshipment,0.003835704454138859
+ORDER,track_order,need,0.016755478127456577
+ORDER,track_order,oeder,0.002500033771961221
+ORDER,track_order,order,0.14218520774946158
+ORDER,track_order,oredr,0.004026842333078292
+ORDER,track_order,package,0.11046554925763358
+ORDER,track_order,please,0.0326754651220025
+ORDER,track_order,possible,0.011062462133901343
+ORDER,track_order,purchase,0.04806182863901665
+ORDER,track_order,see,0.03205385755491242
+ORDER,track_order,shipment,0.12572428790005274
+ORDER,track_order,shipmetn,0.0072892684460130735
+ORDER,track_order,show,0.006885641904112465
+ORDER,track_order,status,0.07300476186770317
+ORDER,track_order,tell,0.14703014342958304
+ORDER,track_order,track,0.15490213980227385
+ORDER,track_order,tyo,0.00352096008736171
+ORDER,track_order,view,0.02123764147885735
+ORDER,track_order,wanna,0.037601142391975304
+ORDER,track_order,want,0.12476436349269834
+ORDER,track_order,way,0.026005951007627193
+ORDER,track_order,whats,0.00590062006266312
+ORDER,track_order,whree,0.006278083050125063
+ORDER,change_order,agent,0.04404910906933001
+ORDER,change_order,ask,0.04662326508488063
+ORDER,change_order,bought,0.0467715815968215
+ORDER,change_order,bougyt,0.0031964729148588685
+ORDER,change_order,buy,0.06124860444400262
+ORDER,change_order,change,0.16657695128748265
+ORDER,change_order,chasnge,0.004268653927872042
+ORDER,change_order,chnage,0.0033964278922496744
+ORDER,change_order,could,0.04282116888028764
+ORDER,change_order,fuck,0.0167567798924243
+ORDER,change_order,fucking,0.0100863678256071
+ORDER,change_order,give,0.004065546756181985
+ORDER,change_order,hcange,0.004512490935645196
+ORDER,change_order,help,0.05832125045485918
+ORDER,change_order,id,0.017624410294696823
+ORDER,change_order,iem,0.005202308941583488
+ORDER,change_order,information,0.03416368712267643
+ORDER,change_order,informattion,0.0032566932175843487
+ORDER,change_order,item,0.08235697162904833
+ORDER,change_order,know,0.03588247989199013
+ORDER,change_order,like,0.02134142871213122
+ORDER,change_order,madea,0.0033964278922496744
+ORDER,change_order,make,0.05975984222635694
+ORDER,change_order,mind,0.0071483727353123215
+ORDER,change_order,mistake,0.056741082256636016
+ORDER,change_order,modificatin,0.0035420010978197674
+ORDER,change_order,modification,0.0038554525453938083
+ORDER,change_order,modifkcation,0.004328412324543089
+ORDER,change_order,modify,0.1509345697213005
+ORDER,change_order,modifying,0.0031964729148588685
+ORDER,change_order,modufy,0.0042055076131295695
+ORDER,change_order,myorder,0.005413642451288689
+ORDER,change_order,need,0.033149348188285285
+ORDER,change_order,order,0.16422376546187584
+ORDER,change_order,ordere,0.0038321780789111718
+ORDER,change_order,ordered,0.06291692327029648
+ORDER,change_order,plaese,0.003749110836185968
+ORDER,change_order,please,0.04361149442347397
+ORDER,change_order,possible,0.0051453518232074434
+ORDER,change_order,product,0.0738255909271846
+ORDER,change_order,purchaes,0.004090079570548578
+ORDER,change_order,purchase,0.19005103392823638
+ORDER,change_order,purchased,0.0480294356423701
+ORDER,change_order,request,0.010204323093076239
+ORDER,change_order,send,0.008447883984467308
+ORDER,change_order,something,0.09803921743395673
+ORDER,change_order,tell,0.07990911075091298
+ORDER,change_order,wanna,0.02308949050023598
+ORDER,change_order,want,0.07745562195616944
+ORDER,change_order,would,0.006075827333278284
+NEWSLETTER,newsletter_subscription,agent,0.08411907504473273
+NEWSLETTER,newsletter_subscription,ask,0.08411907504473273
+NEWSLETTER,newsletter_subscription,avout,0.013616962734528074
+NEWSLETTER,newsletter_subscription,could,0.037744166460329506
+NEWSLETTER,newsletter_subscription,help,0.012827050781854763
+NEWSLETTER,newsletter_subscription,id,0.024719605856831334
+NEWSLETTER,newsletter_subscription,inform,0.06632266458910174
+NEWSLETTER,newsletter_subscription,information,0.07462516941221205
+NEWSLETTER,newsletter_subscription,informed,0.012834841947553239
+NEWSLETTER,newsletter_subscription,keep,0.03847645572125051
+NEWSLETTER,newsletter_subscription,know,0.1299221071382822
+NEWSLETTER,newsletter_subscription,like,0.024719605856831334
+NEWSLETTER,newsletter_subscription,need,0.02696171480319753
+NEWSLETTER,newsletter_subscription,newsletter,0.2373850382242091
+NEWSLETTER,newsletter_subscription,please,0.01981253331240248
+NEWSLETTER,newsletter_subscription,receive,0.16274983089633613
+NEWSLETTER,newsletter_subscription,receiving,0.029457346533266624
+NEWSLETTER,newsletter_subscription,refeiving,0.012827050781854763
+NEWSLETTER,newsletter_subscription,request,0.02732330516319835
+NEWSLETTER,newsletter_subscription,show,0.015488337104681617
+NEWSLETTER,newsletter_subscription,stay,0.07465365550007405
+NEWSLETTER,newsletter_subscription,subscribe,0.20522262416924578
+NEWSLETTER,newsletter_subscription,tell,0.14810276513734205
+NEWSLETTER,newsletter_subscription,theres,0.0393410463463448
+NEWSLETTER,newsletter_subscription,uptodate,0.041704970184618606
+NEWSLETTER,newsletter_subscription,wanna,0.028386331301068914
+NEWSLETTER,newsletter_subscription,want,0.16376208723638977
+NEWSLETTER,newsletter_subscription,wantto,0.013616962734528074
+NEWSLETTER,newsletter_subscription,wnere,0.011270238717912131
+REFUNDS,check_refund_policy,abuot,0.005732586965014742
+REFUNDS,check_refund_policy,agent,0.05583472032957139
+REFUNDS,check_refund_policy,anything,0.02907520022235633
+REFUNDS,check_refund_policy,ask,0.05229919708345855
+REFUNDS,check_refund_policy,askan,0.007983925829924103
+REFUNDS,check_refund_policy,back,0.14772700612874445
+REFUNDS,check_refund_policy,cam,0.0063857192193183315
+REFUNDS,check_refund_policy,cancel,0.008797509726819482
+REFUNDS,check_refund_policy,case,0.008797509726819482
+REFUNDS,check_refund_policy,check,0.10227002442232094
+REFUNDS,check_refund_policy,could,0.03165328276156022
+REFUNDS,check_refund_policy,dl,0.007626712664368095
+REFUNDS,check_refund_policy,dont,0.02907520022235633
+REFUNDS,check_refund_policy,fee,0.0054117541064435835
+REFUNDS,check_refund_policy,find,0.012244652743603885
+REFUNDS,check_refund_policy,fuck,0.015499610137120617
+REFUNDS,check_refund_policy,full,0.008797509726819482
+REFUNDS,check_refund_policy,get,0.01407060222987529
+REFUNDS,check_refund_policy,give,0.015188251765534715
+REFUNDS,check_refund_policy,guaranee,0.00746552083235152
+REFUNDS,check_refund_policy,guarantee,0.09054893225765304
+REFUNDS,check_refund_policy,help,0.05944105875756754
+REFUNDS,check_refund_policy,im,0.05254915106434758
+REFUNDS,check_refund_policy,information,0.06663202787232791
+REFUNDS,check_refund_policy,interested,0.05031474560650877
+REFUNDS,check_refund_policy,intewrested,0.005679758238062096
+REFUNDS,check_refund_policy,kn,0.005679758238062096
+REFUNDS,check_refund_policy,know,0.04964207062896838
+REFUNDS,check_refund_policy,long,0.023898776574689126
+REFUNDS,check_refund_policy,moneh,0.007583434163323663
+REFUNDS,check_refund_policy,money,0.1478086297880095
+REFUNDS,check_refund_policy,need,0.02338349839192242
+REFUNDS,check_refund_policy,please,0.03470973433777218
+REFUNDS,check_refund_policy,poilcy,0.008334894944550511
+REFUNDS,check_refund_policy,policy,0.1872582445816624
+REFUNDS,check_refund_policy,refund,0.1288061649808365
+REFUNDS,check_refund_policy,refundable,0.0054117541064435835
+REFUNDS,check_refund_policy,reimburement,0.006608878579032079
+REFUNDS,check_refund_policy,reimbursement,0.10050440541851242
+REFUNDS,check_refund_policy,rfund,0.00582316845546337
+REFUNDS,check_refund_policy,see,0.10576846937895523
+REFUNDS,check_refund_policy,service,0.0054117541064435835
+REFUNDS,check_refund_policy,show,0.03213862375794141
+REFUNDS,check_refund_policy,showme,0.008809434110528407
+REFUNDS,check_refund_policy,take,0.023898776574689126
+REFUNDS,check_refund_policy,tell,0.04099553793136671
+REFUNDS,check_refund_policy,ticket,0.008797509726819482
+REFUNDS,check_refund_policy,vack,0.0078071559896166565
+REFUNDS,check_refund_policy,view,0.1072820132648305
+REFUNDS,check_refund_policy,want,0.1323656757124084
+ACCOUNT,edit_account,agent,0.10087822460837291
+ACCOUNT,edit_account,ask,0.08964005934321538
+ACCOUNT,edit_account,change,0.11256060585607591
+ACCOUNT,edit_account,could,0.0481873516011523
+ACCOUNT,edit_account,edit,0.16981077230296862
+ACCOUNT,edit_account,fuck,0.03995300078626918
+ACCOUNT,edit_account,help,0.0648822712907648
+ACCOUNT,edit_account,information,0.23909950752943399
+ACCOUNT,edit_account,make,0.03828208695328733
+ACCOUNT,edit_account,modify,0.14663896144592398
+ACCOUNT,edit_account,need,0.0437505411439244
+ACCOUNT,edit_account,pleaes,0.014829454896247103
+ACCOUNT,edit_account,please,0.03609748620175861
+ACCOUNT,edit_account,profile,0.2681867130869073
+ACCOUNT,edit_account,profilr,0.028751177371314742
+ACCOUNT,edit_account,proflie,0.027223145226082723
+ACCOUNT,edit_account,sak,0.02573430941560866
+ACCOUNT,edit_account,ther,0.02173046605403743
+ACCOUNT,edit_account,update,0.174935651974132
+ACCOUNT,edit_account,wanna,0.04560422529943091
+ACCOUNT,edit_account,want,0.05331322927664336
+ACCOUNT,recover_password,account,0.16835425903962206
+ACCOUNT,recover_password,accountpassword,0.0036660639044041954
+ACCOUNT,recover_password,acocunt,0.003150408586041966
+ACCOUNT,recover_password,agent,0.02917578765396819
+ACCOUNT,recover_password,andi,0.0030993990531453593
+ACCOUNT,recover_password,ask,0.02917578765396819
+ACCOUNT,recover_password,back,0.061702257683117226
+ACCOUNT,recover_password,cant,0.07542985838076179
+ACCOUNT,recover_password,could,0.03396018104752277
+ACCOUNT,recover_password,forgot,0.07004868049780524
+ACCOUNT,recover_password,fuck,0.016657314738534348
+ACCOUNT,recover_password,fucking,0.01371165493336271
+ACCOUNT,recover_password,get,0.061702257683117226
+ACCOUNT,recover_password,hack,0.13187949907083524
+ACCOUNT,recover_password,haked,0.00428880459396713
+ACCOUNT,recover_password,help,0.08833310697862864
+ACCOUNT,recover_password,hlp,0.003488522845648458
+ACCOUNT,recover_password,id,0.005439298749080838
+ACCOUNT,recover_password,like,0.007226026535834893
+ACCOUNT,recover_password,lose,0.07654476410942083
+ACCOUNT,recover_password,myu,0.0037963068806712527
+ACCOUNT,recover_password,need,0.0490984483190557
+ACCOUNT,recover_password,ohw,0.004318618333311078
+ACCOUNT,recover_password,online,0.038237617464250875
+ACCOUNT,recover_password,password,0.17942685307617257
+ACCOUNT,recover_password,pasword,0.003769039405904573
+ACCOUNT,recover_password,please,0.030840989539723432
+ACCOUNT,recover_password,pleasse,0.003235357133318436
+ACCOUNT,recover_password,profile,0.06038866328889519
+ACCOUNT,recover_password,pssword,0.003769039405904573
+ACCOUNT,recover_password,recover,0.13418066485304805
+ACCOUNT,recover_password,remember,0.07423754767769912
+ACCOUNT,recover_password,remembermy,0.003915764586779636
+ACCOUNT,recover_password,rese,0.0038045839831708935
+ACCOUNT,recover_password,reset,0.10661431039746816
+ACCOUNT,recover_password,resrt,0.003747552136966758
+ACCOUNT,recover_password,retgrieve,0.003571200952561195
+ACCOUNT,recover_password,retrieve,0.09711484535634993
+ACCOUNT,recover_password,ro,0.003606798622389424
+ACCOUNT,recover_password,someone,0.06752273386637314
+ACCOUNT,recover_password,someonme,0.0030840077122504445
+ACCOUNT,recover_password,steal,0.04952576435013992
+ACCOUNT,recover_password,stole,0.03351251369759406
+ACCOUNT,recover_password,user,0.0447495136892575
+ACCOUNT,recover_password,wanna,0.02417141026650699
+ACCOUNT,recover_password,want,0.04423905463421883
+ACCOUNT,recover_password,watn,0.004115527682803586
+ACCOUNT,recover_password,would,0.0023750074573868187
+CONTACT,contact_human_agent,acn,0.004353180587718864
+CONTACT,contact_human_agent,acnt,0.004313615459312613
+CONTACT,contact_human_agent,agent,0.11433637092546833
+CONTACT,contact_human_agent,arent,0.10971257366086155
+CONTACT,contact_human_agent,available,0.018590883499442375
+CONTACT,contact_human_agent,cannot,0.008460139986468591
+CONTACT,contact_human_agent,cant,0.09790513735590779
+CONTACT,contact_human_agent,cat,0.0036332807954442105
+CONTACT,contact_human_agent,contact,0.14572293313342805
+CONTACT,contact_human_agent,could,0.025297591892911878
+CONTACT,contact_human_agent,dont,0.09189771613626432
+CONTACT,contact_human_agent,fuck,0.029758378083086207
+CONTACT,contact_human_agent,galk,0.004047072408432122
+CONTACT,contact_human_agent,help,0.1968404632329716
+CONTACT,contact_human_agent,helpnig,0.00348754323065181
+CONTACT,contact_human_agent,hepl,0.0038741740425317856
+CONTACT,contact_human_agent,hepling,0.0042563732533387275
+CONTACT,contact_human_agent,hrlp,0.0035998425819024323
+CONTACT,contact_human_agent,human,0.17601696083996926
+CONTACT,contact_human_agent,know,0.0063930657422190396
+CONTACT,contact_human_agent,like,0.005233472114123425
+CONTACT,contact_human_agent,need,0.046095082029383554
+CONTACT,contact_human_agent,noty,0.003957553894639706
+CONTACT,contact_human_agent,ot,0.003775071546227696
+CONTACT,contact_human_agent,person,0.12085497471521592
+CONTACT,contact_human_agent,persson,0.0036106687784695055
+CONTACT,contact_human_agent,please,0.034562539962253676
+CONTACT,contact_human_agent,shgould,0.004081849245133914
+CONTACT,contact_human_agent,shoupd,0.0038111731841789405
+CONTACT,contact_human_agent,someone,0.1081655576441653
+CONTACT,contact_human_agent,speak,0.14694039461247843
+CONTACT,contact_human_agent,talk,0.12643897703053572
+CONTACT,contact_human_agent,tell,0.010181892627663046
+CONTACT,contact_human_agent,understand,0.14409290848028958
+CONTACT,contact_human_agent,unedrstand,0.00779089569884729
+CONTACT,contact_human_agent,wanna,0.023596386223115093
+CONTACT,contact_human_agent,want,0.056779711928369475
+CONTACT,contact_human_agent,withsomeone,0.004116181522281997
+CONTACT,contact_human_agent,would,0.005233472114123425
+CONTACT,contact_human_agent,youre,0.11833527802197853
+PAYMENT,check_payment_methods,acn,0.008736293724409247
+PAYMENT,check_payment_methods,agent,0.06634899967844685
+PAYMENT,check_payment_methods,amex,0.044528095642944805
+PAYMENT,check_payment_methods,ask,0.06634899967844685
+PAYMENT,check_payment_methods,card,0.06373549535626456
+PAYMENT,check_payment_methods,casn,0.009573026615199026
+PAYMENT,check_payment_methods,check,0.10623751548544272
+PAYMENT,check_payment_methods,chewck,0.013137321356258912
+PAYMENT,check_payment_methods,could,0.03144755278087627
+PAYMENT,check_payment_methods,credit,0.04125131904929171
+PAYMENT,check_payment_methods,dl,0.011586168554406492
+PAYMENT,check_payment_methods,ese,0.011878933478243713
+PAYMENT,check_payment_methods,find,0.01883058303426325
+PAYMENT,check_payment_methods,fuck,0.025456980498246094
+PAYMENT,check_payment_methods,help,0.044690623743630524
+PAYMENT,check_payment_methods,id,0.01648993070126428
+PAYMENT,check_payment_methods,information,0.03797641565426634
+PAYMENT,check_payment_methods,know,0.03780823741524696
+PAYMENT,check_payment_methods,like,0.01648993070126428
+PAYMENT,check_payment_methods,make,0.06410518093028983
+PAYMENT,check_payment_methods,master,0.017728398409326697
+PAYMENT,check_payment_methods,method,0.13311637556317235
+PAYMENT,check_payment_methods,methodswhat,0.008386067790204154
+PAYMENT,check_payment_methods,need,0.01704965386326451
+PAYMENT,check_payment_methods,option,0.16493665845951727
+PAYMENT,check_payment_methods,pay,0.06901470360812928
+PAYMENT,check_payment_methods,payment,0.19935332250500573
+PAYMENT,check_payment_methods,paymnet,0.009347915964670056
+PAYMENT,check_payment_methods,please,0.023249250864194777
+PAYMENT,check_payment_methods,ppay,0.010420983177156133
+PAYMENT,check_payment_methods,pyment,0.01189795681276402
+PAYMENT,check_payment_methods,see,0.10583566342597846
+PAYMENT,check_payment_methods,show,0.030489038517564012
+PAYMENT,check_payment_methods,tel,0.008736293724409247
+PAYMENT,check_payment_methods,tell,0.06914742403188674
+PAYMENT,check_payment_methods,view,0.10477944883522604
+PAYMENT,check_payment_methods,visa,0.04484650653300093
+PAYMENT,check_payment_methods,wanna,0.028011776070934948
+PAYMENT,check_payment_methods,want,0.11475549509707791
+PAYMENT,check_payment_methods,yourpayment,0.011972321104803655
+INVOICES,check_invoices,agent,0.060638072127066456
+INVOICES,check_invoices,amd,0.003584593173970821
+INVOICES,check_invoices,asgent,0.004133370243859476
+INVOICES,check_invoices,ask,0.05907237652790585
+INVOICES,check_invoices,biklls,0.003626188621469474
+INVOICES,check_invoices,bil,0.004794632574047974
+INVOICES,check_invoices,bill,0.17867919900746465
+INVOICES,check_invoices,bioll,0.0044191198897000844
+INVOICES,check_invoices,cant,0.09811341410435065
+INVOICES,check_invoices,check,0.15806155690512017
+INVOICES,check_invoices,checkl,0.00395690870585182
+INVOICES,check_invoices,checkmy,0.003626188621469474
+INVOICES,check_invoices,could,0.038556015057011686
+INVOICES,check_invoices,czn,0.0031739221343976714
+INVOICES,check_invoices,didnt,0.07966122101892519
+INVOICES,check_invoices,dind,0.004206282353463654
+INVOICES,check_invoices,dl,0.0031461429795861004
+INVOICES,check_invoices,find,0.0970994701394243
+INVOICES,check_invoices,fuck,0.008573262601816215
+INVOICES,check_invoices,fucking,0.01857646848686566
+INVOICES,check_invoices,give,0.010426713138309828
+INVOICES,check_invoices,help,0.06220038996141636
+INVOICES,check_invoices,htem,0.003303429612571961
+INVOICES,check_invoices,hwere,0.002993164349166896
+INVOICES,check_invoices,ibll,0.007627836148160335
+INVOICES,check_invoices,id,0.006381432316992972
+INVOICES,check_invoices,inboices,0.0033383586189053636
+INVOICES,check_invoices,information,0.03391829532462942
+INVOICES,check_invoices,invoice,0.17581818338694094
+INVOICES,check_invoices,invoicews,0.004397814341080098
+INVOICES,check_invoices,invoics,0.0031461429795861004
+INVOICES,check_invoices,invooice,0.0029692429655067665
+INVOICES,check_invoices,iwanna,0.0046043895193459096
+INVOICES,check_invoices,like,0.009152199602176518
+INVOICES,check_invoices,lose,0.13123880314282443
+INVOICES,check_invoices,need,0.03921950672496744
+INVOICES,check_invoices,nills,0.0031885602683751884
+INVOICES,check_invoices,ny,0.0031885602683751884
+INVOICES,check_invoices,please,0.04192797832135463
+INVOICES,check_invoices,provide,0.006849872089211657
+INVOICES,check_invoices,receive,0.07842396579321878
+INVOICES,check_invoices,reecive,0.004195496795505157
+INVOICES,check_invoices,se,0.003604405223139801
+INVOICES,check_invoices,see,0.11960977670481047
+INVOICES,check_invoices,show,0.031715169415147265
+INVOICES,check_invoices,shwo,0.0031739221343976714
+INVOICES,check_invoices,tem,0.0033383586189053636
+INVOICES,check_invoices,view,0.14481010879975456
+INVOICES,check_invoices,wanna,0.014489087197988068
+INVOICES,check_invoices,want,0.08955693253109999
+FEEDBACK,complaint,agent,0.07160454568695247
+FEEDBACK,complaint,ake,0.004937070083943448
+FEEDBACK,complaint,ask,0.07160454568695247
+FEEDBACK,complaint,complaint,0.21270160279150338
+FEEDBACK,complaint,consumer,0.1604698348191922
+FEEDBACK,complaint,consumercomplaint,0.004721656952979242
+FEEDBACK,complaint,could,0.03422117019595531
+FEEDBACK,complaint,discontent,0.09840755412779452
+FEEDBACK,complaint,dnt,0.00484915963009221
+FEEDBACK,complaint,doi,0.004741466724612068
+FEEDBACK,complaint,dont,0.08285762534501702
+FEEDBACK,complaint,file,0.15372738590218055
+FEEDBACK,complaint,filea,0.003972726733139836
+FEEDBACK,complaint,fror,0.004225489282587979
+FEEDBACK,complaint,fuck,0.011545499348939373
+FEEDBACK,complaint,fucking,0.007335273670009577
+FEEDBACK,complaint,happy,0.07077017904236671
+FEEDBACK,complaint,help,0.08583241200581712
+FEEDBACK,complaint,id,0.005160753957352054
+FEEDBACK,complaint,ilodge,0.004894665835195653
+FEEDBACK,complaint,im,0.12875240687079442
+FEEDBACK,complaint,like,0.08578999010521259
+FEEDBACK,complaint,lodge,0.13556759452704678
+FEEDBACK,complaint,lodgnig,0.003920896914487382
+FEEDBACK,complaint,make,0.12096783417280547
+FEEDBACK,complaint,need,0.02183161184688116
+FEEDBACK,complaint,please,0.030137535445712054
+FEEDBACK,complaint,servbice,0.004906246932849674
+FEEDBACK,complaint,service,0.19723956779587648
+FEEDBACK,complaint,sevrice,0.008293125863677957
+FEEDBACK,complaint,srrvice,0.00564005934278961
+FEEDBACK,complaint,submit,0.0792930688416607
+FEEDBACK,complaint,wana,0.003972726733139836
+FEEDBACK,complaint,wanna,0.03587246028658908
+FEEDBACK,complaint,want,0.10513910495233356
+FEEDBACK,complaint,whree,0.00564005934278961
+FEEDBACK,complaint,whrre,0.005705433874052978
+FEEDBACK,complaint,withh,0.004848199387685474
+SHIPPING,set_up_shipping_address,address,0.3326742005081554
+SHIPPING,set_up_shipping_address,agent,0.021834800301859126
+SHIPPING,set_up_shipping_address,ask,0.021834800301859126
+SHIPPING,set_up_shipping_address,could,0.021834800301859126
+SHIPPING,set_up_shipping_address,dont,0.1571024956494212
+SHIPPING,set_up_shipping_address,haave,0.027484632571261332
+SHIPPING,set_up_shipping_address,help,0.07438221022420248
+SHIPPING,set_up_shipping_address,need,0.02191340923907481
+SHIPPING,set_up_shipping_address,one,0.27783993153310116
+SHIPPING,set_up_shipping_address,set,0.3397856193077342
+SHIPPING,set_up_shipping_address,setting,0.02191340923907481
+SHIPPING,set_up_shipping_address,ship,0.35539888064661007
+SHIPPING,set_up_shipping_address,shipping,0.10405026191279271
+SHIPPING,set_up_shipping_address,shkpping,0.03856052980623253
+SHIPPING,set_up_shipping_address,want,0.0949977672404522
+SHIPPING,set_up_shipping_address,whjat,0.027484632571261332
+REFUNDS,track_refund,agent,0.07050326028293083
+REFUNDS,track_refund,ask,0.07050326028293083
+REFUNDS,track_refund,check,0.08390943307260967
+REFUNDS,track_refund,could,0.025688898436451064
+REFUNDS,track_refund,feimbursement,0.015032501822505788
+REFUNDS,track_refund,fuck,0.026184408033911977
+REFUNDS,track_refund,fucking,0.013983135332888278
+REFUNDS,track_refund,help,0.08547436482074686
+REFUNDS,track_refund,id,0.011643772749292706
+REFUNDS,track_refund,information,0.024275329380039838
+REFUNDS,track_refund,know,0.09509820618236753
+REFUNDS,track_refund,like,0.03258049705766822
+REFUNDS,track_refund,need,0.03163080846503842
+REFUNDS,track_refund,ny,0.010475713404274094
+REFUNDS,track_refund,ot,0.00957012824235691
+REFUNDS,track_refund,please,0.05631107326666126
+REFUNDS,track_refund,process,0.07067503294368513
+REFUNDS,track_refund,refund,0.19900907413296828
+REFUNDS,track_refund,reimbursement,0.1490795755539635
+REFUNDS,track_refund,see,0.072488427929647
+REFUNDS,track_refund,show,0.029732350914981717
+REFUNDS,track_refund,statua,0.00957012824235691
+REFUNDS,track_refund,status,0.19394016318645854
+REFUNDS,track_refund,tell,0.0360939661538562
+REFUNDS,track_refund,track,0.14369688698199826
+REFUNDS,track_refund,tracl,0.012340007456842295
+REFUNDS,track_refund,view,0.10460066321570782
+REFUNDS,track_refund,wanna,0.05515425683237024
+REFUNDS,track_refund,want,0.12195323431874724
+REFUNDS,track_refund,whats,0.015139616724132807
+REFUNDS,track_refund,wherw,0.01284802696911015
+REFUNDS,track_refund,would,0.02483997522559015
+ACCOUNT,registration_problems,account,0.18969986985191525
+ACCOUNT,registration_problems,acount,0.022069518382425587
+ACCOUNT,registration_problems,cant,0.02304737763637071
+ACCOUNT,registration_problems,create,0.14047798089991836
+ACCOUNT,registration_problems,creatinga,0.024165645756188032
+ACCOUNT,registration_problems,find,0.12503121011956825
+ACCOUNT,registration_problems,im,0.08121195055930769
+ACCOUNT,registration_problems,issaue,0.02019043670730339
+ACCOUNT,registration_problems,issue,0.21875461497818735
+ACCOUNT,registration_problems,open,0.1238008868868854
+ACCOUNT,registration_problems,opening,0.06421734851252545
+ACCOUNT,registration_problems,poening,0.02569572509367817
+ACCOUNT,registration_problems,problem,0.17138971354692853
+ACCOUNT,registration_problems,profile,0.09318925517647597
+ACCOUNT,registration_problems,reggistration,0.0278627487924126
+ACCOUNT,registration_problems,register,0.13286188164289367
+ACCOUNT,registration_problems,registering,0.0278627487924126
+ACCOUNT,registration_problems,registration,0.028933599586662796
+ACCOUNT,registration_problems,regiwtration,0.0278627487924126
+ACCOUNT,registration_problems,sign,0.021743065903653568
+ACCOUNT,registration_problems,signing,0.0278627487924126
+ACCOUNT,registration_problems,try,0.10848214627142337
+SHIPPING,change_shipping_address,address,0.2658754482688099
+SHIPPING,change_shipping_address,agent,0.11810802118993592
+SHIPPING,change_shipping_address,ask,0.11810802118993592
+SHIPPING,change_shipping_address,change,0.1564466867442624
+SHIPPING,change_shipping_address,changer,0.018125897210990276
+SHIPPING,change_shipping_address,could,0.04828554931772443
+SHIPPING,change_shipping_address,edit,0.1329060530226008
+SHIPPING,change_shipping_address,fuck,0.018125897210990276
+SHIPPING,change_shipping_address,help,0.0839345447227878
+SHIPPING,change_shipping_address,make,0.050032762457483636
+SHIPPING,change_shipping_address,modify,0.20297014962429175
+SHIPPING,change_shipping_address,need,0.0839345447227878
+SHIPPING,change_shipping_address,please,0.07032081607499333
+SHIPPING,change_shipping_address,ship,0.06731477991011287
+SHIPPING,change_shipping_address,shipping,0.27832633785440825
+SHIPPING,change_shipping_address,update,0.09733430149019409
+SHIPPING,change_shipping_address,wanna,0.05619364943108719
+SHIPPING,change_shipping_address,want,0.10417347487883079
+ORDER,place_order,agent,0.12096530336581932
+ORDER,place_order,ask,0.12096530336581932
+ORDER,place_order,could,0.04426742237674987
+ORDER,place_order,help,0.1349782692014228
+ORDER,place_order,id,0.04593956448937762
+ORDER,place_order,like,0.04593956448937762
+ORDER,place_order,make,0.33600282969701
+ORDER,place_order,need,0.05037476418058545
+ORDER,place_order,order,0.35355616072939255
+ORDER,place_order,place,0.23658758841758784
+ORDER,place_order,purchase,0.06284549554253564
+ORDER,place_order,want,0.10384183776458841
+DELIVERY,delivery_period,agent,0.06360626297054087
+DELIVERY,delivery_period,arrive,0.21338579762391538
+DELIVERY,delivery_period,ask,0.06360626297054087
+DELIVERY,delivery_period,could,0.01904780717296961
+DELIVERY,delivery_period,delivery,0.1402683868768073
+DELIVERY,delivery_period,expect,0.15820355809395817
+DELIVERY,delivery_period,fast,0.11267092904243008
+DELIVERY,delivery_period,fuck,0.01904780717296961
+DELIVERY,delivery_period,give,0.02797354363505113
+DELIVERY,delivery_period,go,0.06454906484299343
+DELIVERY,delivery_period,gonna,0.056434409825262905
+DELIVERY,delivery_period,information,0.09889879510242941
+DELIVERY,delivery_period,know,0.08435385999585299
+DELIVERY,delivery_period,long,0.026236215799018275
+DELIVERY,delivery_period,need,0.05212504888883866
+DELIVERY,delivery_period,period,0.1402683868768073
+DELIVERY,delivery_period,please,0.049131807658016946
+DELIVERY,delivery_period,show,0.046688941043365184
+DELIVERY,delivery_period,soon,0.09429322406883381
+DELIVERY,delivery_period,take,0.026236215799018275
+DELIVERY,delivery_period,tell,0.1968274948564792
+DELIVERY,delivery_period,ticket,0.22123797280759921
+DELIVERY,delivery_period,want,0.08435385999585299
+DELIVERY,delivery_period,whats,0.02391464797440388
+ACCOUNT,switch_account,account,0.19702874354834163
+ACCOUNT,switch_account,agent,0.07194774718270937
+ACCOUNT,switch_account,another,0.16781671986595942
+ACCOUNT,switch_account,anothyer,0.012126826769903058
+ACCOUNT,switch_account,ask,0.07194774718270937
+ACCOUNT,switch_account,change,0.18888515500747893
+ACCOUNT,switch_account,could,0.05016553197827606
+ACCOUNT,switch_account,fuck,0.02989426535424508
+ACCOUNT,switch_account,fucking,0.012166127283745833
+ACCOUNT,switch_account,help,0.1068585125868865
+ACCOUNT,switch_account,hw,0.013603745393618728
+ACCOUNT,switch_account,id,0.026889161636749495
+ACCOUNT,switch_account,like,0.03299342412588641
+ACCOUNT,switch_account,mew,0.011284643007937158
+ACCOUNT,switch_account,mmy,0.013603745393618728
+ACCOUNT,switch_account,need,0.08203637428435605
+ACCOUNT,switch_account,online,0.10254218486364605
+ACCOUNT,switch_account,please,0.048596806154716454
+ACCOUNT,switch_account,profile,0.15389277432881887
+ACCOUNT,switch_account,switch,0.17302733877135767
+ACCOUNT,switch_account,switching,0.02969695010562242
+ACCOUNT,switch_account,themn,0.014697845029719147
+ACCOUNT,switch_account,thme,0.02332177655558371
+ACCOUNT,switch_account,use,0.19336578830018938
+ACCOUNT,switch_account,user,0.1341671833750663
+ACCOUNT,switch_account,wanna,0.014003471164546082
+ACCOUNT,switch_account,want,0.19356773722935677
+ACCOUNT,switch_account,would,0.009832780390359957
+ACCOUNT,switch_account,yo,0.012126826769903058
+ORDER,cancel_order,agent,0.08440455759445513
+ORDER,cancel_order,ask,0.08440455759445513
+ORDER,cancel_order,cancel,0.40021764147529104
+ORDER,cancel_order,help,0.08939584662770059
+ORDER,cancel_order,hjelp,0.09729573718057567
+ORDER,cancel_order,need,0.15497004750284638
+ORDER,cancel_order,order,0.14426926136092572
+ORDER,cancel_order,purchase,0.42156764281352643
+ORDER,cancel_order,want,0.2206004213993627
