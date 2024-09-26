@@ -1,9 +1,9 @@
 category,intent,keyword,tfidf score
-REFUNDS,get_refund,cancelled,0.12067678996573923
+REFUNDS,get_refund,cancel,0.12067678996573923
 REFUNDS,get_refund,concert,0.08521927716478504
 REFUNDS,get_refund,event,0.07220369419487076
 REFUNDS,get_refund,game,0.07820070982837622
-REFUNDS,get_refund,game cancelled,0.04937062756457501
+REFUNDS,get_refund,game cancel,0.04937062756457501
 REFUNDS,get_refund,get,0.13917620962730917
 REFUNDS,get_refund,get refund,0.08945545670238729
 REFUNDS,get_refund,get reimbursement,0.06132537989499481
@@ -11,7 +11,7 @@ REFUNDS,get_refund,help,0.06443742170618402
 REFUNDS,get_refund,obtain,0.11174367806990863
 REFUNDS,get_refund,obtain refund,0.056516501925906557
 REFUNDS,get_refund,one,0.07337576207400333
-REFUNDS,get_refund,postponed,0.12415511337822001
+REFUNDS,get_refund,postpone,0.12415511337822001
 REFUNDS,get_refund,refund,0.18537395167982115
 REFUNDS,get_refund,reimbursement,0.1855183038155624
 REFUNDS,get_refund,request,0.12708884455483624
@@ -19,523 +19,523 @@ REFUNDS,get_refund,request refund,0.0633969584645558
 REFUNDS,get_refund,request reimbursement,0.07292221301903616
 REFUNDS,get_refund,show,0.08386702423303144
 REFUNDS,get_refund,want,0.09545052687530606
-ACCOUNT,create_account,account,0.21429179010409816
-ACCOUNT,create_account,accounts,0.08871335101669116
-ACCOUNT,create_account,address,0.07070034321161624
-ACCOUNT,create_account,create,0.15237036188813313
-ACCOUNT,create_account,create one,0.10547062119472321
-ACCOUNT,create_account,email,0.1142651057323097
-ACCOUNT,create_account,email address,0.07070034321161624
-ACCOUNT,create_account,got,0.10179491080302545
-ACCOUNT,create_account,one,0.16363429241663596
-ACCOUNT,create_account,online,0.11180944855806016
-ACCOUNT,create_account,online account,0.0945638701798516
-ACCOUNT,create_account,open,0.10136078782163756
-ACCOUNT,create_account,register,0.11712481015934273
-ACCOUNT,create_account,several,0.0681753039333748
-ACCOUNT,create_account,single,0.06609992191083866
-ACCOUNT,create_account,single email,0.06609992191083866
-ACCOUNT,create_account,tell,0.07937221789880926
-ACCOUNT,create_account,user,0.12105723132443383
-ACCOUNT,create_account,user account,0.10726335295755902
-ACCOUNT,create_account,want,0.11343674024072549
-CONTACT,contact_customer_service,address,0.07177250105199451
-CONTACT,contact_customer_service,client,0.15104360056869434
-CONTACT,contact_customer_service,client service,0.1477704820994502
-CONTACT,contact_customer_service,contact,0.11273781408574404
-CONTACT,contact_customer_service,contact customer,0.08586602008647048
-CONTACT,contact_customer_service,customer,0.1917950986342119
-CONTACT,contact_customer_service,customer service,0.141971734114248
-CONTACT,contact_customer_service,customer support,0.13100651408632677
-CONTACT,contact_customer_service,email,0.12125309144332586
-CONTACT,contact_customer_service,information,0.11328466472979602
-CONTACT,contact_customer_service,mail,0.07185898217878452
-CONTACT,contact_customer_service,need,0.07988812746278794
-CONTACT,contact_customer_service,need information,0.05981499415127643
-CONTACT,contact_customer_service,number,0.09185270365720886
-CONTACT,contact_customer_service,phone,0.0624111774138777
-CONTACT,contact_customer_service,service,0.19927118652717685
-CONTACT,contact_customer_service,support,0.1315850353536888
-CONTACT,contact_customer_service,tell,0.07615925007102164
-CONTACT,contact_customer_service,want,0.11462855363125893
-CONTACT,contact_customer_service,want information,0.06184364103212568
-INVOICES,get_invoice,agent,0.06740324385670059
-INVOICES,get_invoice,ask,0.0701595808855406
-INVOICES,get_invoice,ask agent,0.06370501155071402
-INVOICES,get_invoice,bill,0.14777036148211317
-INVOICES,get_invoice,bills,0.12451425934952914
-INVOICES,get_invoice,could,0.04095798893619318
-INVOICES,get_invoice,download,0.09111509845966229
-INVOICES,get_invoice,get,0.08925894154737532
-INVOICES,get_invoice,information,0.1088000155967092
-INVOICES,get_invoice,invoice,0.13841328437513659
-INVOICES,get_invoice,invoices,0.09479632786775187
-INVOICES,get_invoice,know,0.07319988932783103
-INVOICES,get_invoice,obtain,0.10150439660859292
-INVOICES,get_invoice,please,0.04442374345261344
-INVOICES,get_invoice,request,0.09409268217942639
-INVOICES,get_invoice,see,0.08243394770181808
-INVOICES,get_invoice,tell,0.1521061865512378
-INVOICES,get_invoice,wanna,0.06559356450230475
-INVOICES,get_invoice,want,0.13231475386474392
-INVOICES,get_invoice,want know,0.05155876706954365
-PAYMENT,payment_issue,anyway,0.06750712303866364
-PAYMENT,payment_issue,card,0.08895235051074074
-PAYMENT,payment_issue,charged,0.06757552178195565
-PAYMENT,payment_issue,charged anyway,0.06691578844666127
-PAYMENT,payment_issue,error,0.10124054537648278
-PAYMENT,payment_issue,got,0.06948895866021226
-PAYMENT,payment_issue,got error,0.06702149946995596
-PAYMENT,payment_issue,inform,0.12134270062958849
-PAYMENT,payment_issue,issue,0.13317900257647694
-PAYMENT,payment_issue,make,0.08254914572924808
-PAYMENT,payment_issue,make payment,0.08254914572924808
-PAYMENT,payment_issue,making,0.08778687370723322
-PAYMENT,payment_issue,making payment,0.08649545427463953
-PAYMENT,payment_issue,notify,0.1283493622306633
-PAYMENT,payment_issue,order,0.09154119676059141
-PAYMENT,payment_issue,pay,0.10831343603950211
-PAYMENT,payment_issue,paying,0.12759231126173343
-PAYMENT,payment_issue,payment,0.20139219887082446
-PAYMENT,payment_issue,problem,0.14766558612279995
-PAYMENT,payment_issue,report,0.11638351384205488
-FEEDBACK,review,agent,0.06310199353330333
-FEEDBACK,review,ask,0.05865809816652942
-FEEDBACK,review,ask agent,0.05865809816652942
-FEEDBACK,review,comment,0.13829771712996372
-FEEDBACK,review,happy,0.12420286162623154
-FEEDBACK,review,happy service,0.12042242051992343
-FEEDBACK,review,help,0.11327537557866084
-FEEDBACK,review,im,0.10206429464103255
-FEEDBACK,review,im happy,0.10206429464103255
-FEEDBACK,review,im happy service,0.09726594373403126
-FEEDBACK,review,leave,0.12306513316208473
-FEEDBACK,review,lodge,0.10239326402202006
-FEEDBACK,review,make,0.0753246822173003
-FEEDBACK,review,opinion,0.14664548990429077
-FEEDBACK,review,review,0.14835048918242352
-FEEDBACK,review,review service,0.07170375180826584
-FEEDBACK,review,service,0.18259177504894977
+ACCOUNT,create_account,account,0.2207956672947272
+ACCOUNT,create_account,address,0.0713972441624384
+ACCOUNT,create_account,create,0.1547282901849949
+ACCOUNT,create_account,create one,0.1084756967441227
+ACCOUNT,create_account,email,0.11836342704208833
+ACCOUNT,create_account,email address,0.0713972441624384
+ACCOUNT,create_account,get,0.09709508772487872
+ACCOUNT,create_account,one,0.15321912384338096
+ACCOUNT,create_account,online,0.11546776243541738
+ACCOUNT,create_account,online account,0.11399430397591433
+ACCOUNT,create_account,open,0.10211775569705854
+ACCOUNT,create_account,open one,0.07592416908869677
+ACCOUNT,create_account,profile,0.08800353515526174
+ACCOUNT,create_account,register,0.12324651332685446
+ACCOUNT,create_account,single,0.06792686814128017
+ACCOUNT,create_account,single email,0.06792686814128017
+ACCOUNT,create_account,tell,0.08483158700162431
+ACCOUNT,create_account,user,0.12412867717784214
+ACCOUNT,create_account,user account,0.12412867717784214
+ACCOUNT,create_account,want,0.11187661576430313
+CONTACT,contact_customer_service,address,0.07184223289434337
+CONTACT,contact_customer_service,client,0.148022563832967
+CONTACT,contact_customer_service,client service,0.14487553512920529
+CONTACT,contact_customer_service,contact,0.11721480923670077
+CONTACT,contact_customer_service,contact customer,0.08960613156190832
+CONTACT,contact_customer_service,customer,0.18996444218516245
+CONTACT,contact_customer_service,customer service,0.14067227984149844
+CONTACT,contact_customer_service,customer support,0.13157863883908438
+CONTACT,contact_customer_service,email,0.1213312324173823
+CONTACT,contact_customer_service,information,0.1095308522324793
+CONTACT,contact_customer_service,mail,0.07192126809180922
+CONTACT,contact_customer_service,need,0.07729927470923018
+CONTACT,contact_customer_service,need information,0.05813558728498126
+CONTACT,contact_customer_service,number,0.1006651927212855
+CONTACT,contact_customer_service,service,0.19646209994879404
+CONTACT,contact_customer_service,speak,0.06852558078036974
+CONTACT,contact_customer_service,support,0.13215494002747005
+CONTACT,contact_customer_service,tell,0.07907919594933337
+CONTACT,contact_customer_service,want,0.11300239226283686
+CONTACT,contact_customer_service,want information,0.059519649260347016
+INVOICES,get_invoice,agent,0.07357869841466834
+INVOICES,get_invoice,ask,0.07920860416863128
+INVOICES,get_invoice,ask agent,0.07357869841466834
+INVOICES,get_invoice,bill,0.1798531498535574
+INVOICES,get_invoice,download,0.10492032739966226
+INVOICES,get_invoice,download bill,0.060680212640768165
+INVOICES,get_invoice,get,0.10406844359816003
+INVOICES,get_invoice,get bill,0.05413475937498887
+INVOICES,get_invoice,information,0.10100691676189387
+INVOICES,get_invoice,invoice,0.1783644731114379
+INVOICES,get_invoice,know,0.07460005831028922
+INVOICES,get_invoice,obtain,0.11179690194473371
+INVOICES,get_invoice,obtain bill,0.06853934716219157
+INVOICES,get_invoice,request,0.11343383235756194
+INVOICES,get_invoice,see,0.09953358308565981
+INVOICES,get_invoice,see invoice,0.05418495519789839
+INVOICES,get_invoice,tell,0.14791224920629722
+INVOICES,get_invoice,wanna,0.0660072852529048
+INVOICES,get_invoice,want,0.12818953072253933
+INVOICES,get_invoice,want know,0.052541852075809296
+PAYMENT,payment_issue,agent,0.09347491223299265
+PAYMENT,payment_issue,anyway,0.06914421048662169
+PAYMENT,payment_issue,card,0.09021658592564324
+PAYMENT,payment_issue,charge,0.0692222006575319
+PAYMENT,payment_issue,charge anyway,0.06851696419669182
+PAYMENT,payment_issue,error,0.09918341396088876
+PAYMENT,payment_issue,get,0.08337613086570556
+PAYMENT,payment_issue,get error,0.08052998909450525
+PAYMENT,payment_issue,help,0.08239563277256849
+PAYMENT,payment_issue,inform,0.12230505242806179
+PAYMENT,payment_issue,issue,0.15860907687776113
+PAYMENT,payment_issue,make,0.1316735991669659
+PAYMENT,payment_issue,make payment,0.13052310189310054
+PAYMENT,payment_issue,notify,0.12740425678347314
+PAYMENT,payment_issue,order,0.0900199405270768
+PAYMENT,payment_issue,pay,0.16741394231539114
+PAYMENT,payment_issue,payment,0.1853883911860097
+PAYMENT,payment_issue,problem,0.16658322652150057
+PAYMENT,payment_issue,report,0.1141374162575438
+PAYMENT,payment_issue,try,0.1081362131037105
+FEEDBACK,review,agent,0.06352733225891659
+FEEDBACK,review,ask,0.0590647564937679
+FEEDBACK,review,ask agent,0.0590647564937679
+FEEDBACK,review,comment,0.1371484025724885
+FEEDBACK,review,happy,0.12387581032153637
+FEEDBACK,review,happy service,0.12007350690027084
+FEEDBACK,review,help,0.10698833157910675
+FEEDBACK,review,im,0.10152277948278451
+FEEDBACK,review,im happy,0.10152277948278451
+FEEDBACK,review,im happy service,0.09669379943290139
+FEEDBACK,review,leave,0.1258647277859158
+FEEDBACK,review,lodge,0.10457936018728693
+FEEDBACK,review,make,0.080400857372489
+FEEDBACK,review,opinion,0.14557173323728015
+FEEDBACK,review,review,0.1490147764614693
+FEEDBACK,review,review service,0.07103778599246997
+FEEDBACK,review,service,0.18157929762159972
 FEEDBACK,review,submit,0.07255135785215078
-FEEDBACK,review,want,0.12484427731251423
-FEEDBACK,review,write,0.09805244680807818
-DELIVERY,delivery_options,agent,0.08803025097783576
-DELIVERY,delivery_options,ask,0.09209801615525547
-DELIVERY,delivery_options,ask agent,0.08803025097783576
-DELIVERY,delivery_options,check,0.10054724118718808
-DELIVERY,delivery_options,check options,0.06831440413252665
-DELIVERY,delivery_options,delivery,0.21018557426672813
-DELIVERY,delivery_options,delivery options,0.18726525735689453
-DELIVERY,delivery_options,help,0.07593126772890771
+FEEDBACK,review,want,0.12543815392370522
+FEEDBACK,review,write,0.1174912430910286
+DELIVERY,delivery_options,agent,0.08817384338911977
+DELIVERY,delivery_options,ask,0.09229433128610055
+DELIVERY,delivery_options,ask agent,0.08817384338911977
+DELIVERY,delivery_options,check,0.1120181343070542
+DELIVERY,delivery_options,check option,0.0733791892284038
+DELIVERY,delivery_options,delivery,0.20836536741708256
+DELIVERY,delivery_options,delivery option,0.18446962358518196
+DELIVERY,delivery_options,help,0.0746506378929352
 DELIVERY,delivery_options,information,0.08609120642146162
-DELIVERY,delivery_options,options,0.2111234782123587
-DELIVERY,delivery_options,options delivery,0.10359214344923304
-DELIVERY,delivery_options,options ticket,0.11469593759429335
-DELIVERY,delivery_options,options ticket delivery,0.10893138009061289
+DELIVERY,delivery_options,option,0.20932646284508616
+DELIVERY,delivery_options,option delivery,0.10416920419662913
+DELIVERY,delivery_options,option ticket,0.11399451957314045
+DELIVERY,delivery_options,option ticket delivery,0.10821592503441253
 DELIVERY,delivery_options,see,0.15336601010517942
-DELIVERY,delivery_options,ticket,0.15949802809768543
-DELIVERY,delivery_options,ticket delivery,0.15602667002229917
-DELIVERY,delivery_options,ticket delivery options,0.110676476411088
+DELIVERY,delivery_options,ticket,0.1590859751410806
+DELIVERY,delivery_options,ticket delivery,0.155608484127515
+DELIVERY,delivery_options,ticket delivery option,0.11082114920135426
 DELIVERY,delivery_options,view,0.11947913355376201
-DELIVERY,delivery_options,view options,0.0651055029387541
-DELIVERY,delivery_options,want,0.12592870458553798
-ACCOUNT,delete_account,account,0.18492437527676817
-ACCOUNT,delete_account,agent,0.08029679946844394
-ACCOUNT,delete_account,ask,0.08029679946844394
-ACCOUNT,delete_account,ask agent,0.08029679946844394
-ACCOUNT,delete_account,cancel,0.11588082054314582
-ACCOUNT,delete_account,changed,0.10811660792289128
-ACCOUNT,delete_account,changed mind,0.10423783318558846
-ACCOUNT,delete_account,close,0.11690219801575803
-ACCOUNT,delete_account,delete,0.11199612542649941
-ACCOUNT,delete_account,dont,0.11770380761635013
-ACCOUNT,delete_account,dont want,0.11203855039203119
-ACCOUNT,delete_account,help,0.07072784392087951
-ACCOUNT,delete_account,mind,0.10423783318558846
-ACCOUNT,delete_account,online,0.09819678167290351
-ACCOUNT,delete_account,online account,0.09819678167290351
-ACCOUNT,delete_account,profile,0.13986042026274575
+DELIVERY,delivery_options,view option,0.0651055029387541
+DELIVERY,delivery_options,want,0.12644370638726077
+ACCOUNT,delete_account,account,0.18486901817851892
+ACCOUNT,delete_account,agent,0.08048261744458257
+ACCOUNT,delete_account,ask,0.08048261744458257
+ACCOUNT,delete_account,ask agent,0.08048261744458257
+ACCOUNT,delete_account,cancel,0.1212362712593814
+ACCOUNT,delete_account,change,0.10813582972874343
+ACCOUNT,delete_account,change mind,0.10421061342665139
+ACCOUNT,delete_account,close,0.11952741282694952
+ACCOUNT,delete_account,delete,0.11343506112435157
+ACCOUNT,delete_account,dont,0.11781865486359164
+ACCOUNT,delete_account,dont want,0.112113076064633
+ACCOUNT,delete_account,help,0.0684178792982678
+ACCOUNT,delete_account,mind,0.10421061342665139
+ACCOUNT,delete_account,online,0.09803905879336204
+ACCOUNT,delete_account,online account,0.09803905879336204
+ACCOUNT,delete_account,profile,0.13972093426319407
 ACCOUNT,delete_account,remove,0.12426748741089354
-ACCOUNT,delete_account,user,0.10358639558933713
-ACCOUNT,delete_account,user account,0.10358639558933713
-ACCOUNT,delete_account,want,0.15316432152197093
-CANCELLATION_FEE,check_cancellation_fee,agent,0.08271275880168374
-CANCELLATION_FEE,check_cancellation_fee,ask,0.08271275880168374
-CANCELLATION_FEE,check_cancellation_fee,ask agent,0.08271275880168374
-CANCELLATION_FEE,check_cancellation_fee,cancellation,0.19386953686418953
-CANCELLATION_FEE,check_cancellation_fee,cancellation fee,0.11270395578414509
-CANCELLATION_FEE,check_cancellation_fee,cancellation fees,0.09413351670826653
-CANCELLATION_FEE,check_cancellation_fee,cancellation penalties,0.1305303032796441
-CANCELLATION_FEE,check_cancellation_fee,cancellation penalty,0.0991664000043195
-CANCELLATION_FEE,check_cancellation_fee,check,0.12256325177200417
-CANCELLATION_FEE,check_cancellation_fee,check cancellation,0.11515710162484337
-CANCELLATION_FEE,check_cancellation_fee,fee,0.11962887519126052
-CANCELLATION_FEE,check_cancellation_fee,fees,0.11251372989540495
-CANCELLATION_FEE,check_cancellation_fee,information,0.09442685233197515
-CANCELLATION_FEE,check_cancellation_fee,penalties,0.14053601064212873
-CANCELLATION_FEE,check_cancellation_fee,penalty,0.0991664000043195
-CANCELLATION_FEE,check_cancellation_fee,see,0.10686793206066048
-CANCELLATION_FEE,check_cancellation_fee,see cancellation,0.09742035763339238
-CANCELLATION_FEE,check_cancellation_fee,view,0.10132083135013152
-CANCELLATION_FEE,check_cancellation_fee,view cancellation,0.0985359332435771
-CANCELLATION_FEE,check_cancellation_fee,want,0.13264659527313652
-ORDER,track_order,agent,0.07643177764732002
-ORDER,track_order,ask,0.07297571445938952
-ORDER,track_order,ask agent,0.07297571445938952
-ORDER,track_order,check,0.15939204463106335
-ORDER,track_order,delivery,0.06540932123648809
-ORDER,track_order,know,0.09812369945539964
-ORDER,track_order,order,0.11944412782322636
-ORDER,track_order,orders,0.06545554692762455
-ORDER,track_order,package,0.06639137100786262
-ORDER,track_order,packages,0.07505699350782825
-ORDER,track_order,purchase,0.060437353215344686
-ORDER,track_order,shipment,0.07787726408690693
-ORDER,track_order,shipments,0.08105803563963604
-ORDER,track_order,status,0.08824959320321543
-ORDER,track_order,status order,0.04899550733052568
-ORDER,track_order,tell,0.15402741045673018
-ORDER,track_order,track,0.1582377586821556
-ORDER,track_order,want,0.10944061879423855
-ORDER,track_order,want check,0.04782108136601686
-ORDER,track_order,want know,0.05005480575350585
-ORDER,change_order,bought,0.08838076615885575
-ORDER,change_order,change,0.1605059425637593
-ORDER,change_order,change order,0.1052623170630767
-ORDER,change_order,change purchase,0.10474018360078236
-ORDER,change_order,help,0.06713714898581995
-ORDER,change_order,item,0.08206161549057403
-ORDER,change_order,made mistake,0.05006032274456209
-ORDER,change_order,mistake,0.05306212109191756
-ORDER,change_order,modify,0.14287928035968073
-ORDER,change_order,modify order,0.08362996313234794
-ORDER,change_order,modify purchase,0.09517641544884517
-ORDER,change_order,order,0.1900076694263233
-ORDER,change_order,ordered,0.06854236786373542
-ORDER,change_order,please,0.06068624061009653
-ORDER,change_order,product,0.07202490626693639
-ORDER,change_order,purchase,0.1817324701150199
-ORDER,change_order,purchased,0.09292340728379513
-ORDER,change_order,something,0.09423574858840511
-ORDER,change_order,tell,0.07970069886461097
-ORDER,change_order,want,0.0951732608470862
-NEWSLETTER,newsletter_subscription,agent,0.061809684740452446
-NEWSLETTER,newsletter_subscription,agent theres,0.045853522092516814
-NEWSLETTER,newsletter_subscription,ask,0.061809684740452446
-NEWSLETTER,newsletter_subscription,ask agent,0.061809684740452446
-NEWSLETTER,newsletter_subscription,information,0.10881396548667457
-NEWSLETTER,newsletter_subscription,informed,0.07963853089163406
-NEWSLETTER,newsletter_subscription,know,0.12818052257229468
-NEWSLETTER,newsletter_subscription,newsletter,0.24168683859758192
-NEWSLETTER,newsletter_subscription,newsletter stay,0.06841192044897851
-NEWSLETTER,newsletter_subscription,newsletter subscribe,0.08342696526742187
-NEWSLETTER,newsletter_subscription,receive,0.12205117223286156
-NEWSLETTER,newsletter_subscription,receive newsletter,0.10883550688622433
-NEWSLETTER,newsletter_subscription,stay,0.06841192044897851
-NEWSLETTER,newsletter_subscription,subscribe,0.15667847599427798
-NEWSLETTER,newsletter_subscription,subscribe newsletter,0.11048612763741095
-NEWSLETTER,newsletter_subscription,tell,0.1356578875948836
-NEWSLETTER,newsletter_subscription,theres,0.07274487168395434
-NEWSLETTER,newsletter_subscription,theres newsletter,0.07274487168395434
-NEWSLETTER,newsletter_subscription,want,0.1451727507650854
-NEWSLETTER,newsletter_subscription,want know,0.09283629826826457
-REFUNDS,check_refund_policy,agent,0.06112788794650607
-REFUNDS,check_refund_policy,ask,0.05596968156407131
-REFUNDS,check_refund_policy,back,0.1408898319810002
-REFUNDS,check_refund_policy,back guarantee,0.08027305492859146
-REFUNDS,check_refund_policy,back policy,0.10601727000980397
-REFUNDS,check_refund_policy,check,0.0957530280264777
-REFUNDS,check_refund_policy,guarantee,0.08507502387674253
-REFUNDS,check_refund_policy,information,0.07833470158583165
-REFUNDS,check_refund_policy,money,0.13972352559972726
-REFUNDS,check_refund_policy,money back,0.13700004078348071
-REFUNDS,check_refund_policy,money back guarantee,0.08027305492859146
-REFUNDS,check_refund_policy,money back policy,0.10028391685643628
-REFUNDS,check_refund_policy,policy,0.20121625445008062
-REFUNDS,check_refund_policy,refund,0.1650817781000591
-REFUNDS,check_refund_policy,refund policy,0.12778259895526917
-REFUNDS,check_refund_policy,reimbursement,0.1061811270729853
-REFUNDS,check_refund_policy,reimbursement policy,0.1061811270729853
-REFUNDS,check_refund_policy,see,0.09317911192575036
-REFUNDS,check_refund_policy,view,0.08853765125288883
-REFUNDS,check_refund_policy,want,0.14572945749728902
-ACCOUNT,edit_account,agent,0.10421330264530244
-ACCOUNT,edit_account,ask,0.09010923667441625
-ACCOUNT,edit_account,ask agent,0.09010923667441625
-ACCOUNT,edit_account,change,0.08565071031372527
-ACCOUNT,edit_account,change information,0.05525777339154141
-ACCOUNT,edit_account,change information profile,0.05525777339154141
-ACCOUNT,edit_account,could,0.0546543707807671
-ACCOUNT,edit_account,edit,0.1111112969495118
-ACCOUNT,edit_account,edit information,0.07098707256813261
-ACCOUNT,edit_account,edit information profile,0.07098707256813261
-ACCOUNT,edit_account,help,0.07655368103216234
-ACCOUNT,edit_account,information,0.18177500732373683
-ACCOUNT,edit_account,information profile,0.17517903409426433
+ACCOUNT,delete_account,user,0.10368871667233744
+ACCOUNT,delete_account,user account,0.10368871667233744
+ACCOUNT,delete_account,want,0.153412946818037
+CANCELLATION_FEE,check_cancellation_fee,agent,0.0877208768493092
+CANCELLATION_FEE,check_cancellation_fee,ask,0.0877208768493092
+CANCELLATION_FEE,check_cancellation_fee,ask agent,0.0877208768493092
+CANCELLATION_FEE,check_cancellation_fee,cancellation,0.20100874399259916
+CANCELLATION_FEE,check_cancellation_fee,cancellation fee,0.1623141533368755
+CANCELLATION_FEE,check_cancellation_fee,cancellation penalty,0.16704514670455067
+CANCELLATION_FEE,check_cancellation_fee,check,0.11996055829259576
+CANCELLATION_FEE,check_cancellation_fee,check cancellation,0.11323332004860817
+CANCELLATION_FEE,check_cancellation_fee,fee,0.17891802075299018
+CANCELLATION_FEE,check_cancellation_fee,information,0.09192111482664883
+CANCELLATION_FEE,check_cancellation_fee,information cancellation,0.07780286997582841
+CANCELLATION_FEE,check_cancellation_fee,penalty,0.17164970088833537
+CANCELLATION_FEE,check_cancellation_fee,see,0.11894372771509369
+CANCELLATION_FEE,check_cancellation_fee,see cancellation,0.10823142008082824
+CANCELLATION_FEE,check_cancellation_fee,view,0.11075413351467618
+CANCELLATION_FEE,check_cancellation_fee,view cancellation,0.09955060567202074
+CANCELLATION_FEE,check_cancellation_fee,view cancellation penalty,0.07062181049059317
+CANCELLATION_FEE,check_cancellation_fee,want,0.12853086598421856
+CANCELLATION_FEE,check_cancellation_fee,want check,0.06508942801071732
+CANCELLATION_FEE,check_cancellation_fee,want check cancellation,0.05894153264852593
+ORDER,track_order,agent,0.07601440666291062
+ORDER,track_order,ask,0.07601440666291062
+ORDER,track_order,ask agent,0.07601440666291062
+ORDER,track_order,check,0.15673195541256163
+ORDER,track_order,check order,0.05958884579169602
+ORDER,track_order,check shipment,0.05778055399976345
+ORDER,track_order,delivery,0.08744084873292561
+ORDER,track_order,know,0.09846933024624507
+ORDER,track_order,order,0.1467407480343503
+ORDER,track_order,package,0.12478338181287602
+ORDER,track_order,purchase,0.06022367768230392
+ORDER,track_order,shipment,0.1143410985843871
+ORDER,track_order,status,0.08934004367768757
+ORDER,track_order,status order,0.050292408653458714
+ORDER,track_order,tell,0.15070385156233604
+ORDER,track_order,track,0.15745512084619717
+ORDER,track_order,track shipment,0.05601733989756444
+ORDER,track_order,want,0.10942130337515636
+ORDER,track_order,want check,0.047112902545586866
+ORDER,track_order,want know,0.05031507461755085
+ORDER,change_order,ask,0.06412438297111467
+ORDER,change_order,buy,0.05947197127724339
+ORDER,change_order,change,0.18250392100685922
+ORDER,change_order,change order,0.12282407639432828
+ORDER,change_order,change purchase,0.11904060867545324
+ORDER,change_order,help,0.06361336045815776
+ORDER,change_order,item,0.09110579438560153
+ORDER,change_order,make,0.06121004028414711
+ORDER,change_order,mistake,0.05399794939674507
+ORDER,change_order,modify,0.15762729403694337
+ORDER,change_order,modify order,0.09541220706950235
+ORDER,change_order,modify purchase,0.10361765378800197
+ORDER,change_order,order,0.17930241261782068
+ORDER,change_order,ordered,0.05754000137935177
+ORDER,change_order,please,0.05491397197355364
+ORDER,change_order,product,0.077944517551877
+ORDER,change_order,purchase,0.19795756926478078
+ORDER,change_order,something,0.0950491286551947
+ORDER,change_order,tell,0.07962262325548139
+ORDER,change_order,want,0.09110093363100565
+NEWSLETTER,newsletter_subscription,agent,0.06283104166628065
+NEWSLETTER,newsletter_subscription,agent newsletter,0.05506527285923574
+NEWSLETTER,newsletter_subscription,ask,0.06283104166628065
+NEWSLETTER,newsletter_subscription,ask agent,0.06283104166628065
+NEWSLETTER,newsletter_subscription,ask agent newsletter,0.05506527285923574
+NEWSLETTER,newsletter_subscription,inform,0.0679595661964769
+NEWSLETTER,newsletter_subscription,information,0.09345914512218988
+NEWSLETTER,newsletter_subscription,know,0.1177512080771044
+NEWSLETTER,newsletter_subscription,know newsletter,0.05180069122505458
+NEWSLETTER,newsletter_subscription,newsletter,0.23770441655478763
+NEWSLETTER,newsletter_subscription,newsletter stay,0.06935028602916173
+NEWSLETTER,newsletter_subscription,newsletter subscribe,0.08723840706986229
+NEWSLETTER,newsletter_subscription,receive,0.13686421952286862
+NEWSLETTER,newsletter_subscription,receive newsletter,0.12676603455374183
+NEWSLETTER,newsletter_subscription,stay,0.06935028602916173
+NEWSLETTER,newsletter_subscription,subscribe,0.180073172179657
+NEWSLETTER,newsletter_subscription,subscribe newsletter,0.1414070288185964
+NEWSLETTER,newsletter_subscription,tell,0.14495253019188523
+NEWSLETTER,newsletter_subscription,want,0.14172992056692535
+NEWSLETTER,newsletter_subscription,want know,0.08920182866381003
+REFUNDS,check_refund_policy,agent,0.061244025204888815
+REFUNDS,check_refund_policy,ask agent,0.05604240481449331
+REFUNDS,check_refund_policy,back,0.14097367387317564
+REFUNDS,check_refund_policy,back guarantee,0.08032197825781763
+REFUNDS,check_refund_policy,back policy,0.10608394349332854
+REFUNDS,check_refund_policy,check,0.09604379391163846
+REFUNDS,check_refund_policy,guarantee,0.08512302892149042
+REFUNDS,check_refund_policy,information,0.07838031932710879
+REFUNDS,check_refund_policy,money,0.1398073674919027
+REFUNDS,check_refund_policy,money back,0.13708493619071271
+REFUNDS,check_refund_policy,money back guarantee,0.08032197825781763
+REFUNDS,check_refund_policy,money back policy,0.10035173573771888
+REFUNDS,check_refund_policy,policy,0.20121336203467552
+REFUNDS,check_refund_policy,refund,0.17888808060248593
+REFUNDS,check_refund_policy,refund policy,0.1275869690346116
+REFUNDS,check_refund_policy,reimbursement,0.10631052063496148
+REFUNDS,check_refund_policy,reimbursement policy,0.10631052063496148
+REFUNDS,check_refund_policy,see,0.09332247803840917
+REFUNDS,check_refund_policy,view,0.09361619542896439
+REFUNDS,check_refund_policy,want,0.14291541238312325
+ACCOUNT,edit_account,agent,0.1039506651120109
+ACCOUNT,edit_account,agent update,0.0543320760844144
+ACCOUNT,edit_account,ask,0.09358576176148901
+ACCOUNT,edit_account,ask agent,0.09358576176148901
+ACCOUNT,edit_account,change,0.11612619778882605
+ACCOUNT,edit_account,change information,0.07342976460305295
+ACCOUNT,edit_account,change information profile,0.07342976460305295
+ACCOUNT,edit_account,edit,0.13167586197529407
+ACCOUNT,edit_account,edit information,0.08228539770504942
+ACCOUNT,edit_account,edit information profile,0.08228539770504942
+ACCOUNT,edit_account,help,0.05302177047930497
+ACCOUNT,edit_account,help edit,0.05302177047930497
+ACCOUNT,edit_account,information,0.17251481631012228
+ACCOUNT,edit_account,information profile,0.1655685062701886
 ACCOUNT,edit_account,modify,0.11567120216276727
 ACCOUNT,edit_account,modify information,0.07780737382350893
 ACCOUNT,edit_account,modify information profile,0.0581207483490006
-ACCOUNT,edit_account,profile,0.22806231082390085
-ACCOUNT,edit_account,update,0.14551372762629483
-ACCOUNT,edit_account,update information profile,0.057880564206268074
-ACCOUNT,edit_account,update profile,0.1086543592274449
-ACCOUNT,recover_password,account,0.16828170646286508
-ACCOUNT,recover_password,account password,0.13778268979406016
-ACCOUNT,recover_password,accounts,0.06674626957080881
-ACCOUNT,recover_password,back,0.06361620591944488
-ACCOUNT,recover_password,cant,0.07189677532890165
-ACCOUNT,recover_password,cant remember,0.06914795898035153
-ACCOUNT,recover_password,forgot,0.0760864102055827
-ACCOUNT,recover_password,get,0.05768728640073455
-ACCOUNT,recover_password,get back,0.05768728640073455
-ACCOUNT,recover_password,hacked,0.15677095735043475
-ACCOUNT,recover_password,help,0.10133002342154815
-ACCOUNT,recover_password,lost,0.08009786112621214
-ACCOUNT,recover_password,password,0.20457869430192688
-ACCOUNT,recover_password,recover,0.15156928251806503
-ACCOUNT,recover_password,remember,0.06914795898035153
-ACCOUNT,recover_password,reset,0.11557092732579748
-ACCOUNT,recover_password,retrieve,0.10090656606856607
-ACCOUNT,recover_password,someone,0.06577847178257826
-ACCOUNT,recover_password,someone stole,0.06577847178257826
-ACCOUNT,recover_password,stole,0.0678120217492716
-CONTACT,contact_human_agent,agent,0.10630096580245596
-CONTACT,contact_human_agent,arent,0.09653355032780936
-CONTACT,contact_human_agent,arent helping,0.09653355032780936
-CONTACT,contact_human_agent,cant,0.08698902089246471
-CONTACT,contact_human_agent,cant understand,0.0823761234455918
-CONTACT,contact_human_agent,contact,0.1169738038341054
-CONTACT,contact_human_agent,contact human,0.06715892511445895
-CONTACT,contact_human_agent,dont,0.08524221409101626
-CONTACT,contact_human_agent,dont understand,0.08524221409101626
-CONTACT,contact_human_agent,helping,0.15960597242688568
-CONTACT,contact_human_agent,helping contact,0.06512234750184295
-CONTACT,contact_human_agent,human,0.1720122462918035
-CONTACT,contact_human_agent,human agent,0.10630096580245596
-CONTACT,contact_human_agent,person,0.12448522767847134
-CONTACT,contact_human_agent,someone,0.11787394026386275
-CONTACT,contact_human_agent,speak,0.13980431322363224
-CONTACT,contact_human_agent,talk,0.12388036451966879
-CONTACT,contact_human_agent,understand,0.1395174207142162
-CONTACT,contact_human_agent,youre,0.1087182878010861
-CONTACT,contact_human_agent,youre helping,0.10234299297965894
-PAYMENT,check_payment_methods,agent,0.0643413310824517
-PAYMENT,check_payment_methods,ask,0.0643413310824517
-PAYMENT,check_payment_methods,ask agent,0.0643413310824517
+ACCOUNT,edit_account,profile,0.22520927685984915
+ACCOUNT,edit_account,update,0.16612378428447766
+ACCOUNT,edit_account,update profile,0.11064616426509097
+ACCOUNT,recover_password,account,0.1811283434107591
+ACCOUNT,recover_password,account hack,0.10567481457633844
+ACCOUNT,recover_password,account password,0.1446652518254811
+ACCOUNT,recover_password,back,0.06111245786052889
+ACCOUNT,recover_password,cant,0.06912163141365893
+ACCOUNT,recover_password,cant remember,0.06714181796242139
+ACCOUNT,recover_password,forgot,0.07283443792813211
+ACCOUNT,recover_password,get,0.06111245786052889
+ACCOUNT,recover_password,get back,0.06111245786052889
+ACCOUNT,recover_password,hack,0.1494285071958848
+ACCOUNT,recover_password,help,0.08714928290315983
+ACCOUNT,recover_password,lose,0.07412319286377766
+ACCOUNT,recover_password,need,0.05084316938327691
+ACCOUNT,recover_password,password,0.20812395943287226
+ACCOUNT,recover_password,password recover,0.056511831088460175
+ACCOUNT,recover_password,recover,0.15020174490585295
+ACCOUNT,recover_password,remember,0.06714181796242139
+ACCOUNT,recover_password,reset,0.12645568835508736
+ACCOUNT,recover_password,retrieve,0.11873015030191451
+ACCOUNT,recover_password,someone,0.0871813278898092
+CONTACT,contact_human_agent,agent,0.10536329492702041
+CONTACT,contact_human_agent,arent,0.09554749413078911
+CONTACT,contact_human_agent,arent help,0.09554749413078911
+CONTACT,contact_human_agent,cant,0.08683800746573393
+CONTACT,contact_human_agent,cant understand,0.0821494437415257
+CONTACT,contact_human_agent,contact,0.12535162320916984
+CONTACT,contact_human_agent,contact human,0.07349242239360061
+CONTACT,contact_human_agent,dont,0.08340738860935051
+CONTACT,contact_human_agent,dont understand,0.08340738860935051
+CONTACT,contact_human_agent,help,0.18152532013842124
+CONTACT,contact_human_agent,help contact,0.07827519728123046
+CONTACT,contact_human_agent,human,0.16770650182206492
+CONTACT,contact_human_agent,human agent,0.10536329492702041
+CONTACT,contact_human_agent,person,0.12178276330753827
+CONTACT,contact_human_agent,someone,0.11798650827698218
+CONTACT,contact_human_agent,speak,0.147591374541951
+CONTACT,contact_human_agent,talk,0.13081957853219126
+CONTACT,contact_human_agent,understand,0.137506176122699
+CONTACT,contact_human_agent,youre,0.10740115582436043
+CONTACT,contact_human_agent,youre help,0.10084572990468597
+PAYMENT,check_payment_methods,agent,0.06442730842770578
+PAYMENT,check_payment_methods,ask,0.06442730842770578
+PAYMENT,check_payment_methods,ask agent,0.06442730842770578
 PAYMENT,check_payment_methods,card,0.08057693902476695
 PAYMENT,check_payment_methods,check,0.09427966783662933
 PAYMENT,check_payment_methods,check payment,0.08485343103364092
 PAYMENT,check_payment_methods,make,0.07320625197563607
 PAYMENT,check_payment_methods,make payment,0.07320625197563607
-PAYMENT,check_payment_methods,methods,0.13704700032207406
-PAYMENT,check_payment_methods,options,0.16994086746335113
+PAYMENT,check_payment_methods,method,0.13413185216745815
+PAYMENT,check_payment_methods,option,0.17043843711196102
 PAYMENT,check_payment_methods,pay,0.09558572855550816
-PAYMENT,check_payment_methods,payment,0.19947709576735817
-PAYMENT,check_payment_methods,payment methods,0.13704700032207406
-PAYMENT,check_payment_methods,payment options,0.14616707441436377
+PAYMENT,check_payment_methods,payment,0.19810833137400535
+PAYMENT,check_payment_methods,payment method,0.13413185216745815
+PAYMENT,check_payment_methods,payment option,0.14669487993031477
 PAYMENT,check_payment_methods,see,0.0976788016244457
 PAYMENT,check_payment_methods,see payment,0.08835175524788097
 PAYMENT,check_payment_methods,tell,0.08101885997824908
-PAYMENT,check_payment_methods,view,0.0887499197837645
-PAYMENT,check_payment_methods,view payment,0.077766108626495
-PAYMENT,check_payment_methods,want,0.10856976000431566
-INVOICES,check_invoices,agent,0.06300839300971157
-INVOICES,check_invoices,ask,0.06295108227357099
-INVOICES,check_invoices,ask agent,0.0602551388438509
-INVOICES,check_invoices,bill,0.13788169746371065
-INVOICES,check_invoices,bills,0.11108008060801491
-INVOICES,check_invoices,cant,0.08965927616025114
-INVOICES,check_invoices,cant find,0.08740434637687017
-INVOICES,check_invoices,check,0.1520797109793535
-INVOICES,check_invoices,didnt,0.07494448304753785
-INVOICES,check_invoices,didnt receive,0.07237455462442006
-INVOICES,check_invoices,find,0.08740434637687017
-INVOICES,check_invoices,help,0.0680326591292615
-INVOICES,check_invoices,invoice,0.1180177462152594
-INVOICES,check_invoices,invoices,0.12396233116543885
-INVOICES,check_invoices,lost,0.1344439871430733
-INVOICES,check_invoices,please,0.05112338403568922
-INVOICES,check_invoices,receive,0.07237455462442006
-INVOICES,check_invoices,see,0.10960648752439398
-INVOICES,check_invoices,view,0.13314795242638983
-INVOICES,check_invoices,want,0.08485270574907261
-FEEDBACK,complaint,complaint,0.21714261862471437
-FEEDBACK,complaint,complaint service,0.13181321630260784
-FEEDBACK,complaint,consumer,0.16401921331733058
-FEEDBACK,complaint,consumer complaint,0.16401921331733058
-FEEDBACK,complaint,discontent,0.07867070918616771
-FEEDBACK,complaint,discontent service,0.07156815543056615
-FEEDBACK,complaint,dont like,0.0676740032579275
-FEEDBACK,complaint,dont like service,0.0676740032579275
-FEEDBACK,complaint,file,0.1337098879145456
-FEEDBACK,complaint,file complaint,0.09292709517703533
-FEEDBACK,complaint,help,0.09066179862652883
-FEEDBACK,complaint,im,0.12647132900665192
-FEEDBACK,complaint,im discontent,0.07867070918616771
-FEEDBACK,complaint,im discontent service,0.07156815543056615
-FEEDBACK,complaint,like,0.07365634559281903
-FEEDBACK,complaint,like service,0.06991769500077823
-FEEDBACK,complaint,lodge,0.15063043751916594
-FEEDBACK,complaint,make,0.12903415678233465
-FEEDBACK,complaint,service,0.1857567808967768
-FEEDBACK,complaint,want,0.09879289454385219
-SHIPPING,set_up_shipping_address,address,0.25609935945642015
-SHIPPING,set_up_shipping_address,address set,0.22459442430236304
-SHIPPING,set_up_shipping_address,address set one,0.16276251966190763
-SHIPPING,set_up_shipping_address,address want,0.03994555771126177
-SHIPPING,set_up_shipping_address,address want set,0.03994555771126177
-SHIPPING,set_up_shipping_address,dont,0.10391887303798625
-SHIPPING,set_up_shipping_address,dont shipping,0.10391887303798625
-SHIPPING,set_up_shipping_address,dont shipping address,0.10391887303798625
-SHIPPING,set_up_shipping_address,help,0.06449179732457452
-SHIPPING,set_up_shipping_address,help set,0.04587583965065786
-SHIPPING,set_up_shipping_address,one,0.17122265708791343
-SHIPPING,set_up_shipping_address,set,0.2581593047376344
-SHIPPING,set_up_shipping_address,set one,0.17122265708791343
-SHIPPING,set_up_shipping_address,set shipping,0.0649064663650536
-SHIPPING,set_up_shipping_address,set shipping address,0.0649064663650536
-SHIPPING,set_up_shipping_address,shipping,0.23650773796988403
-SHIPPING,set_up_shipping_address,shipping address,0.23650773796988403
-SHIPPING,set_up_shipping_address,shipping address set,0.22459442430236304
-SHIPPING,set_up_shipping_address,want,0.055840046953889874
-SHIPPING,set_up_shipping_address,want set,0.055840046953889874
-REFUNDS,track_refund,agent,0.062365163973417376
-REFUNDS,track_refund,ask,0.062365163973417376
-REFUNDS,track_refund,ask agent,0.062365163973417376
-REFUNDS,track_refund,check,0.07271729187406681
-REFUNDS,track_refund,help,0.09184322520686579
+PAYMENT,check_payment_methods,view,0.09525592090496635
+PAYMENT,check_payment_methods,view payment,0.08474212275947604
+PAYMENT,check_payment_methods,want,0.10894367932238576
+INVOICES,check_invoices,agent,0.06981389145361423
+INVOICES,check_invoices,ask,0.06976993320715613
+INVOICES,check_invoices,ask agent,0.06687678697364778
+INVOICES,check_invoices,bill,0.205006007470441
+INVOICES,check_invoices,cant,0.08313911771926595
+INVOICES,check_invoices,cant find,0.08048860753224642
+INVOICES,check_invoices,cant find invoice,0.04594235301812057
+INVOICES,check_invoices,check,0.1626346305978692
+INVOICES,check_invoices,didnt,0.07823660876210564
+INVOICES,check_invoices,didnt receive,0.07540437657239679
+INVOICES,check_invoices,find,0.08048860753224642
+INVOICES,check_invoices,find invoice,0.04594235301812057
+INVOICES,check_invoices,help,0.0642747125544808
+INVOICES,check_invoices,invoice,0.17484802762564156
+INVOICES,check_invoices,lose,0.13144969342819807
+INVOICES,check_invoices,lose invoice,0.07169232542916712
+INVOICES,check_invoices,receive,0.07540437657239679
+INVOICES,check_invoices,see,0.1254445284965131
+INVOICES,check_invoices,view,0.1392277324312473
+INVOICES,check_invoices,want,0.08805744798765548
+FEEDBACK,complaint,complaint,0.21748680562096104
+FEEDBACK,complaint,complaint service,0.13157283630360264
+FEEDBACK,complaint,consumer,0.1642691128325054
+FEEDBACK,complaint,consumer complaint,0.1642691128325054
+FEEDBACK,complaint,discontent,0.07867172795982172
+FEEDBACK,complaint,discontent service,0.0715137769200602
+FEEDBACK,complaint,dont like,0.06765456851146016
+FEEDBACK,complaint,dont like service,0.06765456851146016
+FEEDBACK,complaint,file,0.13572434188623314
+FEEDBACK,complaint,file complaint,0.09563872737881299
+FEEDBACK,complaint,help,0.08856267352602631
+FEEDBACK,complaint,im,0.12590012731377714
+FEEDBACK,complaint,im discontent,0.07867172795982172
+FEEDBACK,complaint,im discontent service,0.0715137769200602
+FEEDBACK,complaint,like,0.07367268846793754
+FEEDBACK,complaint,like service,0.06991751164527263
+FEEDBACK,complaint,lodge,0.15237704785969022
+FEEDBACK,complaint,make,0.13393221015994042
+FEEDBACK,complaint,service,0.18526022957759622
+FEEDBACK,complaint,want,0.09907645529822282
+SHIPPING,set_up_shipping_address,address,0.24658154830003312
+SHIPPING,set_up_shipping_address,address set,0.21497489519035512
+SHIPPING,set_up_shipping_address,address set one,0.15753093706578764
+SHIPPING,set_up_shipping_address,dont,0.10079975612745654
+SHIPPING,set_up_shipping_address,dont ship,0.08779190753976035
+SHIPPING,set_up_shipping_address,dont ship address,0.08779190753976035
+SHIPPING,set_up_shipping_address,help,0.06488538832453672
+SHIPPING,set_up_shipping_address,one,0.16764756377320283
+SHIPPING,set_up_shipping_address,set,0.24813778006307766
+SHIPPING,set_up_shipping_address,set one,0.16764756377320283
+SHIPPING,set_up_shipping_address,set shipping,0.05815154349026745
+SHIPPING,set_up_shipping_address,set shipping address,0.05815154349026745
+SHIPPING,set_up_shipping_address,ship,0.23072724066330175
+SHIPPING,set_up_shipping_address,ship address,0.23072724066330175
+SHIPPING,set_up_shipping_address,ship address set,0.21497489519035512
+SHIPPING,set_up_shipping_address,ship address want,0.044801903776266326
+SHIPPING,set_up_shipping_address,shipping,0.08900568148229487
+SHIPPING,set_up_shipping_address,shipping address,0.08900568148229487
+SHIPPING,set_up_shipping_address,want,0.058080708926315526
+SHIPPING,set_up_shipping_address,want set,0.058080708926315526
+REFUNDS,track_refund,agent,0.06260381276491546
+REFUNDS,track_refund,ask,0.06260381276491546
+REFUNDS,track_refund,ask agent,0.06260381276491546
+REFUNDS,track_refund,check,0.08024821645842609
+REFUNDS,track_refund,help,0.08767190471458741
 REFUNDS,track_refund,know,0.08659897869824806
 REFUNDS,track_refund,know status,0.06896921523360429
-REFUNDS,track_refund,please,0.056508569552437875
-REFUNDS,track_refund,refund,0.2319601928962756
-REFUNDS,track_refund,reimbursement,0.18146682043879234
-REFUNDS,track_refund,see,0.06277961688389282
-REFUNDS,track_refund,status,0.1899307843341478
-REFUNDS,track_refund,status refund,0.17203394593375934
-REFUNDS,track_refund,status reimbursement,0.0940918188579696
+REFUNDS,track_refund,please,0.056620231782109516
+REFUNDS,track_refund,refund,0.23151811125699462
+REFUNDS,track_refund,reimbursement,0.18051616286033906
+REFUNDS,track_refund,see status,0.07167549772152226
+REFUNDS,track_refund,status,0.1888506496529196
+REFUNDS,track_refund,status refund,0.1715200616195021
+REFUNDS,track_refund,status reimbursement,0.09277648227788877
 REFUNDS,track_refund,track,0.1677555506670699
 REFUNDS,track_refund,view,0.07918522639256792
 REFUNDS,track_refund,view status,0.07444785140175594
 REFUNDS,track_refund,view status refund,0.05480429551255116
-REFUNDS,track_refund,want,0.11437267944296253
+REFUNDS,track_refund,want,0.1146751465956855
 REFUNDS,track_refund,want know,0.07015790983884046
-ACCOUNT,registration_problems,account,0.16178354188636884
-ACCOUNT,registration_problems,create,0.06786402682788707
-ACCOUNT,registration_problems,create profile,0.047698877844066304
-ACCOUNT,registration_problems,creating,0.06839699266786722
-ACCOUNT,registration_problems,found,0.10424029851245145
-ACCOUNT,registration_problems,found issue,0.060545105273652394
-ACCOUNT,registration_problems,im,0.07995726984133623
-ACCOUNT,registration_problems,issue,0.15411949186442875
-ACCOUNT,registration_problems,issue creating,0.05303483441511517
-ACCOUNT,registration_problems,issue registering,0.05577797383817611
-ACCOUNT,registration_problems,issue trying,0.04397693854792947
-ACCOUNT,registration_problems,issues,0.10139574906633672
-ACCOUNT,registration_problems,opening,0.1173479451024628
-ACCOUNT,registration_problems,opening account,0.1173479451024628
-ACCOUNT,registration_problems,problem,0.16268564097648727
-ACCOUNT,registration_problems,problems,0.1019411265587083
-ACCOUNT,registration_problems,profile,0.0798967313627458
-ACCOUNT,registration_problems,registering,0.12126611260480666
-ACCOUNT,registration_problems,trying,0.09193845903792251
-ACCOUNT,registration_problems,trying create,0.054138155564552176
-SHIPPING,change_shipping_address,address,0.2230642359010483
-SHIPPING,change_shipping_address,agent,0.12011817822208773
-SHIPPING,change_shipping_address,ask,0.12011817822208773
-SHIPPING,change_shipping_address,ask agent,0.12011817822208773
-SHIPPING,change_shipping_address,change,0.08028949934281383
-SHIPPING,change_shipping_address,change shipping,0.08028949934281383
-SHIPPING,change_shipping_address,change shipping address,0.08028949934281383
-SHIPPING,change_shipping_address,edit,0.10049530772129855
-SHIPPING,change_shipping_address,edit shipping,0.10049530772129855
-SHIPPING,change_shipping_address,edit shipping address,0.10049530772129855
-SHIPPING,change_shipping_address,help,0.08028949934281383
-SHIPPING,change_shipping_address,modify,0.1354157253189777
-SHIPPING,change_shipping_address,modify shipping,0.1354157253189777
-SHIPPING,change_shipping_address,modify shipping address,0.1354157253189777
-SHIPPING,change_shipping_address,need,0.08028949934281383
-SHIPPING,change_shipping_address,need help,0.08028949934281383
-SHIPPING,change_shipping_address,please,0.06908393100313245
-SHIPPING,change_shipping_address,shipping,0.2230642359010483
-SHIPPING,change_shipping_address,shipping address,0.2230642359010483
-SHIPPING,change_shipping_address,want,0.09157505452414577
-ORDER,place_order,agent,0.07638663192099795
-ORDER,place_order,agent place,0.07638663192099795
-ORDER,place_order,agent place order,0.07638663192099795
-ORDER,place_order,ask,0.07638663192099795
-ORDER,place_order,ask agent,0.07638663192099795
-ORDER,place_order,ask agent place,0.07638663192099795
-ORDER,place_order,could ask,0.030831728555185768
-ORDER,place_order,help,0.10945877713464111
-ORDER,place_order,help placing,0.04331978563118233
-ORDER,place_order,help placing order,0.04331978563118233
+ACCOUNT,registration_problems,account,0.17124008727830925
+ACCOUNT,registration_problems,create,0.10395667753957277
+ACCOUNT,registration_problems,create account,0.057296235596864746
+ACCOUNT,registration_problems,create profile,0.060639983029777814
+ACCOUNT,registration_problems,find,0.11124936199586088
+ACCOUNT,registration_problems,find issue,0.06490308717727708
+ACCOUNT,registration_problems,im,0.08154005828315102
+ACCOUNT,registration_problems,issue,0.186104685346756
+ACCOUNT,registration_problems,issue create,0.066392533468288
+ACCOUNT,registration_problems,issue open,0.06075024153942913
+ACCOUNT,registration_problems,issue open account,0.06075024153942913
+ACCOUNT,registration_problems,issue try,0.060155188645256194
+ACCOUNT,registration_problems,issue try create,0.039290105552626346
+ACCOUNT,registration_problems,open,0.07817622032662008
+ACCOUNT,registration_problems,open account,0.07817622032662008
+ACCOUNT,registration_problems,problem,0.267498936149018
+ACCOUNT,registration_problems,profile,0.08391500514564063
+ACCOUNT,registration_problems,register,0.12453743107365803
+ACCOUNT,registration_problems,try,0.08471009189523343
+ACCOUNT,registration_problems,try create,0.05046425862232075
+SHIPPING,change_shipping_address,address,0.20718579995714095
+SHIPPING,change_shipping_address,agent,0.12161213226878137
+SHIPPING,change_shipping_address,ask,0.12161213226878137
+SHIPPING,change_shipping_address,ask agent,0.12161213226878137
+SHIPPING,change_shipping_address,change,0.12199368077602529
+SHIPPING,change_shipping_address,change shipping,0.0983467456908908
+SHIPPING,change_shipping_address,change shipping address,0.0983467456908908
+SHIPPING,change_shipping_address,edit,0.0999354211210696
+SHIPPING,change_shipping_address,edit shipping,0.08854010200786182
+SHIPPING,change_shipping_address,edit shipping address,0.08854010200786182
+SHIPPING,change_shipping_address,modify,0.14575806320706297
+SHIPPING,change_shipping_address,modify shipping,0.13787845549892816
+SHIPPING,change_shipping_address,modify shipping address,0.13787845549892816
+SHIPPING,change_shipping_address,need,0.07878500565541265
+SHIPPING,change_shipping_address,please,0.07454135910974888
+SHIPPING,change_shipping_address,shipping,0.2048430406494216
+SHIPPING,change_shipping_address,shipping address,0.2048430406494216
+SHIPPING,change_shipping_address,update,0.0828914502036611
+SHIPPING,change_shipping_address,update shipping,0.0828914502036611
+SHIPPING,change_shipping_address,want,0.07922686873156035
+ORDER,place_order,agent,0.0772210194767656
+ORDER,place_order,agent place,0.0772210194767656
+ORDER,place_order,agent place order,0.0772210194767656
+ORDER,place_order,ask,0.0772210194767656
+ORDER,place_order,ask agent,0.0772210194767656
+ORDER,place_order,ask agent place,0.0772210194767656
+ORDER,place_order,could ask,0.03112191686653382
+ORDER,place_order,help,0.10676909652777503
+ORDER,place_order,help place,0.03930605298949254
+ORDER,place_order,help place order,0.03930605298949254
 ORDER,place_order,id,0.043001699015443574
 ORDER,place_order,id like,0.043001699015443574
 ORDER,place_order,make,0.30497905155931226
 ORDER,place_order,make order,0.25269953762810465
-ORDER,place_order,order,0.2597323542520115
-ORDER,place_order,place,0.15012684206524357
-ORDER,place_order,place order,0.15012684206524357
-ORDER,place_order,want,0.06772525761270204
-ORDER,place_order,want place,0.06772525761270204
-ORDER,place_order,want place order,0.06772525761270204
-DELIVERY,delivery_period,arrive,0.22302189120090166
-DELIVERY,delivery_period,delivery,0.1312603116764019
-DELIVERY,delivery_period,delivery period,0.1312603116764019
-DELIVERY,delivery_period,delivery period ticket,0.072073336117571
-DELIVERY,delivery_period,expect,0.12508261469803447
-DELIVERY,delivery_period,expect ticket,0.07328439893682018
-DELIVERY,delivery_period,expect tickets,0.09026187318179113
-DELIVERY,delivery_period,fast,0.08842095960219755
-DELIVERY,delivery_period,fast expect,0.08842095960219755
-DELIVERY,delivery_period,information,0.08692074057222937
-DELIVERY,delivery_period,information delivery period,0.07509460430885156
-DELIVERY,delivery_period,period,0.1312603116764019
-DELIVERY,delivery_period,period ticket,0.072073336117571
-DELIVERY,delivery_period,soon,0.0752635993476053
-DELIVERY,delivery_period,soon expect,0.0752635993476053
-DELIVERY,delivery_period,tell,0.19844240000329766
-DELIVERY,delivery_period,ticket,0.14697310905181554
-DELIVERY,delivery_period,ticket arrive,0.09461769933493587
-DELIVERY,delivery_period,tickets,0.21498956656568505
-DELIVERY,delivery_period,tickets arrive,0.11823248354934013
-ACCOUNT,switch_account,account,0.19693429071397137
-ACCOUNT,switch_account,another,0.14732603640826764
-ACCOUNT,switch_account,ask,0.07575831870545668
-ACCOUNT,switch_account,ask agent,0.07575831870545668
-ACCOUNT,switch_account,change,0.1687963364336737
-ACCOUNT,switch_account,change another,0.10201537482189066
-ACCOUNT,switch_account,help,0.09742634094752896
-ACCOUNT,switch_account,need,0.0756335144021187
-ACCOUNT,switch_account,need help,0.0756335144021187
-ACCOUNT,switch_account,online,0.09342708537466402
-ACCOUNT,switch_account,online account,0.09342708537466402
-ACCOUNT,switch_account,profile,0.12792844770745104
-ACCOUNT,switch_account,switch,0.1598997835349278
-ACCOUNT,switch_account,switch another,0.08048541661101184
-ACCOUNT,switch_account,use,0.1840115754672167
-ACCOUNT,switch_account,use profile,0.08939228514747308
-ACCOUNT,switch_account,user,0.11989356718280804
-ACCOUNT,switch_account,user account,0.11989356718280804
-ACCOUNT,switch_account,want,0.16933400403160676
-ACCOUNT,switch_account,want use,0.16933400403160676
-ORDER,cancel_order,agent,0.05057015875964421
-ORDER,cancel_order,agent cancel,0.05057015875964421
-ORDER,cancel_order,agent cancel order,0.05057015875964421
-ORDER,cancel_order,ask,0.05057015875964421
-ORDER,cancel_order,ask agent,0.05057015875964421
-ORDER,cancel_order,ask agent cancel,0.05057015875964421
-ORDER,cancel_order,cancel,0.2730788901809188
-ORDER,cancel_order,cancel order,0.05057015875964421
-ORDER,cancel_order,cancel purchase,0.2805916453630148
-ORDER,cancel_order,cancelling,0.12526175587198832
-ORDER,cancel_order,help,0.06346306388708851
-ORDER,cancel_order,help cancelling,0.06346306388708851
-ORDER,cancel_order,help cancelling order,0.06346306388708851
-ORDER,cancel_order,hjelp,0.08743910057096665
-ORDER,cancel_order,need,0.12526175587198832
-ORDER,cancel_order,order,0.09465736788978604
-ORDER,cancel_order,purchase,0.29297395265696113
-ORDER,cancel_order,want,0.13627209244481212
-ORDER,cancel_order,want cancel,0.13627209244481212
-ORDER,cancel_order,want cancel purchase,0.13627209244481212
+ORDER,place_order,order,0.2610326683385259
+ORDER,place_order,place,0.1641323065251859
+ORDER,place_order,place order,0.1641323065251859
+ORDER,place_order,want,0.06876708003630433
+ORDER,place_order,want place,0.06876708003630433
+ORDER,place_order,want place order,0.06876708003630433
+DELIVERY,delivery_period,arrive,0.21829855121704866
+DELIVERY,delivery_period,delivery,0.12946215670335579
+DELIVERY,delivery_period,delivery period,0.12946215670335579
+DELIVERY,delivery_period,delivery period ticket,0.11441852864040954
+DELIVERY,delivery_period,expect,0.1372437477698043
+DELIVERY,delivery_period,expect ticket,0.1372437477698043
+DELIVERY,delivery_period,expect ticket arrive,0.11577333337141155
+DELIVERY,delivery_period,fast,0.07668557078698124
+DELIVERY,delivery_period,fast expect,0.07668557078698124
+DELIVERY,delivery_period,fast expect ticket,0.07668557078698124
+DELIVERY,delivery_period,information,0.08716283882385811
+DELIVERY,delivery_period,information delivery period,0.07330453855334584
+DELIVERY,delivery_period,period,0.12946215670335579
+DELIVERY,delivery_period,period ticket,0.11441852864040954
+DELIVERY,delivery_period,tell,0.1925975328592146
+DELIVERY,delivery_period,tell ticket,0.1377793990710794
+DELIVERY,delivery_period,ticket,0.22770137711766428
+DELIVERY,delivery_period,ticket arrive,0.15957719857865332
+DELIVERY,delivery_period,want,0.06609813136987366
+DELIVERY,delivery_period,want know,0.06609813136987366
+ACCOUNT,switch_account,account,0.1986487161898804
+ACCOUNT,switch_account,another,0.1479318530467152
+ACCOUNT,switch_account,ask,0.07691509755015838
+ACCOUNT,switch_account,ask agent,0.07691509755015838
+ACCOUNT,switch_account,change,0.1784249411695287
+ACCOUNT,switch_account,change another,0.11261129021636566
+ACCOUNT,switch_account,help,0.09382234598734811
+ACCOUNT,switch_account,need,0.07124832730007456
+ACCOUNT,switch_account,need help,0.07124832730007456
+ACCOUNT,switch_account,online,0.09418113613791741
+ACCOUNT,switch_account,online account,0.09418113613791741
+ACCOUNT,switch_account,profile,0.12843855935200482
+ACCOUNT,switch_account,switch,0.1645527496830596
+ACCOUNT,switch_account,switch another,0.08641511606183178
+ACCOUNT,switch_account,use,0.18515453263257384
+ACCOUNT,switch_account,use profile,0.08979416258669766
+ACCOUNT,switch_account,user,0.12061632000819739
+ACCOUNT,switch_account,user account,0.12061632000819739
+ACCOUNT,switch_account,want,0.17025029893590873
+ACCOUNT,switch_account,want use,0.17025029893590873
+ORDER,cancel_order,agent,0.0519783156201767
+ORDER,cancel_order,agent cancel,0.0519783156201767
+ORDER,cancel_order,agent cancel order,0.0519783156201767
+ORDER,cancel_order,ask,0.0519783156201767
+ORDER,cancel_order,ask agent,0.0519783156201767
+ORDER,cancel_order,ask agent cancel,0.0519783156201767
+ORDER,cancel_order,cancel,0.28799307104432925
+ORDER,cancel_order,cancel order,0.10071720930301978
+ORDER,cancel_order,cancel purchase,0.3053700546029012
+ORDER,cancel_order,help cancel,0.06935516542676597
+ORDER,cancel_order,help cancel order,0.06935516542676597
+ORDER,cancel_order,hjelp,0.0677434361865948
+ORDER,cancel_order,hjelp cancel,0.0677434361865948
+ORDER,cancel_order,hjelp cancel purchase,0.0677434361865948
+ORDER,cancel_order,need,0.11380361327061848
+ORDER,cancel_order,order,0.10071720930301978
+ORDER,cancel_order,purchase,0.3053700546029012
+ORDER,cancel_order,want,0.14110336300484927
+ORDER,cancel_order,want cancel,0.14110336300484927
+ORDER,cancel_order,want cancel purchase,0.14110336300484927
